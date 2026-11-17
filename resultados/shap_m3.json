@@ -1,0 +1,1069 @@
+{
+ "global": {
+  "o1": {
+   "C": {
+    "clase": "arbol",
+    "quintana_roo": {
+     "base_logodds": -1.6559,
+     "n": 2418,
+     "importancia": {
+      "log_ing_pc_real": 0.49961,
+      "auto": 0.36683,
+      "computadora": 0.19443,
+      "internet": 0.18969,
+      "lavadora": 0.14544,
+      "refri": 0.04758
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.23311,
+      "auto": 0.03642,
+      "computadora": -0.02611,
+      "internet": -0.10461,
+      "lavadora": -0.01912,
+      "refri": -0.0017
+     }
+    },
+    "pais": {
+     "base_logodds": -1.6559,
+     "n": 5000,
+     "importancia": {
+      "log_ing_pc_real": 0.44784,
+      "auto": 0.36502,
+      "computadora": 0.17928,
+      "internet": 0.17183,
+      "lavadora": 0.14921,
+      "refri": 0.04584
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.09631,
+      "auto": -0.02808,
+      "computadora": -0.00208,
+      "internet": -0.06058,
+      "lavadora": -0.00402,
+      "refri": -0.00582
+     }
+    }
+   },
+   "T": {
+    "clase": "arbol",
+    "quintana_roo": {
+     "base_logodds": -1.6894,
+     "n": 2418,
+     "importancia": {
+      "log_ing_pc_real": 0.49798,
+      "auto": 0.35343,
+      "internet": 0.18814,
+      "computadora": 0.17656,
+      "edad_jefe": 0.11786,
+      "reg_sur": 0.11654,
+      "lavadora": 0.11524,
+      "prop_transferencias": 0.10081,
+      "tam_loc": 0.08996,
+      "tot_integ": 0.0692,
+      "prop_ing_trabajo": 0.0688,
+      "educa_jefe": 0.06309,
+      "jefa_mujer": 0.04741,
+      "refri": 0.04238,
+      "p65mas": 0.03766,
+      "menores": 0.03603,
+      "ocupados_pc": 0.02723,
+      "reg_centro_occ": 0.02657,
+      "celular": 0.0199,
+      "est_socio": 0.01938,
+      "recibe_programas": 0.01703,
+      "reg_centro": 0.0165,
+      "recibe_jubilacion": 0.00567,
+      "habla_indigena_hog": 0.00482,
+      "recibe_remesas": 0.00348,
+      "afiliacion_laboral": 0.00306,
+      "liconsa": 0.00203
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.24523,
+      "auto": 0.03958,
+      "internet": -0.10645,
+      "computadora": -0.02282,
+      "edad_jefe": 0.01709,
+      "reg_sur": 0.11486,
+      "lavadora": -0.02546,
+      "prop_transferencias": -0.025,
+      "tam_loc": 0.05239,
+      "tot_integ": 0.00112,
+      "prop_ing_trabajo": -0.00494,
+      "educa_jefe": -0.01904,
+      "jefa_mujer": 0.0068,
+      "refri": -0.00559,
+      "p65mas": 0.00531,
+      "menores": 0.00479,
+      "ocupados_pc": 0.00627,
+      "reg_centro_occ": 0.02656,
+      "celular": -0.01099,
+      "est_socio": 0.0037,
+      "recibe_programas": 0.00443,
+      "reg_centro": 0.01645,
+      "recibe_jubilacion": 0.00041,
+      "habla_indigena_hog": 0.00231,
+      "recibe_remesas": 0.00299,
+      "afiliacion_laboral": 0.00084,
+      "liconsa": -0.00143
+     }
+    },
+    "pais": {
+     "base_logodds": -1.6894,
+     "n": 5000,
+     "importancia": {
+      "log_ing_pc_real": 0.45193,
+      "auto": 0.34389,
+      "internet": 0.17533,
+      "computadora": 0.16785,
+      "lavadora": 0.14152,
+      "edad_jefe": 0.12718,
+      "prop_transferencias": 0.09316,
+      "tam_loc": 0.07448,
+      "prop_ing_trabajo": 0.07169,
+      "tot_integ": 0.06984,
+      "educa_jefe": 0.0656,
+      "refri": 0.04865,
+      "jefa_mujer": 0.04641,
+      "reg_centro_occ": 0.04386,
+      "p65mas": 0.04334,
+      "reg_sur": 0.04069,
+      "ocupados_pc": 0.03178,
+      "menores": 0.0275,
+      "celular": 0.02353,
+      "est_socio": 0.02317,
+      "reg_centro": 0.02111,
+      "recibe_programas": 0.01944,
+      "recibe_remesas": 0.0077,
+      "recibe_jubilacion": 0.0071,
+      "habla_indigena_hog": 0.00495,
+      "afiliacion_laboral": 0.00334,
+      "liconsa": 0.00273
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.10572,
+      "auto": -0.01971,
+      "internet": -0.06348,
+      "computadora": -0.00126,
+      "lavadora": -0.01328,
+      "edad_jefe": -0.00407,
+      "prop_transferencias": -0.0007,
+      "tam_loc": 0.00497,
+      "prop_ing_trabajo": -0.01161,
+      "tot_integ": -0.00076,
+      "educa_jefe": -0.00763,
+      "refri": -0.00992,
+      "jefa_mujer": 0.00525,
+      "reg_centro_occ": -0.00218,
+      "p65mas": -0.00526,
+      "reg_sur": 0.00198,
+      "ocupados_pc": 0.0082,
+      "menores": 0.00123,
+      "celular": -0.00878,
+      "est_socio": 0.00441,
+      "reg_centro": 0.00227,
+      "recibe_programas": 0.00265,
+      "recibe_remesas": -0.00045,
+      "recibe_jubilacion": -0.00024,
+      "habla_indigena_hog": 0.00026,
+      "afiliacion_laboral": 0.00053,
+      "liconsa": -0.00035
+     }
+    }
+   },
+   "G": {
+    "clase": "arbol",
+    "quintana_roo": {
+     "base_logodds": -1.6967,
+     "n": 2418,
+     "importancia": {
+      "log_ing_pc_real": 0.44693,
+      "auto": 0.3392,
+      "internet": 0.18013,
+      "computadora": 0.16595,
+      "reg_sur": 0.11642,
+      "edad_jefe": 0.11532,
+      "lavadora": 0.11007,
+      "prop_transferencias": 0.08521,
+      "tam_loc": 0.08246,
+      "log_gasto_alim_pc_real": 0.08111,
+      "tot_integ": 0.06316,
+      "log_gasto_pc_real": 0.06159,
+      "prop_ing_trabajo": 0.05828,
+      "prestamos_recibidos": 0.05733,
+      "educa_jefe": 0.05665,
+      "jefa_mujer": 0.04732,
+      "refri": 0.04187,
+      "p65mas": 0.04167,
+      "menores": 0.04137,
+      "ocupados_pc": 0.02918,
+      "prop_alim_fuera": 0.02769,
+      "reg_centro_occ": 0.02064,
+      "est_socio": 0.01694,
+      "celular": 0.01648,
+      "recibe_programas": 0.01444,
+      "prop_alimentos": 0.01124,
+      "reg_centro": 0.00871,
+      "habla_indigena_hog": 0.00451,
+      "recibe_remesas": 0.0025,
+      "afiliacion_laboral": 0.00233,
+      "liconsa": 0.00089,
+      "recibe_jubilacion": 0.00076
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.21264,
+      "auto": 0.03856,
+      "internet": -0.10106,
+      "computadora": -0.0208,
+      "reg_sur": 0.11554,
+      "edad_jefe": 0.0172,
+      "lavadora": -0.02442,
+      "prop_transferencias": -0.01961,
+      "tam_loc": 0.04812,
+      "log_gasto_alim_pc_real": -0.04847,
+      "tot_integ": 0.00185,
+      "log_gasto_pc_real": -0.03425,
+      "prop_ing_trabajo": -0.00089,
+      "prestamos_recibidos": -0.01867,
+      "educa_jefe": -0.0179,
+      "jefa_mujer": 0.0067,
+      "refri": -0.00748,
+      "p65mas": 0.00616,
+      "menores": 0.00757,
+      "ocupados_pc": 0.0084,
+      "prop_alim_fuera": -0.00513,
+      "reg_centro_occ": 0.0206,
+      "est_socio": 0.00215,
+      "celular": -0.00943,
+      "recibe_programas": 0.00282,
+      "prop_alimentos": -0.00048,
+      "reg_centro": 0.0087,
+      "habla_indigena_hog": 0.0041,
+      "recibe_remesas": 0.00202,
+      "afiliacion_laboral": 1e-05,
+      "liconsa": -0.00058,
+      "recibe_jubilacion": 0.00017
+     }
+    },
+    "pais": {
+     "base_logodds": -1.6967,
+     "n": 5000,
+     "importancia": {
+      "log_ing_pc_real": 0.39925,
+      "auto": 0.33282,
+      "internet": 0.16482,
+      "computadora": 0.16042,
+      "lavadora": 0.13588,
+      "edad_jefe": 0.12133,
+      "log_gasto_alim_pc_real": 0.07995,
+      "prop_transferencias": 0.07795,
+      "tam_loc": 0.07021,
+      "prestamos_recibidos": 0.06553,
+      "prop_ing_trabajo": 0.06144,
+      "log_gasto_pc_real": 0.06143,
+      "tot_integ": 0.06053,
+      "educa_jefe": 0.0583,
+      "jefa_mujer": 0.04695,
+      "refri": 0.04599,
+      "p65mas": 0.04578,
+      "reg_sur": 0.03905,
+      "reg_centro_occ": 0.03709,
+      "menores": 0.03207,
+      "ocupados_pc": 0.02813,
+      "prop_alim_fuera": 0.02146,
+      "est_socio": 0.02045,
+      "celular": 0.0193,
+      "recibe_programas": 0.01652,
+      "reg_centro": 0.01216,
+      "prop_alimentos": 0.01126,
+      "recibe_remesas": 0.00518,
+      "habla_indigena_hog": 0.00476,
+      "afiliacion_laboral": 0.00219,
+      "liconsa": 0.00123,
+      "recibe_jubilacion": 0.00085
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.0868,
+      "auto": -0.01963,
+      "internet": -0.05937,
+      "computadora": -0.00039,
+      "lavadora": -0.01281,
+      "edad_jefe": -0.00243,
+      "log_gasto_alim_pc_real": -0.02312,
+      "prop_transferencias": -2e-05,
+      "tam_loc": 0.00572,
+      "prestamos_recibidos": -0.01185,
+      "prop_ing_trabajo": -0.00671,
+      "log_gasto_pc_real": -0.01542,
+      "tot_integ": 0.00028,
+      "educa_jefe": -0.00855,
+      "jefa_mujer": 0.00437,
+      "refri": -0.01115,
+      "p65mas": -0.00539,
+      "reg_sur": 0.00257,
+      "reg_centro_occ": -0.00158,
+      "menores": 0.00352,
+      "ocupados_pc": 0.00684,
+      "prop_alim_fuera": -0.00037,
+      "est_socio": 0.00236,
+      "celular": -0.00762,
+      "recibe_programas": 0.00153,
+      "reg_centro": 0.0015,
+      "prop_alimentos": -8e-05,
+      "recibe_remesas": -0.00051,
+      "habla_indigena_hog": 0.00056,
+      "afiliacion_laboral": -3e-05,
+      "liconsa": -0.0001,
+      "recibe_jubilacion": 0.00014
+     }
+    }
+   }
+  },
+  "o2": {
+   "C": {
+    "clase": "arbol",
+    "quintana_roo": {
+     "base_logodds": -1.7617,
+     "n": 2418,
+     "importancia": {
+      "log_ing_pc_real": 0.58078,
+      "auto": 0.37121,
+      "computadora": 0.20431,
+      "internet": 0.19952,
+      "lavadora": 0.14379,
+      "refri": 0.04625
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.35609,
+      "auto": 0.07727,
+      "computadora": -0.03461,
+      "internet": -0.13481,
+      "lavadora": -0.03246,
+      "refri": -0.00262
+     }
+    },
+    "pais": {
+     "base_logodds": -1.7617,
+     "n": 5000,
+     "importancia": {
+      "log_ing_pc_real": 0.49178,
+      "auto": 0.36486,
+      "computadora": 0.1929,
+      "internet": 0.18395,
+      "lavadora": 0.15066,
+      "refri": 0.04685
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.16178,
+      "auto": -0.03079,
+      "computadora": -0.01899,
+      "internet": -0.07354,
+      "lavadora": -0.00909,
+      "refri": -0.00305
+     }
+    }
+   },
+   "T": {
+    "clase": "arbol",
+    "quintana_roo": {
+     "base_logodds": -1.8153,
+     "n": 2418,
+     "importancia": {
+      "log_ing_pc_real": 0.56306,
+      "auto": 0.34899,
+      "internet": 0.22384,
+      "computadora": 0.19386,
+      "edad_jefe": 0.12755,
+      "lavadora": 0.11439,
+      "tam_loc": 0.11217,
+      "prop_transferencias": 0.10944,
+      "reg_sur": 0.09614,
+      "educa_jefe": 0.08344,
+      "tot_integ": 0.08222,
+      "prop_ing_trabajo": 0.0816,
+      "jefa_mujer": 0.05689,
+      "menores": 0.05037,
+      "p65mas": 0.04708,
+      "ocupados_pc": 0.03966,
+      "refri": 0.03917,
+      "est_socio": 0.02702,
+      "reg_centro_occ": 0.0262,
+      "celular": 0.02477,
+      "reg_centro": 0.02272,
+      "recibe_programas": 0.0177,
+      "afiliacion_laboral": 0.00866,
+      "recibe_jubilacion": 0.00777,
+      "habla_indigena_hog": 0.00724,
+      "liconsa": 0.00558,
+      "recibe_remesas": 0.00248
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.34288,
+      "auto": 0.07397,
+      "internet": -0.15659,
+      "computadora": -0.03089,
+      "edad_jefe": 0.02879,
+      "lavadora": -0.03342,
+      "tam_loc": 0.07217,
+      "prop_transferencias": -0.03058,
+      "reg_sur": 0.08893,
+      "educa_jefe": -0.03815,
+      "tot_integ": -0.00584,
+      "prop_ing_trabajo": -0.00988,
+      "jefa_mujer": 0.00988,
+      "menores": 0.0075,
+      "p65mas": 0.01067,
+      "ocupados_pc": 0.00829,
+      "refri": -0.00997,
+      "est_socio": -0.0005,
+      "reg_centro_occ": 0.02408,
+      "celular": -0.01726,
+      "reg_centro": 0.02187,
+      "recibe_programas": 0.005,
+      "afiliacion_laboral": -0.0015,
+      "recibe_jubilacion": 0.00231,
+      "habla_indigena_hog": 0.00512,
+      "liconsa": -0.00441,
+      "recibe_remesas": 0.002
+     }
+    },
+    "pais": {
+     "base_logodds": -1.8153,
+     "n": 5000,
+     "importancia": {
+      "log_ing_pc_real": 0.48467,
+      "auto": 0.34342,
+      "internet": 0.20341,
+      "computadora": 0.19205,
+      "lavadora": 0.14316,
+      "edad_jefe": 0.13751,
+      "prop_transferencias": 0.10543,
+      "prop_ing_trabajo": 0.09035,
+      "tam_loc": 0.0893,
+      "educa_jefe": 0.08154,
+      "tot_integ": 0.08019,
+      "p65mas": 0.05682,
+      "jefa_mujer": 0.05274,
+      "refri": 0.04979,
+      "ocupados_pc": 0.04845,
+      "reg_centro_occ": 0.04822,
+      "menores": 0.04096,
+      "est_socio": 0.03599,
+      "reg_sur": 0.03571,
+      "reg_centro": 0.03129,
+      "celular": 0.02868,
+      "recibe_programas": 0.0179,
+      "recibe_jubilacion": 0.0105,
+      "habla_indigena_hog": 0.00846,
+      "liconsa": 0.00815,
+      "afiliacion_laboral": 0.00636,
+      "recibe_remesas": 0.00545
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.1547,
+      "auto": -0.02576,
+      "internet": -0.08766,
+      "computadora": -0.01722,
+      "lavadora": -0.01409,
+      "edad_jefe": 0.00026,
+      "prop_transferencias": -0.00609,
+      "prop_ing_trabajo": -0.01728,
+      "tam_loc": 0.00602,
+      "educa_jefe": -0.01592,
+      "tot_integ": -0.00737,
+      "p65mas": -0.00684,
+      "jefa_mujer": 0.00641,
+      "refri": -0.01226,
+      "ocupados_pc": 0.01169,
+      "reg_centro_occ": -0.00029,
+      "menores": 0.00355,
+      "est_socio": 0.01048,
+      "reg_sur": 0.00021,
+      "reg_centro": 0.00361,
+      "celular": -0.01399,
+      "recibe_programas": 0.00371,
+      "recibe_jubilacion": 0.00061,
+      "habla_indigena_hog": 0.00101,
+      "liconsa": -0.00029,
+      "afiliacion_laboral": -0.00035,
+      "recibe_remesas": 0.00077
+     }
+    }
+   },
+   "G": {
+    "clase": "arbol",
+    "quintana_roo": {
+     "base_logodds": -1.8332,
+     "n": 2418,
+     "importancia": {
+      "log_ing_pc_real": 0.49205,
+      "auto": 0.33895,
+      "internet": 0.22143,
+      "computadora": 0.18666,
+      "edad_jefe": 0.12746,
+      "lavadora": 0.10887,
+      "tam_loc": 0.10708,
+      "reg_sur": 0.1061,
+      "prop_transferencias": 0.09661,
+      "log_gasto_alim_pc_real": 0.08923,
+      "educa_jefe": 0.07926,
+      "tot_integ": 0.07811,
+      "prop_ing_trabajo": 0.07666,
+      "log_gasto_pc_real": 0.07557,
+      "prestamos_recibidos": 0.05861,
+      "jefa_mujer": 0.05517,
+      "menores": 0.05474,
+      "prop_alim_fuera": 0.05451,
+      "p65mas": 0.05108,
+      "ocupados_pc": 0.04225,
+      "refri": 0.03919,
+      "est_socio": 0.02944,
+      "celular": 0.02513,
+      "prop_alimentos": 0.0247,
+      "reg_centro_occ": 0.02395,
+      "recibe_programas": 0.01711,
+      "reg_centro": 0.01573,
+      "habla_indigena_hog": 0.00685,
+      "afiliacion_laboral": 0.00539,
+      "liconsa": 0.00481,
+      "recibe_jubilacion": 0.00357,
+      "recibe_remesas": 0.00283
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.29399,
+      "auto": 0.07223,
+      "internet": -0.15592,
+      "computadora": -0.02592,
+      "edad_jefe": 0.02825,
+      "lavadora": -0.03114,
+      "tam_loc": 0.06799,
+      "reg_sur": 0.10019,
+      "prop_transferencias": -0.02418,
+      "log_gasto_alim_pc_real": -0.05753,
+      "educa_jefe": -0.03823,
+      "tot_integ": 0.01165,
+      "prop_ing_trabajo": -0.00831,
+      "log_gasto_pc_real": -0.04234,
+      "prestamos_recibidos": -0.01886,
+      "jefa_mujer": 0.00932,
+      "menores": 0.00255,
+      "prop_alim_fuera": -0.00992,
+      "p65mas": 0.01233,
+      "ocupados_pc": 0.00901,
+      "refri": -0.01023,
+      "est_socio": 0.00221,
+      "celular": -0.01866,
+      "prop_alimentos": -0.00097,
+      "reg_centro_occ": 0.02152,
+      "recibe_programas": 0.00518,
+      "reg_centro": 0.01527,
+      "habla_indigena_hog": 0.00558,
+      "afiliacion_laboral": 0.00093,
+      "liconsa": -0.00399,
+      "recibe_jubilacion": 0.00098,
+      "recibe_remesas": 0.00168
+     }
+    },
+    "pais": {
+     "base_logodds": -1.8332,
+     "n": 5000,
+     "importancia": {
+      "log_ing_pc_real": 0.4249,
+      "auto": 0.33194,
+      "internet": 0.19619,
+      "computadora": 0.18716,
+      "edad_jefe": 0.13836,
+      "lavadora": 0.136,
+      "prop_transferencias": 0.09018,
+      "log_gasto_alim_pc_real": 0.08513,
+      "tam_loc": 0.08417,
+      "prop_ing_trabajo": 0.08311,
+      "educa_jefe": 0.07647,
+      "log_gasto_pc_real": 0.07638,
+      "tot_integ": 0.07461,
+      "prestamos_recibidos": 0.06054,
+      "p65mas": 0.05918,
+      "jefa_mujer": 0.05341,
+      "refri": 0.04978,
+      "menores": 0.04618,
+      "ocupados_pc": 0.04502,
+      "reg_centro_occ": 0.04386,
+      "prop_alim_fuera": 0.04099,
+      "reg_sur": 0.0373,
+      "est_socio": 0.03703,
+      "celular": 0.02699,
+      "prop_alimentos": 0.02652,
+      "reg_centro": 0.02366,
+      "recibe_programas": 0.01797,
+      "habla_indigena_hog": 0.00707,
+      "liconsa": 0.00683,
+      "recibe_remesas": 0.00489,
+      "afiliacion_laboral": 0.00441,
+      "recibe_jubilacion": 0.0041
+     },
+     "signo_medio": {
+      "log_ing_pc_real": -0.12982,
+      "auto": -0.02433,
+      "internet": -0.08564,
+      "computadora": -0.01376,
+      "edad_jefe": -0.00252,
+      "lavadora": -0.01389,
+      "prop_transferencias": -0.00522,
+      "log_gasto_alim_pc_real": -0.0346,
+      "tam_loc": 0.00416,
+      "prop_ing_trabajo": -0.01296,
+      "educa_jefe": -0.01444,
+      "log_gasto_pc_real": -0.01883,
+      "tot_integ": 0.00581,
+      "prestamos_recibidos": -0.01957,
+      "p65mas": -0.00596,
+      "jefa_mujer": 0.00606,
+      "refri": -0.01294,
+      "menores": -0.00018,
+      "ocupados_pc": 0.00867,
+      "reg_centro_occ": 0.00026,
+      "prop_alim_fuera": -0.00443,
+      "reg_sur": 7e-05,
+      "est_socio": 0.01123,
+      "celular": -0.01425,
+      "prop_alimentos": -0.00103,
+      "reg_centro": 0.00174,
+      "recibe_programas": 0.00457,
+      "habla_indigena_hog": 0.00162,
+      "liconsa": -0.00042,
+      "recibe_remesas": 0.00084,
+      "afiliacion_laboral": 0.00149,
+      "recibe_jubilacion": 0.00033
+     }
+    }
+   }
+  }
+ },
+ "local": {
+  "C": {
+   "alto": {
+    "p": 0.4439,
+    "base_logodds": -1.7617,
+    "observado": 1,
+    "contribuciones": [
+     {
+      "variable": "log_ing_pc_real",
+      "valor": 7.632,
+      "phi": 0.6393
+     },
+     {
+      "variable": "auto",
+      "valor": 0.0,
+      "phi": 0.3212
+     },
+     {
+      "variable": "lavadora",
+      "valor": 0.0,
+      "phi": 0.1846
+     },
+     {
+      "variable": "refri",
+      "valor": 0.0,
+      "phi": 0.1548
+     },
+     {
+      "variable": "internet",
+      "valor": 0.0,
+      "phi": 0.1336
+     },
+     {
+      "variable": "computadora",
+      "valor": 0.0,
+      "phi": 0.1028
+     }
+    ]
+   },
+   "mediano": {
+    "p": 0.1073,
+    "base_logodds": -1.7617,
+    "observado": 0,
+    "contribuciones": [
+     {
+      "variable": "log_ing_pc_real",
+      "valor": 10.22,
+      "phi": -0.4559
+     },
+     {
+      "variable": "auto",
+      "valor": 0.0,
+      "phi": 0.3479
+     },
+     {
+      "variable": "internet",
+      "valor": 1.0,
+      "phi": -0.2179
+     },
+     {
+      "variable": "lavadora",
+      "valor": 1.0,
+      "phi": -0.1151
+     },
+     {
+      "variable": "computadora",
+      "valor": 0.0,
+      "phi": 0.1135
+     },
+     {
+      "variable": "refri",
+      "valor": 1.0,
+      "phi": -0.0295
+     }
+    ]
+   },
+   "bajo": {
+    "p": 0.0059,
+    "base_logodds": -1.7617,
+    "observado": 0,
+    "contribuciones": [
+     {
+      "variable": "log_ing_pc_real",
+      "valor": 12.16,
+      "phi": -2.1049
+     },
+     {
+      "variable": "computadora",
+      "valor": 1.0,
+      "phi": -0.514
+     },
+     {
+      "variable": "auto",
+      "valor": 1.0,
+      "phi": -0.4003
+     },
+     {
+      "variable": "internet",
+      "valor": 1.0,
+      "phi": -0.2221
+     },
+     {
+      "variable": "lavadora",
+      "valor": 1.0,
+      "phi": -0.1086
+     },
+     {
+      "variable": "refri",
+      "valor": 1.0,
+      "phi": -0.0147
+     }
+    ]
+   }
+  },
+  "T": {
+   "alto": {
+    "p": 0.6571,
+    "base_logodds": -1.8153,
+    "observado": 1,
+    "contribuciones": [
+     {
+      "variable": "log_ing_pc_real",
+      "valor": 7.632,
+      "phi": 0.7966
+     },
+     {
+      "variable": "auto",
+      "valor": 0.0,
+      "phi": 0.328
+     },
+     {
+      "variable": "tam_loc",
+      "valor": 1.0,
+      "phi": 0.3277
+     },
+     {
+      "variable": "lavadora",
+      "valor": 0.0,
+      "phi": 0.1906
+     },
+     {
+      "variable": "edad_jefe",
+      "valor": 49.0,
+      "phi": 0.1684
+     },
+     {
+      "variable": "refri",
+      "valor": 0.0,
+      "phi": 0.1498
+     }
+    ]
+   },
+   "mediano": {
+    "p": 0.12,
+    "base_logodds": -1.8153,
+    "observado": 0,
+    "contribuciones": [
+     {
+      "variable": "auto",
+      "valor": 1.0,
+      "phi": -0.3748
+     },
+     {
+      "variable": "internet",
+      "valor": 1.0,
+      "phi": -0.2178
+     },
+     {
+      "variable": "jefa_mujer",
+      "valor": 1.0,
+      "phi": 0.1761
+     },
+     {
+      "variable": "edad_jefe",
+      "valor": 52.0,
+      "phi": 0.1556
+     },
+     {
+      "variable": "log_ing_pc_real",
+      "valor": 10.001,
+      "phi": -0.1523
+     },
+     {
+      "variable": "prop_transferencias",
+      "valor": 0.0,
+      "phi": -0.1452
+     }
+    ]
+   },
+   "bajo": {
+    "p": 0.0038,
+    "base_logodds": -1.8153,
+    "observado": 0,
+    "contribuciones": [
+     {
+      "variable": "log_ing_pc_real",
+      "valor": 11.669,
+      "phi": -1.8061
+     },
+     {
+      "variable": "computadora",
+      "valor": 1.0,
+      "phi": -0.5028
+     },
+     {
+      "variable": "auto",
+      "valor": 1.0,
+      "phi": -0.3931
+     },
+     {
+      "variable": "educa_jefe",
+      "valor": 11.0,
+      "phi": -0.3502
+     },
+     {
+      "variable": "prop_transferencias",
+      "valor": 0.0,
+      "phi": -0.2935
+     },
+     {
+      "variable": "internet",
+      "valor": 1.0,
+      "phi": -0.2845
+     }
+    ]
+   }
+  }
+ },
+ "estabilidad": {
+  "C": {
+   "origenes_qroo": 1.0,
+   "qroo_vs_pais_o1": 1.0,
+   "qroo_vs_pais_o2": 1.0
+  },
+  "T": {
+   "origenes_qroo": 0.982,
+   "qroo_vs_pais_o1": 0.956,
+   "qroo_vs_pais_o2": 0.947
+  },
+  "G": {
+   "origenes_qroo": 0.982,
+   "qroo_vs_pais_o1": 0.959,
+   "qroo_vs_pais_o2": 0.944
+  }
+ },
+ "papel": {
+  "o1": {
+   "C": {
+    "auto": "causa directa",
+    "computadora": "causa directa",
+    "internet": "causa directa",
+    "lavadora": "causa directa",
+    "log_ing_pc_real": "causa directa",
+    "refri": "causa directa"
+   },
+   "T": {
+    "tam_loc": "causa indirecta",
+    "est_socio": "causa indirecta",
+    "reg_centro_occ": "causa indirecta",
+    "reg_centro": "causa indirecta",
+    "reg_sur": "causa indirecta",
+    "edad_jefe": "causa indirecta",
+    "jefa_mujer": "causa indirecta",
+    "educa_jefe": "causa indirecta",
+    "tot_integ": "causa indirecta",
+    "menores": "causa indirecta",
+    "p65mas": "causa indirecta",
+    "habla_indigena_hog": "causa indirecta",
+    "ocupados_pc": "causa indirecta",
+    "afiliacion_laboral": "causa indirecta",
+    "auto": "causa directa",
+    "refri": "causa directa",
+    "lavadora": "causa directa",
+    "computadora": "causa directa",
+    "internet": "causa directa",
+    "celular": "causa indirecta",
+    "recibe_remesas": "asociada sin ruta dirigida",
+    "recibe_programas": "asociada sin ruta dirigida",
+    "recibe_jubilacion": "causa indirecta",
+    "liconsa": "causa indirecta",
+    "log_ing_pc_real": "causa directa",
+    "prop_ing_trabajo": "asociada sin ruta dirigida",
+    "prop_transferencias": "asociada sin ruta dirigida"
+   },
+   "G": {
+    "tam_loc": "causa indirecta",
+    "est_socio": "causa indirecta",
+    "reg_centro_occ": "causa indirecta",
+    "reg_centro": "causa indirecta",
+    "reg_sur": "causa indirecta",
+    "edad_jefe": "causa indirecta",
+    "jefa_mujer": "causa indirecta",
+    "educa_jefe": "causa indirecta",
+    "tot_integ": "causa indirecta",
+    "menores": "causa indirecta",
+    "p65mas": "causa indirecta",
+    "habla_indigena_hog": "causa indirecta",
+    "ocupados_pc": "causa indirecta",
+    "afiliacion_laboral": "causa indirecta",
+    "auto": "causa directa",
+    "refri": "causa directa",
+    "lavadora": "causa directa",
+    "computadora": "causa directa",
+    "internet": "causa directa",
+    "celular": "causa indirecta",
+    "recibe_remesas": "asociada sin ruta dirigida",
+    "recibe_programas": "asociada sin ruta dirigida",
+    "recibe_jubilacion": "causa indirecta",
+    "liconsa": "causa indirecta",
+    "log_ing_pc_real": "causa directa",
+    "prop_ing_trabajo": "asociada sin ruta dirigida",
+    "prop_transferencias": "asociada sin ruta dirigida",
+    "log_gasto_pc_real": "concurrente",
+    "log_gasto_alim_pc_real": "concurrente",
+    "prop_alimentos": "concurrente",
+    "prop_alim_fuera": "concurrente",
+    "prestamos_recibidos": "concurrente"
+   }
+  },
+  "o2": {
+   "C": {
+    "auto": "causa directa",
+    "computadora": "causa directa",
+    "internet": "causa directa",
+    "lavadora": "causa directa",
+    "log_ing_pc_real": "causa directa",
+    "refri": "causa directa"
+   },
+   "T": {
+    "tam_loc": "causa indirecta",
+    "est_socio": "causa indirecta",
+    "reg_centro_occ": "causa indirecta",
+    "reg_centro": "causa indirecta",
+    "reg_sur": "causa indirecta",
+    "edad_jefe": "causa indirecta",
+    "jefa_mujer": "causa indirecta",
+    "educa_jefe": "causa indirecta",
+    "tot_integ": "causa indirecta",
+    "menores": "causa indirecta",
+    "p65mas": "causa indirecta",
+    "habla_indigena_hog": "causa indirecta",
+    "ocupados_pc": "causa indirecta",
+    "afiliacion_laboral": "causa indirecta",
+    "auto": "causa directa",
+    "refri": "causa directa",
+    "lavadora": "causa directa",
+    "computadora": "causa directa",
+    "internet": "causa directa",
+    "celular": "causa indirecta",
+    "recibe_remesas": "asociada sin ruta dirigida",
+    "recibe_programas": "asociada sin ruta dirigida",
+    "recibe_jubilacion": "causa indirecta",
+    "liconsa": "causa indirecta",
+    "log_ing_pc_real": "causa directa",
+    "prop_ing_trabajo": "asociada sin ruta dirigida",
+    "prop_transferencias": "asociada sin ruta dirigida"
+   },
+   "G": {
+    "tam_loc": "causa indirecta",
+    "est_socio": "causa indirecta",
+    "reg_centro_occ": "causa indirecta",
+    "reg_centro": "causa indirecta",
+    "reg_sur": "causa indirecta",
+    "edad_jefe": "causa indirecta",
+    "jefa_mujer": "causa indirecta",
+    "educa_jefe": "causa indirecta",
+    "tot_integ": "causa indirecta",
+    "menores": "causa indirecta",
+    "p65mas": "causa indirecta",
+    "habla_indigena_hog": "causa indirecta",
+    "ocupados_pc": "causa indirecta",
+    "afiliacion_laboral": "causa indirecta",
+    "auto": "causa directa",
+    "refri": "causa directa",
+    "lavadora": "causa directa",
+    "computadora": "causa directa",
+    "internet": "causa directa",
+    "celular": "causa indirecta",
+    "recibe_remesas": "asociada sin ruta dirigida",
+    "recibe_programas": "asociada sin ruta dirigida",
+    "recibe_jubilacion": "causa indirecta",
+    "liconsa": "causa indirecta",
+    "log_ing_pc_real": "causa directa",
+    "prop_ing_trabajo": "asociada sin ruta dirigida",
+    "prop_transferencias": "asociada sin ruta dirigida",
+    "log_gasto_pc_real": "concurrente",
+    "log_gasto_alim_pc_real": "concurrente",
+    "prop_alimentos": "concurrente",
+    "prop_alim_fuera": "concurrente",
+    "prestamos_recibidos": "concurrente"
+   }
+  }
+ },
+ "masa_por_papel": {
+  "o1": {
+   "C": {
+    "causa directa": 1.0
+   },
+   "T": {
+    "asociada sin ruta dirigida": 0.0839,
+    "causa directa": 0.606,
+    "causa indirecta": 0.3101
+   },
+   "G": {
+    "asociada sin ruta dirigida": 0.0683,
+    "causa directa": 0.5468,
+    "causa indirecta": 0.2831,
+    "concurrente": 0.1018
+   }
+  },
+  "o2": {
+   "C": {
+    "causa directa": 1.0
+   },
+   "T": {
+    "asociada sin ruta dirigida": 0.0838,
+    "causa directa": 0.5886,
+    "causa indirecta": 0.3276
+   },
+   "G": {
+    "asociada sin ruta dirigida": 0.0716,
+    "causa directa": 0.5139,
+    "causa indirecta": 0.3024,
+    "concurrente": 0.1121
+   }
+  }
+ }
+}

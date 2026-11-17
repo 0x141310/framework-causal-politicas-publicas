@@ -1,0 +1,601 @@
+base,variable,anio,disponible_pct,archivo,columnas_origen,transformacion
+personas,folioviv,2016,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+personas,folioviv,2018,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+personas,folioviv,2020,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+personas,folioviv,2022,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+personas,folioviv,2024,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+personas,foliohog,2016,100.0,2016_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+personas,foliohog,2018,100.0,2018_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+personas,foliohog,2020,100.0,2020_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+personas,foliohog,2022,100.0,2022_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+personas,foliohog,2024,100.0,2024_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+personas,numren,2016,100.0,2016_poblacion/poblacion.csv,numren,copia con coerción numérica
+personas,numren,2018,100.0,2018_poblacion/poblacion.csv,numren,copia con coerción numérica
+personas,numren,2020,100.0,2020_poblacion/poblacion.csv,numren,copia con coerción numérica
+personas,numren,2022,100.0,2022_poblacion/poblacion.csv,numren,copia con coerción numérica
+personas,numren,2024,100.0,2024_poblacion/poblacion.csv,numren,copia con coerción numérica
+personas,parentesco,2016,100.0,2016_poblacion/poblacion.csv,parentesco,copia con coerción numérica
+personas,parentesco,2018,100.0,2018_poblacion/poblacion.csv,parentesco,copia con coerción numérica
+personas,parentesco,2020,100.0,2020_poblacion/poblacion.csv,parentesco,copia con coerción numérica
+personas,parentesco,2022,100.0,2022_poblacion/poblacion.csv,parentesco,copia con coerción numérica
+personas,parentesco,2024,100.0,2024_poblacion/poblacion.csv,parentesco,copia con coerción numérica
+personas,sexo,2016,100.0,2016_poblacion/poblacion.csv,sexo,copia con coerción numérica
+personas,sexo,2018,100.0,2018_poblacion/poblacion.csv,sexo,copia con coerción numérica
+personas,sexo,2020,100.0,2020_poblacion/poblacion.csv,sexo,copia con coerción numérica
+personas,sexo,2022,100.0,2022_poblacion/poblacion.csv,sexo,copia con coerción numérica
+personas,sexo,2024,100.0,2024_poblacion/poblacion.csv,sexo,copia con coerción numérica
+personas,edad,2016,100.0,2016_poblacion/poblacion.csv,edad,copia con coerción numérica
+personas,edad,2018,100.0,2018_poblacion/poblacion.csv,edad,copia con coerción numérica
+personas,edad,2020,100.0,2020_poblacion/poblacion.csv,edad,copia con coerción numérica
+personas,edad,2022,100.0,2022_poblacion/poblacion.csv,edad,copia con coerción numérica
+personas,edad,2024,100.0,2024_poblacion/poblacion.csv,edad,copia con coerción numérica
+personas,hablaind,2016,95.06,2016_poblacion/poblacion.csv,hablaind,copia con coerción numérica
+personas,hablaind,2018,95.4,2018_poblacion/poblacion.csv,hablaind,copia con coerción numérica
+personas,hablaind,2020,95.98,2020_poblacion/poblacion.csv,hablaind,copia con coerción numérica
+personas,hablaind,2022,96.3,2022_poblacion/poblacion.csv,hablaind,copia con coerción numérica
+personas,hablaind,2024,96.55,2024_poblacion/poblacion.csv,hablaind,copia con coerción numérica
+personas,asis_esc,2016,95.06,2016_poblacion/poblacion.csv,asis_esc,copia con coerción numérica
+personas,asis_esc,2018,95.4,2018_poblacion/poblacion.csv,asis_esc,copia con coerción numérica
+personas,asis_esc,2020,95.98,2020_poblacion/poblacion.csv,asis_esc,copia con coerción numérica
+personas,asis_esc,2022,96.3,2022_poblacion/poblacion.csv,asis_esc,copia con coerción numérica
+personas,asis_esc,2024,96.55,2024_poblacion/poblacion.csv,asis_esc,copia con coerción numérica
+personas,nivel,2016,30.16,2016_poblacion/poblacion.csv,nivel,copia con coerción numérica
+personas,nivel,2018,29.05,2018_poblacion/poblacion.csv,nivel,copia con coerción numérica
+personas,nivel,2020,27.64,2020_poblacion/poblacion.csv,nivel,copia con coerción numérica
+personas,nivel,2022,27.45,2022_poblacion/poblacion.csv,nivel,copia con coerción numérica
+personas,nivel,2024,27.05,2024_poblacion/poblacion.csv,nivel,copia con coerción numérica
+personas,grado,2016,30.16,2016_poblacion/poblacion.csv,grado,copia con coerción numérica
+personas,grado,2018,29.05,2018_poblacion/poblacion.csv,grado,copia con coerción numérica
+personas,grado,2020,27.63,2020_poblacion/poblacion.csv,grado,copia con coerción numérica
+personas,grado,2022,27.45,2022_poblacion/poblacion.csv,grado,copia con coerción numérica
+personas,grado,2024,27.05,2024_poblacion/poblacion.csv,grado,copia con coerción numérica
+personas,tipoesc,2016,30.16,2016_poblacion/poblacion.csv,tipoesc,copia con coerción numérica
+personas,tipoesc,2018,29.05,2018_poblacion/poblacion.csv,tipoesc,copia con coerción numérica
+personas,tipoesc,2020,27.64,2020_poblacion/poblacion.csv,tipoesc,copia con coerción numérica
+personas,tipoesc,2022,27.45,2022_poblacion/poblacion.csv,tipoesc,copia con coerción numérica
+personas,tipoesc,2024,27.05,2024_poblacion/poblacion.csv,tipoesc,copia con coerción numérica
+personas,tiene_b,2016,30.16,2016_poblacion/poblacion.csv,tiene_b,copia con coerción numérica
+personas,tiene_b,2018,29.05,2018_poblacion/poblacion.csv,tiene_b,copia con coerción numérica
+personas,tiene_b,2020,27.64,2020_poblacion/poblacion.csv,tiene_b,copia con coerción numérica
+personas,tiene_b,2022,27.45,2022_poblacion/poblacion.csv,tiene_b,copia con coerción numérica
+personas,tiene_b,2024,27.05,2024_poblacion/poblacion.csv,tiene_b,copia con coerción numérica
+personas,nivelaprob,2016,95.06,2016_poblacion/poblacion.csv,nivelaprob,copia con coerción numérica
+personas,nivelaprob,2018,95.4,2018_poblacion/poblacion.csv,nivelaprob,copia con coerción numérica
+personas,nivelaprob,2020,95.97,2020_poblacion/poblacion.csv,nivelaprob,copia con coerción numérica
+personas,nivelaprob,2022,96.3,2022_poblacion/poblacion.csv,nivelaprob,copia con coerción numérica
+personas,nivelaprob,2024,96.55,2024_poblacion/poblacion.csv,nivelaprob,copia con coerción numérica
+personas,gradoaprob,2016,95.06,2016_poblacion/poblacion.csv,gradoaprob,copia con coerción numérica
+personas,gradoaprob,2018,95.4,2018_poblacion/poblacion.csv,gradoaprob,copia con coerción numérica
+personas,gradoaprob,2020,95.97,2020_poblacion/poblacion.csv,gradoaprob,copia con coerción numérica
+personas,gradoaprob,2022,96.3,2022_poblacion/poblacion.csv,gradoaprob,copia con coerción numérica
+personas,gradoaprob,2024,96.55,2024_poblacion/poblacion.csv,gradoaprob,copia con coerción numérica
+personas,disc_ver,2016,0.0,2016_poblacion/poblacion.csv,disc_ver,copia con coerción numérica
+personas,disc_ver,2018,0.0,2018_poblacion/poblacion.csv,disc_ver,copia con coerción numérica
+personas,disc_ver,2020,99.9,2020_poblacion/poblacion.csv,disc_ver,copia con coerción numérica
+personas,disc_ver,2022,99.87,2022_poblacion/poblacion.csv,disc_ver,copia con coerción numérica
+personas,disc_ver,2024,99.85,2024_poblacion/poblacion.csv,disc_ver,copia con coerción numérica
+personas,disc_camin,2016,0.0,2016_poblacion/poblacion.csv,disc_camin,copia con coerción numérica
+personas,disc_camin,2018,0.0,2018_poblacion/poblacion.csv,disc_camin,copia con coerción numérica
+personas,disc_camin,2020,99.9,2020_poblacion/poblacion.csv,disc_camin,copia con coerción numérica
+personas,disc_camin,2022,99.87,2022_poblacion/poblacion.csv,disc_camin,copia con coerción numérica
+personas,disc_camin,2024,99.85,2024_poblacion/poblacion.csv,disc_camin,copia con coerción numérica
+personas,pam_monto_tri,2016,4.27,2016_ingresos/ingresos.csv,"ing_tri con clave ∈ {P044, P045}",suma trimestral de la persona
+personas,pam_monto_tri,2018,4.03,2018_ingresos/ingresos.csv,"ing_tri con clave ∈ {P044, P045}",suma trimestral de la persona
+personas,pam_monto_tri,2020,5.67,2020_ingresos/ingresos.csv,"ing_tri con clave ∈ {P104, P045}",suma trimestral de la persona
+personas,pam_monto_tri,2022,7.61,2022_ingresos/ingresos.csv,"ing_tri con clave ∈ {P104, P045}",suma trimestral de la persona
+personas,pam_monto_tri,2024,8.97,2024_ingresos/ingresos.csv,"ing_tri con clave ∈ {P104, P045}",suma trimestral de la persona
+personas,pam,2016,100.0,2016_ingresos/ingresos.csv,"clave ∈ {P044, P045}",1 si la persona recibe ingresos con esas claves
+personas,pam,2018,100.0,2018_ingresos/ingresos.csv,"clave ∈ {P044, P045}",1 si la persona recibe ingresos con esas claves
+personas,pam,2020,100.0,2020_ingresos/ingresos.csv,"clave ∈ {P104, P045}",1 si la persona recibe ingresos con esas claves
+personas,pam,2022,100.0,2022_ingresos/ingresos.csv,"clave ∈ {P104, P045}",1 si la persona recibe ingresos con esas claves
+personas,pam,2024,100.0,2024_ingresos/ingresos.csv,"clave ∈ {P104, P045}",1 si la persona recibe ingresos con esas claves
+personas,hog_pam,2016,100.0,2016_ingresos/ingresos.csv,"clave ∈ {P044, P045}",1 si algún integrante del hogar la recibe
+personas,hog_pam,2018,100.0,2018_ingresos/ingresos.csv,"clave ∈ {P044, P045}",1 si algún integrante del hogar la recibe
+personas,hog_pam,2020,100.0,2020_ingresos/ingresos.csv,"clave ∈ {P104, P045}",1 si algún integrante del hogar la recibe
+personas,hog_pam,2022,100.0,2022_ingresos/ingresos.csv,"clave ∈ {P104, P045}",1 si algún integrante del hogar la recibe
+personas,hog_pam,2024,100.0,2024_ingresos/ingresos.csv,"clave ∈ {P104, P045}",1 si algún integrante del hogar la recibe
+personas,pam_p104_monto_tri,2016,3.86,2016_ingresos/ingresos.csv,ing_tri con clave ∈ {P044},suma trimestral de la persona
+personas,pam_p104_monto_tri,2018,3.67,2018_ingresos/ingresos.csv,ing_tri con clave ∈ {P044},suma trimestral de la persona
+personas,pam_p104_monto_tri,2020,5.39,2020_ingresos/ingresos.csv,ing_tri con clave ∈ {P104},suma trimestral de la persona
+personas,pam_p104_monto_tri,2022,7.41,2022_ingresos/ingresos.csv,ing_tri con clave ∈ {P104},suma trimestral de la persona
+personas,pam_p104_monto_tri,2024,8.81,2024_ingresos/ingresos.csv,ing_tri con clave ∈ {P104},suma trimestral de la persona
+personas,pam_p104,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {P044},1 si la persona recibe ingresos con esas claves
+personas,pam_p104,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {P044},1 si la persona recibe ingresos con esas claves
+personas,pam_p104,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P104},1 si la persona recibe ingresos con esas claves
+personas,pam_p104,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P104},1 si la persona recibe ingresos con esas claves
+personas,pam_p104,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P104},1 si la persona recibe ingresos con esas claves
+personas,hog_pam_p104,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {P044},1 si algún integrante del hogar la recibe
+personas,hog_pam_p104,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {P044},1 si algún integrante del hogar la recibe
+personas,hog_pam_p104,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P104},1 si algún integrante del hogar la recibe
+personas,hog_pam_p104,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P104},1 si algún integrante del hogar la recibe
+personas,hog_pam_p104,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P104},1 si algún integrante del hogar la recibe
+personas,beca_basica_monto_tri,2016,0.0,2016_ingresos/ingresos.csv,ing_tri con clave ∈ {—},suma trimestral de la persona
+personas,beca_basica_monto_tri,2018,0.0,2018_ingresos/ingresos.csv,ing_tri con clave ∈ {—},suma trimestral de la persona
+personas,beca_basica_monto_tri,2020,2.03,2020_ingresos/ingresos.csv,ing_tri con clave ∈ {P101},suma trimestral de la persona
+personas,beca_basica_monto_tri,2022,2.56,2022_ingresos/ingresos.csv,ing_tri con clave ∈ {P101},suma trimestral de la persona
+personas,beca_basica_monto_tri,2024,1.21,2024_ingresos/ingresos.csv,ing_tri con clave ∈ {P101},suma trimestral de la persona
+personas,beca_basica,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {—},1 si la persona recibe ingresos con esas claves
+personas,beca_basica,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {—},1 si la persona recibe ingresos con esas claves
+personas,beca_basica,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P101},1 si la persona recibe ingresos con esas claves
+personas,beca_basica,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P101},1 si la persona recibe ingresos con esas claves
+personas,beca_basica,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P101},1 si la persona recibe ingresos con esas claves
+personas,hog_beca_basica,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {—},1 si algún integrante del hogar la recibe
+personas,hog_beca_basica,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {—},1 si algún integrante del hogar la recibe
+personas,hog_beca_basica,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P101},1 si algún integrante del hogar la recibe
+personas,hog_beca_basica,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P101},1 si algún integrante del hogar la recibe
+personas,hog_beca_basica,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P101},1 si algún integrante del hogar la recibe
+personas,beca_ems_monto_tri,2016,0.0,2016_ingresos/ingresos.csv,ing_tri con clave ∈ {—},suma trimestral de la persona
+personas,beca_ems_monto_tri,2018,0.0,2018_ingresos/ingresos.csv,ing_tri con clave ∈ {—},suma trimestral de la persona
+personas,beca_ems_monto_tri,2020,1.91,2020_ingresos/ingresos.csv,ing_tri con clave ∈ {P102},suma trimestral de la persona
+personas,beca_ems_monto_tri,2022,1.73,2022_ingresos/ingresos.csv,ing_tri con clave ∈ {P102},suma trimestral de la persona
+personas,beca_ems_monto_tri,2024,0.83,2024_ingresos/ingresos.csv,ing_tri con clave ∈ {P102},suma trimestral de la persona
+personas,beca_ems,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {—},1 si la persona recibe ingresos con esas claves
+personas,beca_ems,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {—},1 si la persona recibe ingresos con esas claves
+personas,beca_ems,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P102},1 si la persona recibe ingresos con esas claves
+personas,beca_ems,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P102},1 si la persona recibe ingresos con esas claves
+personas,beca_ems,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P102},1 si la persona recibe ingresos con esas claves
+personas,hog_beca_ems,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {—},1 si algún integrante del hogar la recibe
+personas,hog_beca_ems,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {—},1 si algún integrante del hogar la recibe
+personas,hog_beca_ems,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P102},1 si algún integrante del hogar la recibe
+personas,hog_beca_ems,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P102},1 si algún integrante del hogar la recibe
+personas,hog_beca_ems,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P102},1 si algún integrante del hogar la recibe
+personas,beca_otra_gob_monto_tri,2016,1.2,2016_ingresos/ingresos.csv,ing_tri con clave ∈ {P038},suma trimestral de la persona
+personas,beca_otra_gob_monto_tri,2018,1.09,2018_ingresos/ingresos.csv,ing_tri con clave ∈ {P038},suma trimestral de la persona
+personas,beca_otra_gob_monto_tri,2020,1.06,2020_ingresos/ingresos.csv,ing_tri con clave ∈ {P038},suma trimestral de la persona
+personas,beca_otra_gob_monto_tri,2022,0.99,2022_ingresos/ingresos.csv,ing_tri con clave ∈ {P038},suma trimestral de la persona
+personas,beca_otra_gob_monto_tri,2024,0.85,2024_ingresos/ingresos.csv,ing_tri con clave ∈ {P038},suma trimestral de la persona
+personas,beca_otra_gob,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {P038},1 si la persona recibe ingresos con esas claves
+personas,beca_otra_gob,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {P038},1 si la persona recibe ingresos con esas claves
+personas,beca_otra_gob,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P038},1 si la persona recibe ingresos con esas claves
+personas,beca_otra_gob,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P038},1 si la persona recibe ingresos con esas claves
+personas,beca_otra_gob,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P038},1 si la persona recibe ingresos con esas claves
+personas,hog_beca_otra_gob,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {P038},1 si algún integrante del hogar la recibe
+personas,hog_beca_otra_gob,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {P038},1 si algún integrante del hogar la recibe
+personas,hog_beca_otra_gob,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {P038},1 si algún integrante del hogar la recibe
+personas,hog_beca_otra_gob,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {P038},1 si algún integrante del hogar la recibe
+personas,hog_beca_otra_gob,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {P038},1 si algún integrante del hogar la recibe
+personas,pension_contrib_monto_tri,2016,4.53,2016_ingresos/ingresos.csv,"ing_tri con clave ∈ {P032, P033}",suma trimestral de la persona
+personas,pension_contrib_monto_tri,2018,4.92,2018_ingresos/ingresos.csv,"ing_tri con clave ∈ {P032, P033}",suma trimestral de la persona
+personas,pension_contrib_monto_tri,2020,5.52,2020_ingresos/ingresos.csv,"ing_tri con clave ∈ {P032, P033}",suma trimestral de la persona
+personas,pension_contrib_monto_tri,2022,5.88,2022_ingresos/ingresos.csv,"ing_tri con clave ∈ {P032, P033}",suma trimestral de la persona
+personas,pension_contrib_monto_tri,2024,6.04,2024_ingresos/ingresos.csv,"ing_tri con clave ∈ {P032, P033}",suma trimestral de la persona
+personas,pension_contrib,2016,100.0,2016_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si la persona recibe ingresos con esas claves
+personas,pension_contrib,2018,100.0,2018_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si la persona recibe ingresos con esas claves
+personas,pension_contrib,2020,100.0,2020_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si la persona recibe ingresos con esas claves
+personas,pension_contrib,2022,100.0,2022_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si la persona recibe ingresos con esas claves
+personas,pension_contrib,2024,100.0,2024_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si la persona recibe ingresos con esas claves
+personas,hog_pension_contrib,2016,100.0,2016_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si algún integrante del hogar la recibe
+personas,hog_pension_contrib,2018,100.0,2018_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si algún integrante del hogar la recibe
+personas,hog_pension_contrib,2020,100.0,2020_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si algún integrante del hogar la recibe
+personas,hog_pension_contrib,2022,100.0,2022_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si algún integrante del hogar la recibe
+personas,hog_pension_contrib,2024,100.0,2024_ingresos/ingresos.csv,"clave ∈ {P032, P033}",1 si algún integrante del hogar la recibe
+personas,prospera_monto_tri,2016,11.96,2016_ingresos/ingresos.csv,ing_tri con clave ∈ {P042},suma trimestral de la persona
+personas,prospera_monto_tri,2018,11.04,2018_ingresos/ingresos.csv,ing_tri con clave ∈ {P042},suma trimestral de la persona
+personas,prospera_monto_tri,2020,0.0,2020_ingresos/ingresos.csv,ing_tri con clave ∈ {—},suma trimestral de la persona
+personas,prospera_monto_tri,2022,0.0,2022_ingresos/ingresos.csv,ing_tri con clave ∈ {—},suma trimestral de la persona
+personas,prospera_monto_tri,2024,0.0,2024_ingresos/ingresos.csv,ing_tri con clave ∈ {—},suma trimestral de la persona
+personas,prospera,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {P042},1 si la persona recibe ingresos con esas claves
+personas,prospera,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {P042},1 si la persona recibe ingresos con esas claves
+personas,prospera,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {—},1 si la persona recibe ingresos con esas claves
+personas,prospera,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {—},1 si la persona recibe ingresos con esas claves
+personas,prospera,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {—},1 si la persona recibe ingresos con esas claves
+personas,hog_prospera,2016,100.0,2016_ingresos/ingresos.csv,clave ∈ {P042},1 si algún integrante del hogar la recibe
+personas,hog_prospera,2018,100.0,2018_ingresos/ingresos.csv,clave ∈ {P042},1 si algún integrante del hogar la recibe
+personas,hog_prospera,2020,100.0,2020_ingresos/ingresos.csv,clave ∈ {—},1 si algún integrante del hogar la recibe
+personas,hog_prospera,2022,100.0,2022_ingresos/ingresos.csv,clave ∈ {—},1 si algún integrante del hogar la recibe
+personas,hog_prospera,2024,100.0,2024_ingresos/ingresos.csv,clave ∈ {—},1 si algún integrante del hogar la recibe
+personas,n_trabajos,2016,46.64,2016_trabajos/trabajos.csv,id_trabajo,número de trabajos de la persona
+personas,n_trabajos,2018,47.41,2018_trabajos/trabajos.csv,id_trabajo,número de trabajos de la persona
+personas,n_trabajos,2020,47.31,2020_trabajos/trabajos.csv,id_trabajo,número de trabajos de la persona
+personas,n_trabajos,2022,48.66,2022_trabajos/trabajos.csv,id_trabajo,número de trabajos de la persona
+personas,n_trabajos,2024,48.73,2024_trabajos/trabajos.csv,id_trabajo,número de trabajos de la persona
+personas,trabaja,2016,100.0,2016_trabajos/trabajos.csv,id_trabajo,1 si tiene al menos un trabajo
+personas,trabaja,2018,100.0,2018_trabajos/trabajos.csv,id_trabajo,1 si tiene al menos un trabajo
+personas,trabaja,2020,100.0,2020_trabajos/trabajos.csv,id_trabajo,1 si tiene al menos un trabajo
+personas,trabaja,2022,100.0,2022_trabajos/trabajos.csv,id_trabajo,1 si tiene al menos un trabajo
+personas,trabaja,2024,100.0,2024_trabajos/trabajos.csv,id_trabajo,1 si tiene al menos un trabajo
+personas,ubica_geo,2016,100.0,2016_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+personas,ubica_geo,2018,100.0,2018_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+personas,ubica_geo,2020,100.0,2020_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+personas,ubica_geo,2022,100.0,2022_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+personas,ubica_geo,2024,100.0,2024_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+personas,tam_loc,2016,100.0,2016_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+personas,tam_loc,2018,100.0,2018_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+personas,tam_loc,2020,100.0,2020_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+personas,tam_loc,2022,100.0,2022_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+personas,tam_loc,2024,100.0,2024_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+personas,est_socio,2016,100.0,2016_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+personas,est_socio,2018,100.0,2018_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+personas,est_socio,2020,100.0,2020_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+personas,est_socio,2022,100.0,2022_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+personas,est_socio,2024,100.0,2024_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+personas,est_dis,2016,100.0,2016_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+personas,est_dis,2018,100.0,2018_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+personas,est_dis,2020,100.0,2020_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+personas,est_dis,2022,100.0,2022_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+personas,est_dis,2024,100.0,2024_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+personas,upm,2016,100.0,2016_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+personas,upm,2018,100.0,2018_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+personas,upm,2020,100.0,2020_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+personas,upm,2022,100.0,2022_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+personas,upm,2024,100.0,2024_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+personas,factor,2016,100.0,2016_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+personas,factor,2018,100.0,2018_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+personas,factor,2020,100.0,2020_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+personas,factor,2022,100.0,2022_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+personas,factor,2024,100.0,2024_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+personas,sexo_jefe,2016,100.0,2016_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+personas,sexo_jefe,2018,100.0,2018_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+personas,sexo_jefe,2020,100.0,2020_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+personas,sexo_jefe,2022,100.0,2022_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+personas,sexo_jefe,2024,100.0,2024_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+personas,edad_jefe,2016,100.0,2016_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+personas,edad_jefe,2018,100.0,2018_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+personas,edad_jefe,2020,100.0,2020_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+personas,edad_jefe,2022,100.0,2022_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+personas,edad_jefe,2024,100.0,2024_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+personas,educa_jefe,2016,100.0,2016_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+personas,educa_jefe,2018,100.0,2018_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+personas,educa_jefe,2020,100.0,2020_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+personas,educa_jefe,2022,100.0,2022_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+personas,educa_jefe,2024,100.0,2024_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+personas,tot_integ,2016,100.0,2016_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+personas,tot_integ,2018,100.0,2018_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+personas,tot_integ,2020,100.0,2020_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+personas,tot_integ,2022,100.0,2022_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+personas,tot_integ,2024,100.0,2024_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+personas,menores,2016,100.0,2016_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+personas,menores,2018,100.0,2018_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+personas,menores,2020,100.0,2020_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+personas,menores,2022,100.0,2022_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+personas,menores,2024,100.0,2024_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+personas,p65mas,2016,100.0,2016_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+personas,p65mas,2018,100.0,2018_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+personas,p65mas,2020,100.0,2020_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+personas,p65mas,2022,100.0,2022_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+personas,p65mas,2024,100.0,2024_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+personas,ing_cor,2016,100.0,2016_concentradohogar/concentradohogar.csv,ing_cor,copia con coerción numérica
+personas,ing_cor,2018,100.0,2018_concentradohogar/concentradohogar.csv,ing_cor,copia con coerción numérica
+personas,ing_cor,2020,100.0,2020_concentradohogar/concentradohogar.csv,ing_cor,copia con coerción numérica
+personas,ing_cor,2022,100.0,2022_concentradohogar/concentradohogar.csv,ing_cor,copia con coerción numérica
+personas,ing_cor,2024,100.0,2024_concentradohogar/concentradohogar.csv,ing_cor,copia con coerción numérica
+personas,ingtrab,2016,100.0,2016_concentradohogar/concentradohogar.csv,ingtrab,copia con coerción numérica
+personas,ingtrab,2018,100.0,2018_concentradohogar/concentradohogar.csv,ingtrab,copia con coerción numérica
+personas,ingtrab,2020,100.0,2020_concentradohogar/concentradohogar.csv,ingtrab,copia con coerción numérica
+personas,ingtrab,2022,100.0,2022_concentradohogar/concentradohogar.csv,ingtrab,copia con coerción numérica
+personas,ingtrab,2024,100.0,2024_concentradohogar/concentradohogar.csv,ingtrab,copia con coerción numérica
+personas,transfer,2016,100.0,2016_concentradohogar/concentradohogar.csv,transfer,copia con coerción numérica
+personas,transfer,2018,100.0,2018_concentradohogar/concentradohogar.csv,transfer,copia con coerción numérica
+personas,transfer,2020,100.0,2020_concentradohogar/concentradohogar.csv,transfer,copia con coerción numérica
+personas,transfer,2022,100.0,2022_concentradohogar/concentradohogar.csv,transfer,copia con coerción numérica
+personas,transfer,2024,100.0,2024_concentradohogar/concentradohogar.csv,transfer,copia con coerción numérica
+personas,jubilacion,2016,100.0,2016_concentradohogar/concentradohogar.csv,jubilacion,copia con coerción numérica
+personas,jubilacion,2018,100.0,2018_concentradohogar/concentradohogar.csv,jubilacion,copia con coerción numérica
+personas,jubilacion,2020,100.0,2020_concentradohogar/concentradohogar.csv,jubilacion,copia con coerción numérica
+personas,jubilacion,2022,100.0,2022_concentradohogar/concentradohogar.csv,jubilacion,copia con coerción numérica
+personas,jubilacion,2024,100.0,2024_concentradohogar/concentradohogar.csv,jubilacion,copia con coerción numérica
+personas,becas,2016,100.0,2016_concentradohogar/concentradohogar.csv,becas,copia con coerción numérica
+personas,becas,2018,100.0,2018_concentradohogar/concentradohogar.csv,becas,copia con coerción numérica
+personas,becas,2020,100.0,2020_concentradohogar/concentradohogar.csv,becas,copia con coerción numérica
+personas,becas,2022,100.0,2022_concentradohogar/concentradohogar.csv,becas,copia con coerción numérica
+personas,becas,2024,100.0,2024_concentradohogar/concentradohogar.csv,becas,copia con coerción numérica
+personas,bene_gob,2016,100.0,2016_concentradohogar/concentradohogar.csv,bene_gob,copia con coerción numérica
+personas,bene_gob,2018,100.0,2018_concentradohogar/concentradohogar.csv,bene_gob,copia con coerción numérica
+personas,bene_gob,2020,100.0,2020_concentradohogar/concentradohogar.csv,bene_gob,copia con coerción numérica
+personas,bene_gob,2022,100.0,2022_concentradohogar/concentradohogar.csv,bene_gob,copia con coerción numérica
+personas,bene_gob,2024,100.0,2024_concentradohogar/concentradohogar.csv,bene_gob,copia con coerción numérica
+personas,ia_adultos,2016,100.0,2016_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+personas,ia_adultos,2018,100.0,2018_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+personas,ia_adultos,2020,100.0,2020_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+personas,ia_adultos,2022,100.0,2022_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+personas,ia_adultos,2024,100.0,2024_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+personas,ia_menores,2016,100.0,2016_hogares/hogares.csv,acc_alim11 a 16,reactivos de menores de la EMSA respondidos con sí
+personas,ia_menores,2018,100.0,2018_hogares/hogares.csv,acc_alim11 a 16,reactivos de menores de la EMSA respondidos con sí
+personas,ia_menores,2020,100.0,2020_hogares/hogares.csv,acc_alim11 a 16,reactivos de menores de la EMSA respondidos con sí
+personas,ia_menores,2022,100.0,2022_hogares/hogares.csv,acc_alim11 a 16,reactivos de menores de la EMSA respondidos con sí
+personas,ia_menores,2024,100.0,2024_hogares/hogares.csv,acc_alim11 a 16,reactivos de menores de la EMSA respondidos con sí
+personas,ia_mod_sev,2016,100.0,2016_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+personas,ia_mod_sev,2018,100.0,2018_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+personas,ia_mod_sev,2020,100.0,2020_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+personas,ia_mod_sev,2022,100.0,2022_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+personas,ia_mod_sev,2024,100.0,2024_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+personas,ia_severa,2016,100.0,2016_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+personas,ia_severa,2018,100.0,2018_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+personas,ia_severa,2020,100.0,2020_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+personas,ia_severa,2022,100.0,2022_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+personas,ia_severa,2024,100.0,2024_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+personas,ia_adultos_alguna,2016,100.0,2016_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",al menos un reactivo de adultos con sí
+personas,ia_adultos_alguna,2018,100.0,2018_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",al menos un reactivo de adultos con sí
+personas,ia_adultos_alguna,2020,100.0,2020_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",al menos un reactivo de adultos con sí
+personas,ia_adultos_alguna,2022,100.0,2022_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",al menos un reactivo de adultos con sí
+personas,ia_adultos_alguna,2024,100.0,2024_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",al menos un reactivo de adultos con sí
+personas,anio,2016,100.0,nombre del archivo,—,año del levantamiento
+personas,anio,2018,100.0,nombre del archivo,—,año del levantamiento
+personas,anio,2020,100.0,nombre del archivo,—,año del levantamiento
+personas,anio,2022,100.0,nombre del archivo,—,año del levantamiento
+personas,anio,2024,100.0,nombre del archivo,—,año del levantamiento
+personas,entidad,2016,100.0,todas,folioviv,dos primeros dígitos de folioviv
+personas,entidad,2018,100.0,todas,folioviv,dos primeros dígitos de folioviv
+personas,entidad,2020,100.0,todas,folioviv,dos primeros dígitos de folioviv
+personas,entidad,2022,100.0,todas,folioviv,dos primeros dígitos de folioviv
+personas,entidad,2024,100.0,todas,folioviv,dos primeros dígitos de folioviv
+personas,rural,2016,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+personas,rural,2018,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+personas,rural,2020,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+personas,rural,2022,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+personas,rural,2024,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+personas,mujer,2016,100.0,2016_poblacion/poblacion.csv,sexo,sexo = 2
+personas,mujer,2018,100.0,2018_poblacion/poblacion.csv,sexo,sexo = 2
+personas,mujer,2020,100.0,2020_poblacion/poblacion.csv,sexo,sexo = 2
+personas,mujer,2022,100.0,2022_poblacion/poblacion.csv,sexo,sexo = 2
+personas,mujer,2024,100.0,2024_poblacion/poblacion.csv,sexo,sexo = 2
+personas,indigena,2016,100.0,2016_poblacion/poblacion.csv,hablaind,hablaind = 1
+personas,indigena,2018,100.0,2018_poblacion/poblacion.csv,hablaind,hablaind = 1
+personas,indigena,2020,100.0,2020_poblacion/poblacion.csv,hablaind,hablaind = 1
+personas,indigena,2022,100.0,2022_poblacion/poblacion.csv,hablaind,hablaind = 1
+personas,indigena,2024,100.0,2024_poblacion/poblacion.csv,hablaind,hablaind = 1
+personas,asiste,2016,95.06,2016_poblacion/poblacion.csv,asis_esc,asis_esc = 1; faltante si no aplica
+personas,asiste,2018,95.4,2018_poblacion/poblacion.csv,asis_esc,asis_esc = 1; faltante si no aplica
+personas,asiste,2020,95.98,2020_poblacion/poblacion.csv,asis_esc,asis_esc = 1; faltante si no aplica
+personas,asiste,2022,96.3,2022_poblacion/poblacion.csv,asis_esc,asis_esc = 1; faltante si no aplica
+personas,asiste,2024,96.55,2024_poblacion/poblacion.csv,asis_esc,asis_esc = 1; faltante si no aplica
+personas,ing_cor_pc,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",ingreso corriente trimestral entre integrantes
+personas,ing_cor_pc,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",ingreso corriente trimestral entre integrantes
+personas,ing_cor_pc,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",ingreso corriente trimestral entre integrantes
+personas,ing_cor_pc,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",ingreso corriente trimestral entre integrantes
+personas,ing_cor_pc,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",ingreso corriente trimestral entre integrantes
+personas,ing_lab_pc,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",ingreso del trabajo entre integrantes
+personas,ing_lab_pc,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",ingreso del trabajo entre integrantes
+personas,ing_lab_pc,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",ingreso del trabajo entre integrantes
+personas,ing_lab_pc,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",ingreso del trabajo entre integrantes
+personas,ing_lab_pc,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",ingreso del trabajo entre integrantes
+personas,log_ing_pc,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita nominal)
+personas,log_ing_pc,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita nominal)
+personas,log_ing_pc,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita nominal)
+personas,log_ing_pc,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita nominal)
+personas,log_ing_pc,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita nominal)
+personas,log_ing_lab_pc,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",log(1 + ingreso laboral per cápita nominal)
+personas,log_ing_lab_pc,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",log(1 + ingreso laboral per cápita nominal)
+personas,log_ing_lab_pc,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",log(1 + ingreso laboral per cápita nominal)
+personas,log_ing_lab_pc,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",log(1 + ingreso laboral per cápita nominal)
+personas,log_ing_lab_pc,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ingtrab, tot_integ",log(1 + ingreso laboral per cápita nominal)
+personas,educ_baja,2016,100.0,2016_poblacion/poblacion.csv,nivelaprob,nivelaprob ≤ 2 (hasta primaria)
+personas,educ_baja,2018,100.0,2018_poblacion/poblacion.csv,nivelaprob,nivelaprob ≤ 2 (hasta primaria)
+personas,educ_baja,2020,100.0,2020_poblacion/poblacion.csv,nivelaprob,nivelaprob ≤ 2 (hasta primaria)
+personas,educ_baja,2022,100.0,2022_poblacion/poblacion.csv,nivelaprob,nivelaprob ≤ 2 (hasta primaria)
+personas,educ_baja,2024,100.0,2024_poblacion/poblacion.csv,nivelaprob,nivelaprob ≤ 2 (hasta primaria)
+personas,fuente,2016,100.0,—,—,etiqueta de procedencia por fila
+personas,fuente,2018,100.0,—,—,etiqueta de procedencia por fila
+personas,fuente,2020,100.0,—,—,etiqueta de procedencia por fila
+personas,fuente,2022,100.0,—,—,etiqueta de procedencia por fila
+personas,fuente,2024,100.0,—,—,etiqueta de procedencia por fila
+hogares,anio,2016,100.0,nombre del archivo,—,año del levantamiento
+hogares,anio,2018,100.0,nombre del archivo,—,año del levantamiento
+hogares,anio,2020,100.0,nombre del archivo,—,año del levantamiento
+hogares,anio,2022,100.0,nombre del archivo,—,año del levantamiento
+hogares,anio,2024,100.0,nombre del archivo,—,año del levantamiento
+hogares,folioviv,2016,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+hogares,folioviv,2018,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+hogares,folioviv,2020,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+hogares,folioviv,2022,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+hogares,folioviv,2024,100.0,todas,folioviv,relleno a 10 dígitos; llave de vivienda
+hogares,foliohog,2016,100.0,2016_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+hogares,foliohog,2018,100.0,2018_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+hogares,foliohog,2020,100.0,2020_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+hogares,foliohog,2022,100.0,2022_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+hogares,foliohog,2024,100.0,2024_poblacion/poblacion.csv,foliohog,copia con coerción numérica
+hogares,entidad,2016,100.0,todas,folioviv,dos primeros dígitos de folioviv
+hogares,entidad,2018,100.0,todas,folioviv,dos primeros dígitos de folioviv
+hogares,entidad,2020,100.0,todas,folioviv,dos primeros dígitos de folioviv
+hogares,entidad,2022,100.0,todas,folioviv,dos primeros dígitos de folioviv
+hogares,entidad,2024,100.0,todas,folioviv,dos primeros dígitos de folioviv
+hogares,ubica_geo,2016,100.0,2016_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+hogares,ubica_geo,2018,100.0,2018_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+hogares,ubica_geo,2020,100.0,2020_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+hogares,ubica_geo,2022,100.0,2022_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+hogares,ubica_geo,2024,100.0,2024_concentradohogar/concentradohogar.csv,ubica_geo,clave de entidad y municipio a cinco dígitos; en 2016 se recortan los nueve dígitos publicados (los cuatro últimos son ceros)
+hogares,rural,2016,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+hogares,rural,2018,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+hogares,rural,2020,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+hogares,rural,2022,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+hogares,rural,2024,100.0,todas,folioviv,"tercer dígito de folioviv igual a 6: ámbito rural de la ENIGH (localidades de menos de 2,500 habitantes); difiere de tam_loc = 4 en 0.3% de los hogares"
+hogares,est_dis,2016,100.0,2016_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+hogares,est_dis,2018,100.0,2018_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+hogares,est_dis,2020,100.0,2020_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+hogares,est_dis,2022,100.0,2022_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+hogares,est_dis,2024,100.0,2024_concentradohogar/concentradohogar.csv,est_dis,copia con coerción numérica
+hogares,upm,2016,100.0,2016_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+hogares,upm,2018,100.0,2018_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+hogares,upm,2020,100.0,2020_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+hogares,upm,2022,100.0,2022_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+hogares,upm,2024,100.0,2024_concentradohogar/concentradohogar.csv,upm,copia con coerción numérica
+hogares,factor,2016,100.0,2016_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+hogares,factor,2018,100.0,2018_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+hogares,factor,2020,100.0,2020_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+hogares,factor,2022,100.0,2022_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+hogares,factor,2024,100.0,2024_concentradohogar/concentradohogar.csv,factor,copia con coerción numérica
+hogares,ia_mod_sev,2016,100.0,2016_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+hogares,ia_mod_sev,2018,100.0,2018_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+hogares,ia_mod_sev,2020,100.0,2020_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+hogares,ia_mod_sev,2022,100.0,2022_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+hogares,ia_mod_sev,2024,100.0,2024_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 4 de 12; sin menores, al menos 3 de 6"
+hogares,ia_severa,2016,100.0,2016_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+hogares,ia_severa,2018,100.0,2018_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+hogares,ia_severa,2020,100.0,2020_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+hogares,ia_severa,2022,100.0,2022_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+hogares,ia_severa,2024,100.0,2024_hogares/hogares.csv,acc_alim2 a 16,"con menores, al menos 8 de 12; sin menores, al menos 5 de 6"
+hogares,ia_adultos,2016,100.0,2016_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+hogares,ia_adultos,2018,100.0,2018_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+hogares,ia_adultos,2020,100.0,2020_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+hogares,ia_adultos,2022,100.0,2022_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+hogares,ia_adultos,2024,100.0,2024_hogares/hogares.csv,"acc_alim2, 4, 5, 6, 7, 8",reactivos de adultos de la EMSA respondidos con sí
+hogares,ing_pc_real,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",per cápita en pesos de agosto de 2024
+hogares,ing_pc_real,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",per cápita en pesos de agosto de 2024
+hogares,ing_pc_real,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",per cápita en pesos de agosto de 2024
+hogares,ing_pc_real,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",per cápita en pesos de agosto de 2024
+hogares,ing_pc_real,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",per cápita en pesos de agosto de 2024
+hogares,sexo_jefe,2016,100.0,2016_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+hogares,sexo_jefe,2018,100.0,2018_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+hogares,sexo_jefe,2020,100.0,2020_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+hogares,sexo_jefe,2022,100.0,2022_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+hogares,sexo_jefe,2024,100.0,2024_concentradohogar/concentradohogar.csv,sexo_jefe,copia con coerción numérica
+hogares,tam_loc,2016,100.0,2016_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+hogares,tam_loc,2018,100.0,2018_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+hogares,tam_loc,2020,100.0,2020_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+hogares,tam_loc,2022,100.0,2022_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+hogares,tam_loc,2024,100.0,2024_concentradohogar/concentradohogar.csv,tam_loc,copia con coerción numérica
+hogares,est_socio,2016,100.0,2016_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+hogares,est_socio,2018,100.0,2018_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+hogares,est_socio,2020,100.0,2020_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+hogares,est_socio,2022,100.0,2022_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+hogares,est_socio,2024,100.0,2024_concentradohogar/concentradohogar.csv,est_socio,copia con coerción numérica
+hogares,reg_centro_occ,2016,100.0,todas,folioviv,entidad en la región centro occidente
+hogares,reg_centro_occ,2018,100.0,todas,folioviv,entidad en la región centro occidente
+hogares,reg_centro_occ,2020,100.0,todas,folioviv,entidad en la región centro occidente
+hogares,reg_centro_occ,2022,100.0,todas,folioviv,entidad en la región centro occidente
+hogares,reg_centro_occ,2024,100.0,todas,folioviv,entidad en la región centro occidente
+hogares,reg_centro,2016,100.0,todas,folioviv,entidad en la región centro
+hogares,reg_centro,2018,100.0,todas,folioviv,entidad en la región centro
+hogares,reg_centro,2020,100.0,todas,folioviv,entidad en la región centro
+hogares,reg_centro,2022,100.0,todas,folioviv,entidad en la región centro
+hogares,reg_centro,2024,100.0,todas,folioviv,entidad en la región centro
+hogares,reg_sur,2016,100.0,todas,folioviv,entidad en la región sur
+hogares,reg_sur,2018,100.0,todas,folioviv,entidad en la región sur
+hogares,reg_sur,2020,100.0,todas,folioviv,entidad en la región sur
+hogares,reg_sur,2022,100.0,todas,folioviv,entidad en la región sur
+hogares,reg_sur,2024,100.0,todas,folioviv,entidad en la región sur
+hogares,edad_jefe,2016,100.0,2016_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+hogares,edad_jefe,2018,100.0,2018_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+hogares,edad_jefe,2020,100.0,2020_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+hogares,edad_jefe,2022,100.0,2022_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+hogares,edad_jefe,2024,100.0,2024_concentradohogar/concentradohogar.csv,edad_jefe,copia con coerción numérica
+hogares,jefa_mujer,2016,100.0,2016_concentradohogar/concentradohogar.csv,sexo_jefe,sexo_jefe = 2
+hogares,jefa_mujer,2018,100.0,2018_concentradohogar/concentradohogar.csv,sexo_jefe,sexo_jefe = 2
+hogares,jefa_mujer,2020,100.0,2020_concentradohogar/concentradohogar.csv,sexo_jefe,sexo_jefe = 2
+hogares,jefa_mujer,2022,100.0,2022_concentradohogar/concentradohogar.csv,sexo_jefe,sexo_jefe = 2
+hogares,jefa_mujer,2024,100.0,2024_concentradohogar/concentradohogar.csv,sexo_jefe,sexo_jefe = 2
+hogares,educa_jefe,2016,100.0,2016_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+hogares,educa_jefe,2018,100.0,2018_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+hogares,educa_jefe,2020,100.0,2020_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+hogares,educa_jefe,2022,100.0,2022_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+hogares,educa_jefe,2024,100.0,2024_concentradohogar/concentradohogar.csv,educa_jefe,copia con coerción numérica
+hogares,tot_integ,2016,100.0,2016_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+hogares,tot_integ,2018,100.0,2018_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+hogares,tot_integ,2020,100.0,2020_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+hogares,tot_integ,2022,100.0,2022_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+hogares,tot_integ,2024,100.0,2024_concentradohogar/concentradohogar.csv,tot_integ,copia con coerción numérica
+hogares,menores,2016,100.0,2016_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+hogares,menores,2018,100.0,2018_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+hogares,menores,2020,100.0,2020_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+hogares,menores,2022,100.0,2022_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+hogares,menores,2024,100.0,2024_concentradohogar/concentradohogar.csv,menores,copia con coerción numérica
+hogares,p65mas,2016,100.0,2016_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+hogares,p65mas,2018,100.0,2018_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+hogares,p65mas,2020,100.0,2020_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+hogares,p65mas,2022,100.0,2022_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+hogares,p65mas,2024,100.0,2024_concentradohogar/concentradohogar.csv,p65mas,copia con coerción numérica
+hogares,habla_indigena_hog,2016,100.0,2016_poblacion/poblacion.csv,hablaind,algún integrante habla lengua indígena
+hogares,habla_indigena_hog,2018,100.0,2018_poblacion/poblacion.csv,hablaind,algún integrante habla lengua indígena
+hogares,habla_indigena_hog,2020,100.0,2020_poblacion/poblacion.csv,hablaind,algún integrante habla lengua indígena
+hogares,habla_indigena_hog,2022,100.0,2022_poblacion/poblacion.csv,hablaind,algún integrante habla lengua indígena
+hogares,habla_indigena_hog,2024,100.0,2024_poblacion/poblacion.csv,hablaind,algún integrante habla lengua indígena
+hogares,ocupados_pc,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ocupados, tot_integ",ocupados entre integrantes
+hogares,ocupados_pc,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ocupados, tot_integ",ocupados entre integrantes
+hogares,ocupados_pc,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ocupados, tot_integ",ocupados entre integrantes
+hogares,ocupados_pc,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ocupados, tot_integ",ocupados entre integrantes
+hogares,ocupados_pc,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ocupados, tot_integ",ocupados entre integrantes
+hogares,afiliacion_laboral,2016,100.0,2016_poblacion/poblacion.csv,inscr_1,algún integrante con inscripción por prestación laboral
+hogares,afiliacion_laboral,2018,100.0,2018_poblacion/poblacion.csv,inscr_1,algún integrante con inscripción por prestación laboral
+hogares,afiliacion_laboral,2020,100.0,2020_poblacion/poblacion.csv,inscr_1,algún integrante con inscripción por prestación laboral
+hogares,afiliacion_laboral,2022,100.0,2022_poblacion/poblacion.csv,inscr_1,algún integrante con inscripción por prestación laboral
+hogares,afiliacion_laboral,2024,100.0,2024_poblacion/poblacion.csv,inscr_1,algún integrante con inscripción por prestación laboral
+hogares,auto,2016,100.0,2016_hogares/hogares.csv,"num_auto, num_van, num_pickup, num_pick",algún vehículo
+hogares,auto,2018,100.0,2018_hogares/hogares.csv,"num_auto, num_van, num_pickup, num_pick",algún vehículo
+hogares,auto,2020,100.0,2020_hogares/hogares.csv,"num_auto, num_van, num_pickup, num_pick",algún vehículo
+hogares,auto,2022,100.0,2022_hogares/hogares.csv,"num_auto, num_van, num_pickup, num_pick",algún vehículo
+hogares,auto,2024,100.0,2024_hogares/hogares.csv,"num_auto, num_van, num_pickup, num_pick",algún vehículo
+hogares,refri,2016,100.0,2016_hogares/hogares.csv,num_refri,al menos un refrigerador
+hogares,refri,2018,100.0,2018_hogares/hogares.csv,num_refri,al menos un refrigerador
+hogares,refri,2020,100.0,2020_hogares/hogares.csv,num_refri,al menos un refrigerador
+hogares,refri,2022,100.0,2022_hogares/hogares.csv,num_refri,al menos un refrigerador
+hogares,refri,2024,100.0,2024_hogares/hogares.csv,num_refri,al menos un refrigerador
+hogares,lavadora,2016,100.0,2016_hogares/hogares.csv,num_lavad,al menos una lavadora
+hogares,lavadora,2018,100.0,2018_hogares/hogares.csv,num_lavad,al menos una lavadora
+hogares,lavadora,2020,100.0,2020_hogares/hogares.csv,num_lavad,al menos una lavadora
+hogares,lavadora,2022,100.0,2022_hogares/hogares.csv,num_lavad,al menos una lavadora
+hogares,lavadora,2024,100.0,2024_hogares/hogares.csv,num_lavad,al menos una lavadora
+hogares,computadora,2016,100.0,2016_hogares/hogares.csv,"num_compu, num_lap",al menos una computadora o laptop
+hogares,computadora,2018,100.0,2018_hogares/hogares.csv,"num_compu, num_lap",al menos una computadora o laptop
+hogares,computadora,2020,100.0,2020_hogares/hogares.csv,"num_compu, num_lap",al menos una computadora o laptop
+hogares,computadora,2022,100.0,2022_hogares/hogares.csv,"num_compu, num_lap",al menos una computadora o laptop
+hogares,computadora,2024,100.0,2024_hogares/hogares.csv,"num_compu, num_lap",al menos una computadora o laptop
+hogares,internet,2016,100.0,2016_hogares/hogares.csv,conex_inte,conex_inte = 1
+hogares,internet,2018,100.0,2018_hogares/hogares.csv,conex_inte,conex_inte = 1
+hogares,internet,2020,100.0,2020_hogares/hogares.csv,conex_inte,conex_inte = 1
+hogares,internet,2022,100.0,2022_hogares/hogares.csv,conex_inte,conex_inte = 1
+hogares,internet,2024,100.0,2024_hogares/hogares.csv,conex_inte,conex_inte = 1
+hogares,celular,2016,100.0,2016_hogares/hogares.csv,celular,celular = 1
+hogares,celular,2018,100.0,2018_hogares/hogares.csv,celular,celular = 1
+hogares,celular,2020,100.0,2020_hogares/hogares.csv,celular,celular = 1
+hogares,celular,2022,100.0,2022_hogares/hogares.csv,celular,celular = 1
+hogares,celular,2024,100.0,2024_hogares/hogares.csv,celular,celular = 1
+hogares,recibe_remesas,2016,100.0,2016_concentradohogar/concentradohogar.csv,remesas,remesas > 0
+hogares,recibe_remesas,2018,100.0,2018_concentradohogar/concentradohogar.csv,remesas,remesas > 0
+hogares,recibe_remesas,2020,100.0,2020_concentradohogar/concentradohogar.csv,remesas,remesas > 0
+hogares,recibe_remesas,2022,100.0,2022_concentradohogar/concentradohogar.csv,remesas,remesas > 0
+hogares,recibe_remesas,2024,100.0,2024_concentradohogar/concentradohogar.csv,remesas,remesas > 0
+hogares,recibe_programas,2016,100.0,2016_concentradohogar/concentradohogar.csv,bene_gob,bene_gob > 0
+hogares,recibe_programas,2018,100.0,2018_concentradohogar/concentradohogar.csv,bene_gob,bene_gob > 0
+hogares,recibe_programas,2020,100.0,2020_concentradohogar/concentradohogar.csv,bene_gob,bene_gob > 0
+hogares,recibe_programas,2022,100.0,2022_concentradohogar/concentradohogar.csv,bene_gob,bene_gob > 0
+hogares,recibe_programas,2024,100.0,2024_concentradohogar/concentradohogar.csv,bene_gob,bene_gob > 0
+hogares,recibe_jubilacion,2016,100.0,2016_concentradohogar/concentradohogar.csv,jubilacion,jubilacion > 0
+hogares,recibe_jubilacion,2018,100.0,2018_concentradohogar/concentradohogar.csv,jubilacion,jubilacion > 0
+hogares,recibe_jubilacion,2020,100.0,2020_concentradohogar/concentradohogar.csv,jubilacion,jubilacion > 0
+hogares,recibe_jubilacion,2022,100.0,2022_concentradohogar/concentradohogar.csv,jubilacion,jubilacion > 0
+hogares,recibe_jubilacion,2024,100.0,2024_concentradohogar/concentradohogar.csv,jubilacion,jubilacion > 0
+hogares,liconsa,2016,100.0,2016_hogares/hogares.csv,bene_licon,bene_licon = 1
+hogares,liconsa,2018,100.0,2018_hogares/hogares.csv,bene_licon,bene_licon = 1
+hogares,liconsa,2020,100.0,2020_hogares/hogares.csv,bene_licon,bene_licon = 1
+hogares,liconsa,2022,100.0,2022_hogares/hogares.csv,bene_licon,bene_licon = 1
+hogares,liconsa,2024,100.0,2024_hogares/hogares.csv,bene_licon,bene_licon = 1
+hogares,log_ing_pc_real,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita real)
+hogares,log_ing_pc_real,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita real)
+hogares,log_ing_pc_real,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita real)
+hogares,log_ing_pc_real,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita real)
+hogares,log_ing_pc_real,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ing_cor, tot_integ",log(1 + ingreso per cápita real)
+hogares,prop_ing_trabajo,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ingtrab, ing_cor",proporción del ingreso que viene del trabajo
+hogares,prop_ing_trabajo,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ingtrab, ing_cor",proporción del ingreso que viene del trabajo
+hogares,prop_ing_trabajo,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ingtrab, ing_cor",proporción del ingreso que viene del trabajo
+hogares,prop_ing_trabajo,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ingtrab, ing_cor",proporción del ingreso que viene del trabajo
+hogares,prop_ing_trabajo,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ingtrab, ing_cor",proporción del ingreso que viene del trabajo
+hogares,prop_transferencias,2016,100.0,2016_concentradohogar/concentradohogar.csv,"transfer, ing_cor",proporción del ingreso por transferencias
+hogares,prop_transferencias,2018,100.0,2018_concentradohogar/concentradohogar.csv,"transfer, ing_cor",proporción del ingreso por transferencias
+hogares,prop_transferencias,2020,100.0,2020_concentradohogar/concentradohogar.csv,"transfer, ing_cor",proporción del ingreso por transferencias
+hogares,prop_transferencias,2022,100.0,2022_concentradohogar/concentradohogar.csv,"transfer, ing_cor",proporción del ingreso por transferencias
+hogares,prop_transferencias,2024,100.0,2024_concentradohogar/concentradohogar.csv,"transfer, ing_cor",proporción del ingreso por transferencias
+hogares,log_gasto_pc_real,2016,100.0,2016_concentradohogar/concentradohogar.csv,"gasto_mon, tot_integ",log(1 + gasto monetario per cápita real)
+hogares,log_gasto_pc_real,2018,100.0,2018_concentradohogar/concentradohogar.csv,"gasto_mon, tot_integ",log(1 + gasto monetario per cápita real)
+hogares,log_gasto_pc_real,2020,100.0,2020_concentradohogar/concentradohogar.csv,"gasto_mon, tot_integ",log(1 + gasto monetario per cápita real)
+hogares,log_gasto_pc_real,2022,100.0,2022_concentradohogar/concentradohogar.csv,"gasto_mon, tot_integ",log(1 + gasto monetario per cápita real)
+hogares,log_gasto_pc_real,2024,100.0,2024_concentradohogar/concentradohogar.csv,"gasto_mon, tot_integ",log(1 + gasto monetario per cápita real)
+hogares,log_gasto_alim_pc_real,2016,100.0,2016_concentradohogar/concentradohogar.csv,"alimentos, tot_integ",log(1 + gasto en alimentos per cápita real)
+hogares,log_gasto_alim_pc_real,2018,100.0,2018_concentradohogar/concentradohogar.csv,"alimentos, tot_integ",log(1 + gasto en alimentos per cápita real)
+hogares,log_gasto_alim_pc_real,2020,100.0,2020_concentradohogar/concentradohogar.csv,"alimentos, tot_integ",log(1 + gasto en alimentos per cápita real)
+hogares,log_gasto_alim_pc_real,2022,100.0,2022_concentradohogar/concentradohogar.csv,"alimentos, tot_integ",log(1 + gasto en alimentos per cápita real)
+hogares,log_gasto_alim_pc_real,2024,100.0,2024_concentradohogar/concentradohogar.csv,"alimentos, tot_integ",log(1 + gasto en alimentos per cápita real)
+hogares,prop_alimentos,2016,100.0,2016_concentradohogar/concentradohogar.csv,"alimentos, gasto_mon",proporción del gasto en alimentos
+hogares,prop_alimentos,2018,100.0,2018_concentradohogar/concentradohogar.csv,"alimentos, gasto_mon",proporción del gasto en alimentos
+hogares,prop_alimentos,2020,100.0,2020_concentradohogar/concentradohogar.csv,"alimentos, gasto_mon",proporción del gasto en alimentos
+hogares,prop_alimentos,2022,100.0,2022_concentradohogar/concentradohogar.csv,"alimentos, gasto_mon",proporción del gasto en alimentos
+hogares,prop_alimentos,2024,100.0,2024_concentradohogar/concentradohogar.csv,"alimentos, gasto_mon",proporción del gasto en alimentos
+hogares,prop_alim_fuera,2016,100.0,2016_concentradohogar/concentradohogar.csv,"ali_fuera, alimentos",proporción del gasto en alimentos fuera del hogar
+hogares,prop_alim_fuera,2018,100.0,2018_concentradohogar/concentradohogar.csv,"ali_fuera, alimentos",proporción del gasto en alimentos fuera del hogar
+hogares,prop_alim_fuera,2020,100.0,2020_concentradohogar/concentradohogar.csv,"ali_fuera, alimentos",proporción del gasto en alimentos fuera del hogar
+hogares,prop_alim_fuera,2022,100.0,2022_concentradohogar/concentradohogar.csv,"ali_fuera, alimentos",proporción del gasto en alimentos fuera del hogar
+hogares,prop_alim_fuera,2024,100.0,2024_concentradohogar/concentradohogar.csv,"ali_fuera, alimentos",proporción del gasto en alimentos fuera del hogar
+hogares,prestamos_recibidos,2016,100.0,2016_concentradohogar/concentradohogar.csv,prestamos,prestamos > 0
+hogares,prestamos_recibidos,2018,100.0,2018_concentradohogar/concentradohogar.csv,prestamos,prestamos > 0
+hogares,prestamos_recibidos,2020,100.0,2020_concentradohogar/concentradohogar.csv,prestamos,prestamos > 0
+hogares,prestamos_recibidos,2022,100.0,2022_concentradohogar/concentradohogar.csv,prestamos,prestamos > 0
+hogares,prestamos_recibidos,2024,100.0,2024_concentradohogar/concentradohogar.csv,prestamos,prestamos > 0

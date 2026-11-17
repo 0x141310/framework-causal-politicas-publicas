@@ -1,0 +1,77 @@
+{
+ "variables": {
+  "personas": 74,
+  "hogares": 46
+ },
+ "tipos_inferidos": {
+  "binaria": 50,
+  "continua": 26,
+  "categórica": 19,
+  "conteo": 7,
+  "diseño muestral": 6,
+  "identificador": 5,
+  "territorial": 4,
+  "temporal": 2,
+  "nominal": 1
+ },
+ "deteccion_frente_a_referencia": {
+  "evaluadas": 102,
+  "coinciden": 99,
+  "exactitud": 0.9706,
+  "no_coinciden": [
+   {
+    "base": "personas",
+    "variable": "parentesco",
+    "tipo_inferido": "conteo",
+    "tipo_referencia": "categórica",
+    "regla": "enteros no negativos con más de 12 valores"
+   },
+   {
+    "base": "personas",
+    "variable": "nivel",
+    "tipo_inferido": "conteo",
+    "tipo_referencia": "categórica",
+    "regla": "enteros no negativos con más de 12 valores"
+   },
+   {
+    "base": "personas",
+    "variable": "n_trabajos",
+    "tipo_inferido": "binaria",
+    "tipo_referencia": "categórica",
+    "regla": "dos valores distintos"
+   }
+  ]
+ },
+ "variables_sin_procedencia": [],
+ "conciliacion_coneval": {
+  "2016": {
+   "framework_pct": 19.95,
+   "oficial_pct": 20.1,
+   "diferencia_pp": -0.15
+  },
+  "2018": {
+   "framework_pct": 20.29,
+   "oficial_pct": 20.4,
+   "diferencia_pp": -0.11
+  }
+ },
+ "fuente_conciliacion": "https://www.coneval.org.mx/Medicion/MP/Documents/Pobreza_18/Pobreza_2018_CONEVAL.pdf"
+}
+base      tipo_inferido  
+hogares   binaria            21
+          categórica          6
+          conteo              2
+          continua            9
+          diseño muestral     3
+          identificador       2
+          temporal            1
+          territorial         2
+personas  binaria            29
+          categórica         13
+          conteo              5
+          continua           17
+          diseño muestral     3
+          identificador       3
+          nominal             1
+          temporal            1
+          territorial         2

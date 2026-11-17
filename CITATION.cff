@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Si usas este código o sus resultados, cítalo así."
+title: "Framework automatizado para descubrimiento causal y optimización de políticas públicas: código, pruebas y resultados"
+authors:
+  - family-names: "De Luna Aguilar"
+    given-names: "Emiliano"
+    affiliation: "Universidad Anáhuac Cancún"
+abstract: "Código, pruebas, datos procesados y resultados de la tesina del mismo nombre. El framework integra ingesta y armonización de datos, descubrimiento y estimación causal, predicción explicable y comparación de escenarios con restricciones. Se evaluó en Quintana Roo con la ENIGH 2016–2024 del INEGI."
+repository-code: "https://github.com/0x141310/framework-causal-politicas-publicas"
+url: "https://github.com/0x141310/framework-causal-politicas-publicas"
+version: "1.0.0"
+date-released: "2026-11-17"
+license: MIT
+type: software
+keywords:
+  - descubrimiento causal
+  - inferencia causal
+  - regresión discontinua
+  - política pública
+  - ENIGH
+  - Quintana Roo

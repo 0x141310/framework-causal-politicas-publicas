@@ -1,0 +1,25 @@
+{
+ "personas_65_72": 31989,
+ "recibe_p104_o_p045": 0.7480383881959424,
+ "recibe_p104": 0.7332833161399231,
+ "solo_p045_entre_receptores": 0.01972501985039074,
+ "monto_trimestral_mediano_solo_p045": {
+  "2022": 5576.08,
+  "2024": 8804.34
+ },
+ "monto_trimestral_mediano_p104": {
+  "2022": 5576.08,
+  "2024": 5901.63
+ },
+ "solo_p045_por_entidad_top5": {
+  "08": 36,
+  "03": 31,
+  "02": 25,
+  "17": 23,
+  "06": 22
+ }
+}
+todos pam PE 49.7 IA -1.8 [-3.9, 0.3] reactivos -0.13 [-0.23, -0.02] ingreso % 9.8 [np.float64(4.5), np.float64(15.0)]
+todos pam_p104 PE 48.8 IA -1.8 [-3.9, 0.3] reactivos -0.13 [-0.24, -0.03] ingreso % 10.0 [np.float64(4.6), np.float64(15.3)]
+mujeres pam PE 51.1 IA -2.9 [-5.8, -0.1] reactivos -0.17 [-0.3, -0.04] ingreso % 14.4 [np.float64(8.0), np.float64(21.5)]
+mujeres pam_p104 PE 50.5 IA -2.9 [-5.9, -0.1] reactivos -0.17 [-0.3, -0.04] ingreso % 14.6 [np.float64(8.1), np.float64(21.8)]

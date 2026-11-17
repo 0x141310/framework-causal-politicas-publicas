@@ -1,0 +1,1624 @@
+{
+ "vigente": "REG-3100: 3,100 pesos con orden de registro (reglas de 2026), sin prioridad",
+ "variante_edad": "U-3100: 3,100 pesos con prioridad por edad (escalonamiento de 2025)",
+ "elegidas": {
+  "R": "U-3100",
+  "P": "RR-3000",
+  "K": "NC-6000"
+ },
+ "maximin": {
+  "R": "U-3100",
+  "P": "IMP-3000",
+  "K": "NC-6000"
+ },
+ "condiciones": {
+  "R": {
+   "vigente": {
+    "opcion": "REG-3100",
+    "peor_cociente": 0.9904238112441128,
+    "cociente_medio": 0.9992019842703428,
+    "perdida_media_hogares": 0.5171166666666712,
+    "perdida_max_hogares": 6.205400000000054,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.8987,
+    "prop_q40": 0.3922
+   },
+   "edad": {
+    "opcion": "U-3100",
+    "peor_cociente": 0.9904238112441128,
+    "cociente_medio": 0.9992019842703428,
+    "perdida_media_hogares": 0.5171166666666712,
+    "perdida_max_hogares": 6.205400000000054,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.8987,
+    "prop_q40": 0.3922
+   },
+   "elegida": {
+    "opcion": "U-3100",
+    "peor_cociente": 0.9904238112441128,
+    "cociente_medio": 0.9992019842703428,
+    "perdida_media_hogares": 0.5171166666666712,
+    "perdida_max_hogares": 6.205400000000054,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.8987,
+    "prop_q40": 0.3922
+   },
+   "maximin": {
+    "opcion": "U-3100",
+    "peor_cociente": 0.9904238112441128,
+    "cociente_medio": 0.9992019842703428,
+    "perdida_media_hogares": 0.5171166666666712,
+    "perdida_max_hogares": 6.205400000000054,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.8987,
+    "prop_q40": 0.3922
+   },
+   "detalle": [
+    {
+     "modelo": "M0",
+     "curva": "D1",
+     "mejor_factible": 471.7516,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M0",
+     "curva": "D2",
+     "mejor_factible": 656.3088,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 656.3088,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 656.3088,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 656.3088,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 656.3088,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M0",
+     "curva": "D3",
+     "mejor_factible": 913.0677,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 913.0677,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 913.0677,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 913.0677,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 913.0677,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D1",
+     "mejor_factible": 500.7236,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D2",
+     "mejor_factible": 696.615,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 696.615,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 696.615,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 696.615,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 696.615,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D3",
+     "mejor_factible": 969.1424,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 969.1424,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 969.1424,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 969.1424,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 969.1424,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D1",
+     "mejor_factible": 648.0031,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 641.7977,
+      "cociente": 0.9904238112441128,
+      "perdida_hogares": 6.205400000000054,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 641.7977,
+      "cociente": 0.9904238112441128,
+      "perdida_hogares": 6.205400000000054,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 641.7977,
+      "cociente": 0.9904238112441128,
+      "perdida_hogares": 6.205400000000054,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 641.7977,
+      "cociente": 0.9904238112441128,
+      "perdida_hogares": 6.205400000000054,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D2",
+     "mejor_factible": 892.8797,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 892.8797,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 892.8797,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 892.8797,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 892.8797,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D3",
+     "mejor_factible": 1242.1891,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 1242.1891,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 1242.1891,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 1242.1891,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 1242.1891,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D1",
+     "mejor_factible": 93.0618,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D2",
+     "mejor_factible": 129.4691,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 129.4691,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 129.4691,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 129.4691,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 129.4691,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D3",
+     "mejor_factible": 180.1196,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 180.1196,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "elegida": {
+      "opcion": "U-3100",
+      "hogares": 180.1196,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "maximin": {
+      "opcion": "U-3100",
+      "hogares": 180.1196,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 180.1196,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.8987
+     }
+    }
+   ]
+  },
+  "P": {
+   "vigente": {
+    "opcion": "REG-3100",
+    "peor_cociente": 0.9221675081639804,
+    "cociente_medio": 0.9722438951164755,
+    "perdida_media_hogares": 16.883141666666674,
+    "perdida_max_hogares": 73.38999999999999,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.6291,
+    "prop_q40": 0.3922
+   },
+   "edad": {
+    "opcion": "U-3100",
+    "peor_cociente": 0.9297775723643853,
+    "cociente_medio": 0.9741780177764735,
+    "perdida_media_hogares": 15.54640000000002,
+    "perdida_max_hogares": 66.2143000000001,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.4541,
+    "prop_q40": 0.4248
+   },
+   "elegida": {
+    "opcion": "RR-3000",
+    "peor_cociente": 0.9348936879641421,
+    "cociente_medio": 0.9837234251418705,
+    "perdida_media_hogares": 11.291225000000006,
+    "perdida_max_hogares": 61.39020000000005,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.8278,
+    "prop_q40": 0.457
+   },
+   "maximin": {
+    "opcion": "IMP-3000",
+    "peor_cociente": 1.0,
+    "cociente_medio": 1.0,
+    "perdida_media_hogares": 0.0,
+    "perdida_max_hogares": 0.0,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.4787,
+    "prop_q40": 0.4307
+   },
+   "detalle": [
+    {
+     "modelo": "M0",
+     "curva": "D1",
+     "mejor_factible": 330.2261,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 330.2261,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 330.2261,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 330.2261,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 330.2261,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M0",
+     "curva": "D2",
+     "mejor_factible": 467.0103,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 459.4161,
+      "cociente": 0.9837386884186494,
+      "perdida_hogares": 7.594200000000001,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 467.0103,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 467.0103,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 459.4161,
+      "cociente": 0.9837386884186494,
+      "perdida_hogares": 7.594200000000001,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M0",
+     "curva": "D3",
+     "mejor_factible": 660.4523,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 639.1474,
+      "cociente": 0.9677419550208243,
+      "perdida_hogares": 21.30490000000009,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 660.4523,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 660.4523,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 639.1474,
+      "cociente": 0.9677419550208243,
+      "perdida_hogares": 21.30490000000009,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D1",
+     "mejor_factible": 350.5065,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 350.5065,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 350.5065,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 350.5065,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 350.5065,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D2",
+     "mejor_factible": 495.6911,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 487.6305,
+      "cociente": 0.983738663050436,
+      "perdida_hogares": 8.060600000000022,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 495.6911,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 495.6911,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 487.6305,
+      "cociente": 0.983738663050436,
+      "perdida_hogares": 8.060600000000022,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D3",
+     "mejor_factible": 701.013,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 678.3997,
+      "cociente": 0.967741967695321,
+      "perdida_hogares": 22.61329999999998,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 701.013,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 701.013,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 678.3997,
+      "cociente": 0.967741967695321,
+      "perdida_hogares": 22.61329999999998,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D1",
+     "mejor_factible": 471.4612,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 452.9658,
+      "cociente": 0.9607700485214902,
+      "perdida_hogares": 18.495400000000018,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 440.7661,
+      "cociente": 0.9348936879641421,
+      "perdida_hogares": 30.695100000000025,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 471.4612,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4007,
+      "cobertura_mujeres_en_ia": 0.4981
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 449.2584,
+      "cociente": 0.9529064109623443,
+      "perdida_hogares": 22.202800000000025,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D2",
+     "mejor_factible": 666.7468,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 630.1736,
+      "cociente": 0.9451467933554386,
+      "perdida_hogares": 36.57320000000004,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 623.3374,
+      "cociente": 0.934893725774162,
+      "perdida_hogares": 43.409400000000005,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 666.7468,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4007,
+      "cobertura_mujeres_en_ia": 0.4981
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 625.0158,
+      "cociente": 0.937411023195012,
+      "perdida_hogares": 41.730999999999995,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D3",
+     "mejor_factible": 942.9224,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 876.7081,
+      "cociente": 0.9297775723643853,
+      "perdida_hogares": 66.2143000000001,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 881.5322,
+      "cociente": 0.9348936879641421,
+      "perdida_hogares": 61.39020000000005,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 942.9224,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4007,
+      "cobertura_mujeres_en_ia": 0.4981
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 869.5324,
+      "cociente": 0.9221675081639804,
+      "perdida_hogares": 73.38999999999999,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D1",
+     "mejor_factible": 65.1433,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 65.1433,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 65.1433,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 65.1433,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 65.1433,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D2",
+     "mejor_factible": 92.1265,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 90.6284,
+      "cociente": 0.983738663685259,
+      "perdida_hogares": 1.4980999999999938,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 92.1265,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 92.1265,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 90.6284,
+      "cociente": 0.983738663685259,
+      "perdida_hogares": 1.4980999999999938,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D3",
+     "mejor_factible": 130.2865,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 126.0837,
+      "cociente": 0.9677418612058809,
+      "perdida_hogares": 4.202799999999996,
+      "factible": true,
+      "prop_q40": 0.4248,
+      "cobertura_mujeres_en_ia": 0.4541
+     },
+     "elegida": {
+      "opcion": "RR-3000",
+      "hogares": 130.2865,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.457,
+      "cobertura_mujeres_en_ia": 0.8278
+     },
+     "maximin": {
+      "opcion": "IMP-3000",
+      "hogares": 130.2865,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.4307,
+      "cobertura_mujeres_en_ia": 0.4787
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 126.0837,
+      "cociente": 0.9677418612058809,
+      "perdida_hogares": 4.202799999999996,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.6291
+     }
+    }
+   ]
+  },
+  "K": {
+   "vigente": {
+    "opcion": "REG-3100",
+    "peor_cociente": 0.5551746708935743,
+    "cociente_medio": 0.7764557487087544,
+    "perdida_media_hogares": 95.57341666666667,
+    "perdida_max_hogares": 286.1032,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.5,
+    "prop_q40": 0.3922
+   },
+   "edad": {
+    "opcion": "U-3100",
+    "peor_cociente": 0.5563711426170566,
+    "cociente_medio": 0.778604831185247,
+    "perdida_media_hogares": 94.14611666666669,
+    "perdida_max_hogares": 282.1446,
+    "combinaciones_infactibles": 12,
+    "cobertura_mujeres_en_ia_M0_D2": 0.3029,
+    "prop_q40": 0.3776
+   },
+   "elegida": {
+    "opcion": "NC-6000",
+    "peor_cociente": 0.9286362901568055,
+    "cociente_medio": 0.9762791595630681,
+    "perdida_media_hogares": 10.892641666666657,
+    "perdida_max_hogares": 48.827699999999936,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.3871,
+    "prop_q40": 0.3998
+   },
+   "maximin": {
+    "opcion": "NC-6000",
+    "peor_cociente": 0.9286362901568055,
+    "cociente_medio": 0.9762791595630681,
+    "perdida_media_hogares": 10.892641666666657,
+    "perdida_max_hogares": 48.827699999999936,
+    "combinaciones_infactibles": 0,
+    "cobertura_mujeres_en_ia_M0_D2": 0.3871,
+    "prop_q40": 0.3998
+   },
+   "detalle": [
+    {
+     "modelo": "M0",
+     "curva": "D1",
+     "mejor_factible": 471.7516,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 262.4691,
+      "cociente": 0.5563714039337652,
+      "perdida_hogares": 209.28249999999997,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 262.4691,
+      "cociente": 0.5563714039337652,
+      "perdida_hogares": 209.28249999999997,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M0",
+     "curva": "D2",
+     "mejor_factible": 471.7516,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 365.1513,
+      "cociente": 0.774032986851555,
+      "perdida_hogares": 106.6003,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 471.7516,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 365.1513,
+      "cociente": 0.774032986851555,
+      "perdida_hogares": 106.6003,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M0",
+     "curva": "D3",
+     "mejor_factible": 508.0046,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 508.0046,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 471.7516,
+      "cociente": 0.9286364729768195,
+      "perdida_hogares": 36.252999999999986,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 471.7516,
+      "cociente": 0.9286364729768195,
+      "perdida_hogares": 36.252999999999986,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 508.0046,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D1",
+     "mejor_factible": 500.7236,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 278.5882,
+      "cociente": 0.5563712195710367,
+      "perdida_hogares": 222.1354,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 278.5882,
+      "cociente": 0.5563712195710367,
+      "perdida_hogares": 222.1354,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D2",
+     "mejor_factible": 500.7236,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 387.5766,
+      "cociente": 0.7740330194143036,
+      "perdida_hogares": 113.14699999999999,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 500.7236,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 387.5766,
+      "cociente": 0.7740330194143036,
+      "perdida_hogares": 113.14699999999999,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M1",
+     "curva": "D3",
+     "mejor_factible": 539.203,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 539.203,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 500.7236,
+      "cociente": 0.9286365246484163,
+      "perdida_hogares": 38.4794,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 500.7236,
+      "cociente": 0.9286365246484163,
+      "perdida_hogares": 38.4794,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 539.203,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D1",
+     "mejor_factible": 643.181,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 361.0364,
+      "cociente": 0.5613293925038209,
+      "perdida_hogares": 282.1446,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 643.181,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 643.181,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 357.0778,
+      "cociente": 0.5551746708935743,
+      "perdida_hogares": 286.1032,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D2",
+     "mejor_factible": 643.181,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 502.2798,
+      "cociente": 0.7809307177917258,
+      "perdida_hogares": 140.90120000000002,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 643.181,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 643.181,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 496.7726,
+      "cociente": 0.7723682758041671,
+      "perdida_hogares": 146.40840000000003,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M2",
+     "curva": "D3",
+     "mejor_factible": 692.0087,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 698.7801,
+      "cociente": 1.0097851370943747,
+      "perdida_hogares": -6.771399999999971,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 643.181,
+      "cociente": 0.9294406269747766,
+      "perdida_hogares": 48.827699999999936,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 643.181,
+      "cociente": 0.9294406269747766,
+      "perdida_hogares": 48.827699999999936,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 691.1183,
+      "cociente": 0.9987133109742695,
+      "perdida_hogares": 0.8903999999999996,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D1",
+     "mejor_factible": 93.0618,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 51.7769,
+      "cociente": 0.5563711426170566,
+      "perdida_hogares": 41.28490000000001,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 51.7769,
+      "cociente": 0.5563711426170566,
+      "perdida_hogares": 41.28490000000001,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D2",
+     "mejor_factible": 93.0618,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 72.0329,
+      "cociente": 0.7740329544453255,
+      "perdida_hogares": 21.028900000000007,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 93.0618,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 72.0329,
+      "cociente": 0.7740329544453255,
+      "perdida_hogares": 21.028900000000007,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    },
+    {
+     "modelo": "M3",
+     "curva": "D3",
+     "mejor_factible": 100.2134,
+     "edad": {
+      "opcion": "U-3100",
+      "hogares": 100.2134,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": false,
+      "prop_q40": 0.3776,
+      "cobertura_mujeres_en_ia": 0.3029
+     },
+     "elegida": {
+      "opcion": "NC-6000",
+      "hogares": 93.0618,
+      "cociente": 0.9286362901568055,
+      "perdida_hogares": 7.151599999999988,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "maximin": {
+      "opcion": "NC-6000",
+      "hogares": 93.0618,
+      "cociente": 0.9286362901568055,
+      "perdida_hogares": 7.151599999999988,
+      "factible": true,
+      "prop_q40": 0.3998,
+      "cobertura_mujeres_en_ia": 0.3871
+     },
+     "vigente": {
+      "opcion": "REG-3100",
+      "hogares": 100.2134,
+      "cociente": 1.0,
+      "perdida_hogares": 0.0,
+      "factible": true,
+      "prop_q40": 0.3922,
+      "cobertura_mujeres_en_ia": 0.5
+     }
+    }
+   ]
+  }
+ }
+}

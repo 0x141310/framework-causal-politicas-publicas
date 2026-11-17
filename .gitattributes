@@ -1,0 +1,3 @@
+# Sin conversión de fin de línea: los archivos se descargan idénticos en todos los sistemas
+# y coinciden con MANIFEST.sha256.
+* -text

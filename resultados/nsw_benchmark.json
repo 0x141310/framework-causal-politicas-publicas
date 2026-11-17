@@ -1,0 +1,300 @@
+{
+  "experimental": {
+    "efecto": 1.7943425178527832,
+    "ic95": [
+      0.47918927669525146,
+      3.1094956398010254
+    ],
+    "n_t": 185,
+    "n_c": 260
+  },
+  "n_obs": 16177,
+  "arista_treat_re78": {
+    "PC": null,
+    "FCI": null,
+    "GES": null,
+    "LiNGAM": null
+  },
+  "grafo_candidato": [
+    "age --> educ",
+    "age --> marr",
+    "age --> re74",
+    "age --> re78",
+    "black --> educ",
+    "black --> marr",
+    "black --> treat",
+    "black --> re78",
+    "hisp --> educ",
+    "educ --> nodegree",
+    "educ --> re78",
+    "nodegree --> treat",
+    "marr --> re74",
+    "marr --> re75",
+    "marr --> treat",
+    "u74 --> re74",
+    "re74 --> re75",
+    "re74 --> re78",
+    "u74 --> re75",
+    "u74 --> u75",
+    "u74 --> treat",
+    "u75 --> re75",
+    "re75 --> re78",
+    "u75 --> treat",
+    "u75 --> re78"
+  ],
+  "identificacion": {
+    "x": "treat",
+    "y": "re78",
+    "metodo_grafo": "consenso(τ=0.6)",
+    "n_dags": 1,
+    "conjuntos_ajuste": [
+      null
+    ],
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles treat no es ancestro de re78"
+  },
+  "fci": {
+    "arista_xy": null,
+    "estado": "sin_adyacencia",
+    "motivo": "FCI no encuentra adyacencia directa; puede existir efecto indirecto"
+  },
+  "ajuste_descubierto": [
+    "black",
+    "marr",
+    "nodegree",
+    "u74",
+    "u75"
+  ],
+  "ajuste_pretratamiento": [
+    "age",
+    "black",
+    "hisp",
+    "educ",
+    "nodegree",
+    "marr",
+    "re74",
+    "u74",
+    "re75",
+    "u75"
+  ],
+  "estimaciones": {
+    "ingenuo": {
+      "estimador": "ajuste lineal (MCO, HC3)",
+      "efecto": -8.497516289788948,
+      "ee": 0.5849886188862641,
+      "ic95": [
+        -9.644158716567862,
+        -7.350873863010032
+      ],
+      "p": 0.0,
+      "t_clasico": -11.934366359602134,
+      "dof": 16175,
+      "n": 16177,
+      "ajuste": [],
+      "sesgo_vs_experimento": -10.29185880764173,
+      "cubre_experimento": false
+    },
+    "MCO_descubierto": {
+      "estimador": "ajuste lineal (MCO, HC3)",
+      "efecto": 2.7554459430230844,
+      "ee": 0.7686546056905611,
+      "ic95": [
+        1.2487978231044945,
+        4.262094062941674
+      ],
+      "p": 0.00033837539945791306,
+      "t_clasico": 4.12984690364015,
+      "dof": 16170,
+      "n": 16177,
+      "ajuste": [
+        "black",
+        "marr",
+        "nodegree",
+        "u74",
+        "u75"
+      ],
+      "sesgo_vs_experimento": 0.9611034251703012,
+      "cubre_experimento": true
+    },
+    "MCO_pretratamiento": {
+      "estimador": "ajuste lineal (MCO, HC3)",
+      "efecto": 1.0663763402963384,
+      "ee": 0.6302716447968442,
+      "ic95": [
+        -0.16902588539555552,
+        2.3017785659882324
+      ],
+      "p": 0.09067834144483089,
+      "t_clasico": 1.926239723013424,
+      "dof": 16165,
+      "n": 16177,
+      "ajuste": [
+        "age",
+        "black",
+        "hisp",
+        "educ",
+        "nodegree",
+        "marr",
+        "re74",
+        "u74",
+        "re75",
+        "u75"
+      ],
+      "sesgo_vs_experimento": -0.7279661775564448,
+      "cubre_experimento": true
+    },
+    "AIPW_ATT_descubierto": {
+      "estimador": "AIPW-ATT ajuste cruzado (boosting)",
+      "efecto": 0.38617723815163196,
+      "ee": 0.7320514747075104,
+      "ic95": [
+        -1.0486436522750884,
+        1.8209981285783523
+      ],
+      "p": 0.5978273684140032,
+      "n": 16177,
+      "tamano_efectivo_controles": 255.62635979750908,
+      "traslape": {
+        "ps_tratados_p1_p50_p99": [
+          0.0,
+          0.362,
+          0.644
+        ],
+        "ps_control_p50_p99_p999": [
+          0.0007,
+          0.1273,
+          0.6371
+        ]
+      },
+      "ajuste": [
+        "black",
+        "marr",
+        "nodegree",
+        "u74",
+        "u75"
+      ],
+      "sesgo_vs_experimento": -1.4081652797011512,
+      "cubre_experimento": true
+    },
+    "AIPW_ATT_pretratamiento": {
+      "estimador": "AIPW-ATT ajuste cruzado (boosting)",
+      "efecto": 1.6445059336454804,
+      "ee": 0.8751738966307424,
+      "ic95": [
+        -0.07083490375077472,
+        3.3598467710417355
+      ],
+      "p": 0.06023604032591878,
+      "n": 16177,
+      "tamano_efectivo_controles": 74.18206931634666,
+      "traslape": {
+        "ps_tratados_p1_p50_p99": [
+          0.0,
+          0.359,
+          0.913
+        ],
+        "ps_control_p50_p99_p999": [
+          0.0003,
+          0.1489,
+          0.6706
+        ]
+      },
+      "ajuste": [
+        "age",
+        "black",
+        "hisp",
+        "educ",
+        "nodegree",
+        "marr",
+        "re74",
+        "u74",
+        "re75",
+        "u75"
+      ],
+      "sesgo_vs_experimento": -0.14983658420730284,
+      "cubre_experimento": true
+    },
+    "AIPW_ATT_pretratamiento_recorte": {
+      "estimador": "AIPW-ATT ajuste cruzado (boosting)",
+      "efecto": 1.9429355954357297,
+      "ee": 0.8697408578481259,
+      "ic95": [
+        0.23824351405340294,
+        3.6476276768180567
+      ],
+      "p": 0.025488027255995416,
+      "n": 16167,
+      "tamano_efectivo_controles": 79.96548526910074,
+      "traslape": {
+        "ps_tratados_p1_p50_p99": [
+          0.0,
+          0.359,
+          0.913
+        ],
+        "ps_control_p50_p99_p999": [
+          0.0003,
+          0.1489,
+          0.6706
+        ]
+      },
+      "ajuste": [
+        "age",
+        "black",
+        "hisp",
+        "educ",
+        "nodegree",
+        "marr",
+        "re74",
+        "u74",
+        "re75",
+        "u75"
+      ],
+      "sesgo_vs_experimento": 0.1485930775829465,
+      "cubre_experimento": true
+    }
+  },
+  "refutaciones": [
+    {
+      "prueba": "tratamiento placebo",
+      "efecto_real": 1.0663763402963384,
+      "placebo_media": -0.019027432739429417,
+      "placebo_p95_abs": 0.9026257954120107,
+      "p_permutacion": 0.0297029702970297,
+      "supera": true
+    },
+    {
+      "prueba": "causa común aleatoria",
+      "efecto_real": 1.0663763402963384,
+      "media": 1.0660080719975435,
+      "cambio_rel_max": 0.011966308580871946,
+      "supera": true
+    },
+    {
+      "prueba": "submuestras (80%)",
+      "efecto_real": 1.0663763402963384,
+      "p5_p95": [
+        0.5686180397150481,
+        1.5045770690873943
+      ],
+      "mismo_signo": 1.0,
+      "supera": true
+    },
+    {
+      "prueba": "control negativo (re75)",
+      "efecto": -1.134821059475669,
+      "ic95": [
+        -1.67158247700636,
+        -0.5980596419449778
+      ],
+      "supera": false
+    }
+  ],
+  "sensibilidad": {
+    "efecto_mco": 1.0663763402963384,
+    "t": 1.926239723013424,
+    "gl": 16165,
+    "R2_parcial_Y~D|X": 0.00022948023551936085,
+    "RV_q1": 0.0150360117475474,
+    "RV_q1_a05": 0.0
+  }
+}

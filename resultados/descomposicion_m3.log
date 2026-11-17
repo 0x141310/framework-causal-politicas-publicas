@@ -1,0 +1,4 @@
+o1 C total -0.1181 {'log_ing_pc_real': -0.0962, 'internet': -0.0232, 'lavadora': -0.0074, 'refri': -0.0024, 'auto': 0.0054, 'computadora': 0.0058} | sube: {'refri': -0.0024, 'auto': 0.0054, 'computadora': 0.0058}
+o1 T total -0.1371 {'log_ing_pc_real': -0.101, 'internet': -0.0224, 'tam_loc': -0.0058, 'lavadora': -0.0057, 'educa_jefe': -0.0041, 'prop_transferencias': -0.0035} | sube: {'jefa_mujer': 0.0039, 'auto': 0.0056, 'computadora': 0.0057}
+o2 C total -0.2154 {'log_ing_pc_real': -0.1216, 'internet': -0.0372, 'auto': -0.0277, 'computadora': -0.0211, 'lavadora': -0.006, 'refri': -0.0018} | sube: {'computadora': -0.0211, 'lavadora': -0.006, 'refri': -0.0018}
+o2 T total -0.2213 {'log_ing_pc_real': -0.1194, 'internet': -0.0398, 'auto': -0.0273, 'computadora': -0.02, 'educa_jefe': -0.0077, 'lavadora': -0.0056} | sube: {'jefa_mujer': 0.0023, 'recibe_programas': 0.0023, 'est_socio': 0.0083}

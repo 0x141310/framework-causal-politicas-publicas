@@ -1,0 +1,52 @@
+Verdad experimental (miles USD): 1.794 [0.479 3.109]
+Arista treat-re78: {'PC': None, 'FCI': None, 'GES': None, 'LiNGAM': None}
+Identificación: {'x': 'treat', 'y': 're78', 'metodo_grafo': 'consenso(τ=0.6)', 'n_dags': 1, 'conjuntos_ajuste': [None], 'estado': 'sin_camino_causal', 'motivo': 'en todos los DAG compatibles treat no es ancestro de re78'}
+FCI: {'arista_xy': None, 'estado': 'sin_adyacencia', 'motivo': 'FCI no encuentra adyacencia directa; puede existir efecto indirecto'}
+ingenuo                              -8.498  IC95 [-9.644, -7.351]  sesgo -10.292
+MCO_descubierto                       2.755  IC95 [1.249, 4.262]  sesgo +0.961
+MCO_pretratamiento                    1.066  IC95 [-0.169, 2.302]  sesgo -0.728
+AIPW_ATT_descubierto                  0.386  IC95 [-1.049, 1.821]  sesgo -1.408  ESS_ctrl=256
+AIPW_ATT_pretratamiento               1.645  IC95 [-0.071, 3.360]  sesgo -0.150  ESS_ctrl=74
+AIPW_ATT_pretratamiento_recorte       1.943  IC95 [0.238, 3.648]  sesgo +0.149  ESS_ctrl=80
+Traslape: {'ps_tratados_p1_p50_p99': [0.0, 0.359, 0.913], 'ps_control_p50_p99_p999': [0.0003, 0.1489, 0.6706]}
+{'prueba': 'tratamiento placebo', 'efecto_real': np.float64(1.0663763402963384), 'placebo_media': -0.019027432739429417, 'placebo_p95_abs': 0.9026257954120107, 'p_permutacion': 0.0297029702970297, 'supera': True}
+{'prueba': 'causa común aleatoria', 'efecto_real': np.float64(1.0663763402963384), 'media': 1.0660080719975435, 'cambio_rel_max': 0.011966308580871946, 'supera': True}
+{'prueba': 'submuestras (80%)', 'efecto_real': np.float64(1.0663763402963384), 'p5_p95': [0.5686180397150481, 1.5045770690873943], 'mismo_signo': 1.0, 'supera': True}
+{'prueba': 'control negativo (re75)', 'efecto': np.float64(-1.134821059475669), 'ic95': (np.float64(-1.67158247700636), np.float64(-0.5980596419449778)), 'supera': False}
+{'efecto_mco': np.float64(1.0664), 't': np.float64(1.9262), 'gl': 16165, 'R2_parcial_Y~D|X': 0.0002, 'RV_q1': 0.015, 'RV_q1_a05': 0.0}
+  referencia  k  R2_D~U  R2_Y~U  efecto_ajustado                               ic95_ajustado  anula_signo
+0       re75  1   0.000   0.073            0.967  (-0.07811886821831959, 2.0116478456632496)        False
+1       re75  2   0.000   0.146            0.867  (-0.13583721811284666, 1.8701370171754161)        False
+2       re75  3   0.000   0.219            0.768  (-0.19172775217363003, 1.7267928972806514)        False
+3       re74  1   0.001   0.032            0.647   (-0.4207802069596758, 1.7152349427149858)        False
+4       re74  2   0.002   0.065            0.228   (-0.8229168554220118, 1.2781540251256378)        False
+5       re74  3   0.003   0.097           -0.192      (-1.22517952719789, 0.840277238103432)         True
+6       educ  1   0.000   0.002            1.045  (-0.03852542695383865, 2.1293503253533608)        False
+7       educ  2   0.000   0.005            1.024  (-0.05826544166643255, 2.1071609347818745)        False
+8       educ  3   0.000   0.007            1.003  (-0.07800478616082174, 2.0849692507598823)        False
+           a         b  adyacencia orientacion_modal  freq_orientacion   -->  <--
+0        age      educ        1.00               -->              1.00  1.00  NaN
+1        age      marr        1.00               -->              1.00  1.00  NaN
+2        age      re74        1.00               -->              1.00  1.00  NaN
+3        age      re78        1.00               -->              1.00  1.00  NaN
+4      black      educ        1.00               -->              1.00  1.00  NaN
+5      black     treat        1.00               -->              1.00  1.00  NaN
+6       hisp      educ        1.00               -->              1.00  1.00  NaN
+7       educ  nodegree        1.00               -->              1.00  1.00  NaN
+8   nodegree     treat        1.00               -->              1.00  1.00  NaN
+9       marr      re74        1.00               -->              1.00  1.00  NaN
+10      marr      re75        1.00               -->              1.00  1.00  NaN
+11      marr     treat        1.00               -->              1.00  1.00  NaN
+12      re74       u74        1.00               <--              1.00   NaN  1.0
+13      re74      re75        1.00               -->              1.00  1.00  NaN
+14      re74      re78        1.00               -->              1.00  1.00  NaN
+15       u74       u75        1.00               -->              1.00  1.00  NaN
+16       u74     treat        1.00               -->              1.00  1.00  NaN
+17      re75       u75        1.00               <--              1.00   NaN  1.0
+18      re75      re78        1.00               -->              1.00  1.00  NaN
+19       u75     treat        0.96               -->              0.96  0.96  NaN
+20       u75      re78        0.88               -->              0.88  0.88  NaN
+21      educ      re78        0.84               -->              0.84  0.84  NaN
+22     black      re78        0.74               -->              0.74  0.74  NaN
+23     black      marr        0.72               -->              0.72  0.72  NaN
+24       u74      re75        0.70               -->              0.70  0.70  NaN

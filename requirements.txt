@@ -1,0 +1,24 @@
+# Python 3.13. Versiones con las que se corrieron los análisis de la tesis.
+numpy==2.5.3
+pandas==3.0.5
+pyarrow==26.0.1
+pypdf==6.17.0
+scipy==1.18.1
+scikit-learn==1.9.1
+statsmodels==0.15.0
+networkx==3.7
+causal-learn==0.1.4.8
+causaldata==0.1.5
+shap==0.54.1
+joblib==1.6.0
+matplotlib==3.11.2
+graphviz==0.21
+sympy==1.14.0
+autograd==1.9.1
+progressbar2==4.7.0
+numdifftools==0.11.2
+pytest==9.1.1
+# sólo para la extensión con PPO (experimentos/ppo_m4.py)
+torch==2.15.0
+stable-baselines3==2.9.2
+gymnasium==1.4.0

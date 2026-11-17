@@ -1,0 +1,65 @@
+{
+ "2022": {
+  "filas": {
+   "concentradohogar": 90102,
+   "hogares": 90102,
+   "poblacion": 309684,
+   "ingresos": 397182,
+   "trabajos": 165006
+  },
+  "duplicados_llave": {
+   "concentradohogar": 0,
+   "hogares": 0,
+   "poblacion": 0
+  },
+  "faltantes_escala_adultos": 53144,
+  "personas_sin_hogar_vinculado": 0,
+  "perdidas_vinculacion": 0
+ },
+ "2024": {
+  "filas": {
+   "concentradohogar": 91414,
+   "hogares": 91414,
+   "poblacion": 308598,
+   "ingresos": 391563,
+   "trabajos": 164325
+  },
+  "duplicados_llave": {
+   "concentradohogar": 0,
+   "hogares": 0,
+   "poblacion": 0
+  },
+  "faltantes_escala_adultos": 59870,
+  "personas_sin_hogar_vinculado": 0,
+  "perdidas_vinculacion": 0
+ },
+ "qroo": {
+  "personas": 15843,
+  "hogares": 4836,
+  "por_anio": {
+   "2022": 7975,
+   "2024": 7868
+  },
+  "completitud": {
+   "edad": 1.0,
+   "sexo": 1.0,
+   "hablaind": 0.9683140819289277,
+   "asis_esc": 0.9683140819289277,
+   "educa_jefe": 1.0,
+   "tot_integ": 1.0,
+   "ing_cor": 1.0,
+   "ia_mod_sev": 1.0,
+   "factor": 1.0
+  },
+  "programas_personas": {
+   "pam": 827,
+   "pam_p104": 802,
+   "beca_basica": 274,
+   "beca_ems": 231,
+   "beca_otra_gob": 98,
+   "pension_contrib": 769,
+   "prospera": 0
+  },
+  "municipios": 10
+ }
+}

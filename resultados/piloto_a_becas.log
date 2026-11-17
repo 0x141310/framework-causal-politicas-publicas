@@ -1,0 +1,52 @@
+Positividad: {'no_asisten_con_beca': 13, 'no_asisten_sin_beca': 78, 'tasa_asistencia_con_beca': 0.9620991253644315, 'tasa_asistencia_sin_beca': 0.9627151051625239}
+Intervención: beca  →  Resultado: asiste
+n = 2435 (descubrimiento 1192, estimación 1243)
+
+Arista intervención–resultado por algoritmo: PC: None, FCI: None, GES: None, LiNGAM: None
+Prueba dirigida de efecto total: r_parcial=0.049 (p=0.093) dado ['anio24', 'edad', 'indigena', 'log_ing_lab_pc', 'tam_loc']; r_marginal=0.007
+
+Grafo (consenso(τ=0.6)): 13 aristas
+  edad --> menores
+  edad --> beca
+  indigena --- rural
+  indigena --> beca
+  rural --- tam_loc
+  est_socio --- tam_loc
+  est_socio --> educa_jefe
+  tam_loc --> beca
+  anio24 --> beca
+  educa_jefe --> tot_integ
+  educa_jefe --> asiste
+  menores --> tot_integ
+  log_ing_lab_pc --> beca
+
+Identificación: {'x': 'beca', 'y': 'asiste', 'metodo_grafo': 'consenso(τ=0.6)', 'n_dags': 4, 'conjuntos_ajuste': [None], 'estado': 'sin_camino_causal', 'motivo': 'en todos los DAG compatibles beca no es ancestro de asiste'}
+FCI: {'arista_xy': None, 'estado': 'sin_adyacencia', 'motivo': 'FCI no encuentra adyacencia directa; puede existir efecto indirecto'}
+
+DICTAMEN: sin_efecto_estructural — El grafo candidato no contiene un camino causal de la intervención al resultado.
+                 a               b  adyacencia orientacion_modal  freq_orientacion   -->   ---   <--
+0             edad         menores        1.00               -->              1.00  1.00   NaN   NaN
+1         indigena            beca        1.00               -->              1.00  1.00   NaN   NaN
+2            rural         tam_loc        1.00               ---              1.00   NaN  1.00   NaN
+3        est_socio         tam_loc        1.00               ---              0.96   NaN  0.96  0.04
+4        est_socio      educa_jefe        1.00               -->              1.00  1.00   NaN   NaN
+5           anio24            beca        1.00               -->              1.00  1.00   NaN   NaN
+6       educa_jefe       tot_integ        1.00               -->              0.92  0.92   NaN  0.08
+7        tot_integ         menores        1.00               <--              0.78  0.22   NaN  0.78
+8          tam_loc            beca        0.98               -->              0.98  0.98   NaN   NaN
+9       educa_jefe          asiste        0.98               -->              0.98  0.98   NaN   NaN
+10        indigena           rural        0.76               ---              0.74   NaN  0.74  0.02
+11  log_ing_lab_pc            beca        0.72               -->              0.72  0.72   NaN   NaN
+12            edad            beca        0.66               -->              0.66  0.66   NaN   NaN
+13        indigena       tot_integ        0.46               -->              0.46  0.46   NaN   NaN
+14       est_socio         menores        0.40               -->              0.40  0.40   NaN   NaN
+15           rural       est_socio        0.38               ---              0.38   NaN  0.38   NaN
+16            edad      educa_jefe        0.34               -->              0.34  0.34   NaN   NaN
+17            edad  log_ing_lab_pc        0.24               -->              0.24  0.24   NaN   NaN
+18            edad          asiste        0.24               -->              0.24  0.24   NaN   NaN
+Magnitud aipw    : -0.0513 IC95 [-0.2035, +0.1010] n=941
+Magnitud mco     : +0.0183 IC95 [-0.0209, +0.0575] n=1243
+Magnitud ingenuo : -0.0052 IC95 [-0.0352, +0.0247] n=1243
+Control negativo: {'prueba': 'control negativo (dif_ver)', 'efecto': np.float64(0.013065516396857664), 'ic95': (np.float64(-0.0075371632308324325), np.float64(0.033668196024547764)), 'supera': True}
+Sensibilidad: {'efecto_mco': np.float64(0.0182575218295219), 't': np.float64(1.1248289681271377), 'gl': 1230, 'R2_parcial_Y~D|X': 0.0010275935405475239, 'RV_q1': 0.03156238130354653, 'RV_q1_a05': 0.0}
+Media superior 15-17: {'n': 886, 'con_beca_ems': 175, 'asistencia_con_beca': 0.9828571428571429, 'asistencia_sin_beca': 0.749648382559775, 'no_asisten_con_beca': 3}

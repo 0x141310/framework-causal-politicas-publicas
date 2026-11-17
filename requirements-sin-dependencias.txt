@@ -1,0 +1,5 @@
+# Instalar con: pip install --no-deps -r requirements-sin-dependencias.txt
+lingam==1.13.0
+semopy==2.3.11
+pygam==0.12.0
+psy==0.0.1

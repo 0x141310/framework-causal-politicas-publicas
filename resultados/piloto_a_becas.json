@@ -1,0 +1,698 @@
+{
+ "n": 2435,
+ "positividad": {
+  "tabla_beca_x_asiste": {
+   "0.0": {
+    "0": 78,
+    "1": 13,
+    "All": 91
+   },
+   "1.0": {
+    "0": 2014,
+    "1": 330,
+    "All": 2344
+   },
+   "All": {
+    "0": 2092,
+    "1": 343,
+    "All": 2435
+   }
+  },
+  "no_asisten_con_beca": 13,
+  "no_asisten_sin_beca": 78,
+  "tasa_asistencia_con_beca": 0.9620991253644315,
+  "tasa_asistencia_sin_beca": 0.9627151051625239
+ },
+ "modulo": {
+  "n_total": 2435,
+  "n_descubrimiento": 1192,
+  "n_estimacion": 1243,
+  "grafos": {
+   "PC": [
+    "edad --> menores",
+    "edad --> beca",
+    "indigena --- rural",
+    "indigena --> tot_integ",
+    "indigena --> beca",
+    "rural --- tam_loc",
+    "est_socio --- tam_loc",
+    "est_socio --> educa_jefe",
+    "tam_loc --> beca",
+    "anio24 --> beca",
+    "educa_jefe --> tot_integ",
+    "educa_jefe --> asiste",
+    "menores --> tot_integ",
+    "log_ing_lab_pc --> beca"
+   ],
+   "FCI": [
+    "edad --> menores",
+    "edad --> beca",
+    "indigena o-o rural",
+    "indigena --> tot_integ",
+    "indigena --> beca",
+    "rural o-o tam_loc",
+    "est_socio o-o tam_loc",
+    "est_socio --> educa_jefe",
+    "tam_loc --> beca",
+    "anio24 --> beca",
+    "educa_jefe --> tot_integ",
+    "educa_jefe --> asiste",
+    "tot_integ <-> menores",
+    "log_ing_lab_pc --> beca"
+   ],
+   "GES": [
+    "edad --> menores",
+    "edad --> beca",
+    "rural --> indigena",
+    "tot_integ --> indigena",
+    "menores --> indigena",
+    "beca --> indigena",
+    "tam_loc --> rural",
+    "anio24 --> rural",
+    "est_socio --> tam_loc",
+    "educa_jefe --> est_socio",
+    "menores --> est_socio",
+    "educa_jefe --> tam_loc",
+    "tam_loc --> log_ing_lab_pc",
+    "tam_loc --> beca",
+    "tot_integ --> anio24",
+    "beca --> anio24",
+    "tot_integ --> educa_jefe",
+    "menores --> educa_jefe",
+    "educa_jefe --> asiste",
+    "tot_integ --> menores",
+    "beca --> log_ing_lab_pc"
+   ],
+   "LiNGAM": [
+    "edad --> indigena",
+    "edad --> tot_integ",
+    "edad --> menores",
+    "edad --> log_ing_lab_pc",
+    "edad --> beca",
+    "indigena --> rural",
+    "anio24 --> indigena",
+    "indigena --> tot_integ",
+    "indigena --> beca",
+    "rural --> tam_loc",
+    "rural --> educa_jefe",
+    "rural --> menores",
+    "rural --> log_ing_lab_pc",
+    "tam_loc --> est_socio",
+    "est_socio --> educa_jefe",
+    "est_socio --> menores",
+    "anio24 --> tam_loc",
+    "tam_loc --> beca",
+    "anio24 --> educa_jefe",
+    "anio24 --> beca",
+    "tot_integ --> educa_jefe",
+    "menores --> educa_jefe",
+    "educa_jefe --> asiste",
+    "menores --> tot_integ",
+    "log_ing_lab_pc --> beca"
+   ]
+  },
+  "estabilidad_PC": [
+   {
+    "a": "edad",
+    "b": "menores",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "indigena",
+    "b": "beca",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "rural",
+    "b": "tam_loc",
+    "adyacencia": 1.0,
+    "orientacion_modal": "---",
+    "freq_orientacion": 1.0,
+    "-->": NaN,
+    "---": 1.0,
+    "<--": NaN
+   },
+   {
+    "a": "est_socio",
+    "b": "tam_loc",
+    "adyacencia": 1.0,
+    "orientacion_modal": "---",
+    "freq_orientacion": 0.96,
+    "-->": NaN,
+    "---": 0.96,
+    "<--": 0.04
+   },
+   {
+    "a": "est_socio",
+    "b": "educa_jefe",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "anio24",
+    "b": "beca",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "educa_jefe",
+    "b": "tot_integ",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.92,
+    "-->": 0.92,
+    "---": NaN,
+    "<--": 0.08
+   },
+   {
+    "a": "tot_integ",
+    "b": "menores",
+    "adyacencia": 1.0,
+    "orientacion_modal": "<--",
+    "freq_orientacion": 0.78,
+    "-->": 0.22,
+    "---": NaN,
+    "<--": 0.78
+   },
+   {
+    "a": "tam_loc",
+    "b": "beca",
+    "adyacencia": 0.98,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.98,
+    "-->": 0.98,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "educa_jefe",
+    "b": "asiste",
+    "adyacencia": 0.98,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.98,
+    "-->": 0.98,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "indigena",
+    "b": "rural",
+    "adyacencia": 0.76,
+    "orientacion_modal": "---",
+    "freq_orientacion": 0.74,
+    "-->": NaN,
+    "---": 0.74,
+    "<--": 0.02
+   },
+   {
+    "a": "log_ing_lab_pc",
+    "b": "beca",
+    "adyacencia": 0.72,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.72,
+    "-->": 0.72,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "edad",
+    "b": "beca",
+    "adyacencia": 0.66,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.66,
+    "-->": 0.66,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "indigena",
+    "b": "tot_integ",
+    "adyacencia": 0.46,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.46,
+    "-->": 0.46,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "est_socio",
+    "b": "menores",
+    "adyacencia": 0.4,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.4,
+    "-->": 0.4,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "rural",
+    "b": "est_socio",
+    "adyacencia": 0.38,
+    "orientacion_modal": "---",
+    "freq_orientacion": 0.38,
+    "-->": NaN,
+    "---": 0.38,
+    "<--": NaN
+   },
+   {
+    "a": "edad",
+    "b": "educa_jefe",
+    "adyacencia": 0.34,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.34,
+    "-->": 0.34,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "edad",
+    "b": "log_ing_lab_pc",
+    "adyacencia": 0.24,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.24,
+    "-->": 0.24,
+    "---": NaN,
+    "<--": NaN
+   },
+   {
+    "a": "edad",
+    "b": "asiste",
+    "adyacencia": 0.24,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.24,
+    "-->": 0.24,
+    "---": NaN,
+    "<--": NaN
+   }
+  ],
+  "prueba_efecto_total": {
+   "dado": [
+    "anio24",
+    "edad",
+    "indigena",
+    "log_ing_lab_pc",
+    "tam_loc"
+   ],
+   "r_parcial": 0.048820422019786196,
+   "p": 0.09272152286606916,
+   "r_marginal": 0.007154304870545335,
+   "p_marginal": 0.8051418878832848
+  },
+  "grafo_candidato": [
+   "edad --> menores",
+   "edad --> beca",
+   "indigena --- rural",
+   "indigena --> beca",
+   "rural --- tam_loc",
+   "est_socio --- tam_loc",
+   "est_socio --> educa_jefe",
+   "tam_loc --> beca",
+   "anio24 --> beca",
+   "educa_jefe --> tot_integ",
+   "educa_jefe --> asiste",
+   "menores --> tot_integ",
+   "log_ing_lab_pc --> beca"
+  ],
+  "estabilidad_FCI": [
+   {
+    "a": "edad",
+    "b": "menores",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "indigena",
+    "b": "beca",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "rural",
+    "b": "tam_loc",
+    "adyacencia": 1.0,
+    "orientacion_modal": "o-o",
+    "freq_orientacion": 1.0,
+    "-->": NaN,
+    "o-o": 1.0,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "est_socio",
+    "b": "tam_loc",
+    "adyacencia": 1.0,
+    "orientacion_modal": "o-o",
+    "freq_orientacion": 0.96,
+    "-->": NaN,
+    "o-o": 0.96,
+    "<-o": 0.04,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "est_socio",
+    "b": "educa_jefe",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "tam_loc",
+    "b": "beca",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "anio24",
+    "b": "beca",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "educa_jefe",
+    "b": "tot_integ",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.76,
+    "-->": 0.76,
+    "o-o": NaN,
+    "<-o": 0.04,
+    "<->": 0.2,
+    "o->": NaN
+   },
+   {
+    "a": "educa_jefe",
+    "b": "asiste",
+    "adyacencia": 1.0,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 1.0,
+    "-->": 1.0,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "tot_integ",
+    "b": "menores",
+    "adyacencia": 1.0,
+    "orientacion_modal": "<->",
+    "freq_orientacion": 0.88,
+    "-->": 0.08,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": 0.88,
+    "o->": 0.04
+   },
+   {
+    "a": "log_ing_lab_pc",
+    "b": "beca",
+    "adyacencia": 0.76,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.76,
+    "-->": 0.76,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "indigena",
+    "b": "rural",
+    "adyacencia": 0.64,
+    "orientacion_modal": "o-o",
+    "freq_orientacion": 0.6,
+    "-->": NaN,
+    "o-o": 0.6,
+    "<-o": 0.04,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "edad",
+    "b": "beca",
+    "adyacencia": 0.56,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.56,
+    "-->": 0.56,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "edad",
+    "b": "asiste",
+    "adyacencia": 0.56,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.56,
+    "-->": 0.56,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "indigena",
+    "b": "tot_integ",
+    "adyacencia": 0.52,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.52,
+    "-->": 0.52,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "edad",
+    "b": "log_ing_lab_pc",
+    "adyacencia": 0.32,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.32,
+    "-->": 0.32,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "rural",
+    "b": "log_ing_lab_pc",
+    "adyacencia": 0.28,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.28,
+    "-->": 0.28,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "educa_jefe",
+    "b": "log_ing_lab_pc",
+    "adyacencia": 0.28,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.28,
+    "-->": 0.28,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   },
+   {
+    "a": "est_socio",
+    "b": "menores",
+    "adyacencia": 0.24,
+    "orientacion_modal": "-->",
+    "freq_orientacion": 0.24,
+    "-->": 0.24,
+    "o-o": NaN,
+    "<-o": NaN,
+    "<->": NaN,
+    "o->": NaN
+   }
+  ],
+  "fci_diagnostico": {
+   "arista_xy": null,
+   "estado": "sin_adyacencia",
+   "motivo": "FCI no encuentra adyacencia directa; puede existir efecto indirecto"
+  },
+  "arista_xy_por_metodo": {
+   "PC": null,
+   "FCI": null,
+   "GES": null,
+   "LiNGAM": null
+  },
+  "identificacion": {
+   "x": "beca",
+   "y": "asiste",
+   "metodo_grafo": "consenso(τ=0.6)",
+   "n_dags": 4,
+   "conjuntos_ajuste": [
+    null
+   ],
+   "estado": "sin_camino_causal",
+   "motivo": "en todos los DAG compatibles beca no es ancestro de asiste"
+  },
+  "refutaciones": [],
+  "sensibilidad": null,
+  "dictamen": {
+   "nivel": "sin_efecto_estructural",
+   "texto": "El grafo candidato no contiene un camino causal de la intervención al resultado."
+  }
+ },
+ "magnitud_pretratamiento": {
+  "aipw": {
+   "estimador": "AIPW ajuste cruzado (boosting)",
+   "efecto": -0.051275108677719144,
+   "ee": 0.077668505004349,
+   "ic95": [
+    -0.2035053784862432,
+    0.10095516113080491
+   ],
+   "p": 0.5091390270920497,
+   "n": 941,
+   "n_recortadas": 302,
+   "traslape": {
+    "ps_tratados_p1_p99": [
+     0.002,
+     0.967
+    ],
+    "ps_control_p1_p99": [
+     0.0,
+     0.787
+    ],
+    "ps_min_max": [
+     2.6760844505416316e-05,
+     0.9730016565027003
+    ]
+   },
+   "ajuste": [
+    "edad",
+    "mujer",
+    "indigena",
+    "rural",
+    "est_socio",
+    "tam_loc",
+    "anio24",
+    "educa_jefe",
+    "tot_integ",
+    "menores",
+    "log_ing_lab_pc"
+   ]
+  },
+  "mco": {
+   "estimador": "ajuste lineal (MCO, HC3)",
+   "efecto": 0.0182575218295219,
+   "ee": 0.01997958877443564,
+   "ic95": [
+    -0.020940324045399458,
+    0.05745536770444326
+   ],
+   "p": 0.3609964678658142,
+   "t_clasico": 1.1248289681271377,
+   "dof": 1230,
+   "n": 1243,
+   "ajuste": [
+    "edad",
+    "mujer",
+    "indigena",
+    "rural",
+    "est_socio",
+    "tam_loc",
+    "anio24",
+    "educa_jefe",
+    "tot_integ",
+    "menores",
+    "log_ing_lab_pc"
+   ]
+  },
+  "ingenuo": {
+   "estimador": "ajuste lineal (MCO, HC3)",
+   "efecto": -0.0052324981956896124,
+   "ee": 0.015278149031832835,
+   "ic95": [
+    -0.03520635347881475,
+    0.024741357087435523
+   ],
+   "p": 0.732045830971567,
+   "t_clasico": -0.3614932322617291,
+   "dof": 1241,
+   "n": 1243,
+   "ajuste": []
+  },
+  "control_negativo_dif_ver": {
+   "prueba": "control negativo (dif_ver)",
+   "efecto": 0.013065516396857664,
+   "ic95": [
+    -0.0075371632308324325,
+    0.033668196024547764
+   ],
+   "supera": true
+  },
+  "sensibilidad": {
+   "efecto_mco": 0.0182575218295219,
+   "t": 1.1248289681271377,
+   "gl": 1230,
+   "R2_parcial_Y~D|X": 0.0010275935405475239,
+   "RV_q1": 0.03156238130354653,
+   "RV_q1_a05": 0.0
+  }
+ },
+ "ems_15_17": {
+  "n": 886,
+  "con_beca_ems": 175,
+  "asistencia_con_beca": 0.9828571428571429,
+  "asistencia_sin_beca": 0.749648382559775,
+  "no_asisten_con_beca": 3
+ }
+}

@@ -1,0 +1,48 @@
+Intervención: treat  →  Resultado: re78
+n = 16177 (descubrimiento 16177, estimación 16177)
+
+Arista intervención–resultado por algoritmo: PC: None, FCI: None, GES: None, LiNGAM: None
+Prueba dirigida de efecto total: r_parcial=0.032 (p=3.6e-05) dado ['black', 'marr', 'nodegree', 'u74', 'u75']; r_marginal=-0.093
+  treat -> re78 restituida: treat y re78 son dependientes dado Pa(treat) (p=3.6e-05) aunque PC eliminó la arista; correlación marginal -0.093 frente a parcial 0.032 (posible cancelación por confusión)
+
+Grafo (consenso(τ=0.6) + treat-->re78): 26 aristas
+  age --> educ
+  age --> marr
+  age --> re74
+  age --> re78
+  black --> educ
+  black --> marr
+  black --> treat
+  black --> re78
+  hisp --> educ
+  educ --> nodegree
+  educ --> re78
+  nodegree --> treat
+  marr --> re74
+  marr --> re75
+  marr --> treat
+  u74 --> re74
+  re74 --> re75
+  re74 --> re78
+  u74 --> re75
+  u74 --> u75
+  u74 --> treat
+  u75 --> re75
+  re75 --> re78
+  u75 --> treat
+  u75 --> re78
+  treat --> re78
+
+Identificación: {'x': 'treat', 'y': 're78', 'metodo_grafo': 'consenso(τ=0.6) + treat-->re78', 'n_dags': 1, 'conjuntos_ajuste': [['age', 'black', 'educ', 're74', 're75', 'u75']], 'estado': 'identificado', 'ajuste': ['age', 'black', 'educ', 're74', 're75', 'u75']}
+FCI: {'arista_xy': None, 'estado': 'sin_adyacencia', 'motivo': 'FCI no encuentra adyacencia directa; puede existir efecto indirecto'}
+  ajuste lineal (MCO, HC3): 1.1654  IC95 [-0.0766, 2.4074]  n=16177
+  AIPW-ATT ajuste cruzado (boosting): 1.7833  IC95 [0.3890, 3.1775]  n=16177
+  [pretratamiento completo] ajuste lineal (MCO, HC3): 1.0664  IC95 [-0.1690, 2.3018]
+  [pretratamiento completo] AIPW-ATT ajuste cruzado (boosting): 1.5694  IC95 [0.1529, 2.9860]
+  Refutación: {'prueba': 'tratamiento placebo', 'efecto_real': np.float64(1.1654), 'placebo_media': -0.0231, 'placebo_p95_abs': 0.8054, 'p_permutacion': 0.0297, 'supera': True}
+  Refutación: {'prueba': 'causa común aleatoria', 'efecto_real': np.float64(1.1654), 'media': 1.1657, 'cambio_rel_max': 0.0107, 'supera': True}
+  Refutación: {'prueba': 'submuestras (80%)', 'efecto_real': np.float64(1.1654), 'p5_p95': [0.6135250494101177, 1.479458739539713], 'mismo_signo': 1.0, 'supera': True}
+  Sensibilidad: RV=0.017, RV(α=0.05)=0.001, R²parcial=0.0003
+
+DICTAMEN: identificado_fragil — Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 1.7% de la varianza residual de la intervención y del resultado para anular el efecto (0.1% para volverlo no significativo al 5%). Un confusor tan fuerte como re74, educ bastaría para que el intervalo incluya cero: el efecto es frágil ante confusión comparable a la observada.
+Discrepancia: {'efecto_descubierto': np.float64(1.7832797006128267), 'efecto_pretratamiento': np.float64(1.5694174296156609), 'ic_se_traslapan': True, 'dif_relativa': np.float64(0.13626857135733664)}

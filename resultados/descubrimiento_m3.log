@@ -1,0 +1,30 @@
+10/150 corridas; media 35.7 s
+20/150 corridas; media 35.9 s
+30/150 corridas; media 35.7 s
+40/150 corridas; media 35.5 s
+50/150 corridas; media 35.8 s
+60/150 corridas; media 35.2 s
+70/150 corridas; media 34.7 s
+80/150 corridas; media 34.7 s
+90/150 corridas; media 34.6 s
+100/150 corridas; media 34.7 s
+110/150 corridas; media 34.6 s
+120/150 corridas; media 34.7 s
+130/150 corridas; media 34.5 s
+140/150 corridas; media 34.5 s
+150/150 corridas; media 34.6 s
+
+== ventana 2016_2018: C = ['auto', 'internet', 'lavadora', 'log_ing_pc_real', 'refri']
+   indirectas: ['afiliacion_laboral', 'celular', 'computadora', 'edad_jefe', 'educa_jefe', 'est_socio', 'habla_indigena_hog', 'jefa_mujer', 'liconsa', 'menores', 'ocupados_pc', 'p65mas', 'recibe_jubilacion', 'recibe_programas', 'reg_centro', 'reg_centro_occ', 'reg_sur', 'tam_loc', 'tot_integ']
+   contexto adyacente al resultado: []
+   frecuencias: {'auto': 1.0, 'refri': 1.0, 'lavadora': 1.0, 'internet': 1.0, 'log_ing_pc_real': 1.0, 'computadora': 0.52, 'educa_jefe': 0.48, 'celular': 0.28, 'jefa_mujer': 0.14, 'reg_sur': 0.08, 'habla_indigena_hog': 0.02}
+
+== ventana 2016_2020: C = ['auto', 'computadora', 'internet', 'lavadora', 'log_ing_pc_real', 'refri']
+   indirectas: ['afiliacion_laboral', 'celular', 'edad_jefe', 'educa_jefe', 'est_socio', 'habla_indigena_hog', 'jefa_mujer', 'liconsa', 'menores', 'ocupados_pc', 'p65mas', 'recibe_jubilacion', 'reg_centro', 'reg_centro_occ', 'reg_sur', 'tam_loc', 'tot_integ']
+   contexto adyacente al resultado: []
+   frecuencias: {'auto': 1.0, 'refri': 1.0, 'lavadora': 1.0, 'log_ing_pc_real': 1.0, 'internet': 0.96, 'computadora': 0.8, 'educa_jefe': 0.34, 'reg_sur': 0.1, 'jefa_mujer': 0.06, 'habla_indigena_hog': 0.02, 'recibe_remesas': 0.02}
+
+== ventana 2016_2022: C = ['auto', 'computadora', 'internet', 'lavadora', 'log_ing_pc_real', 'refri']
+   indirectas: ['afiliacion_laboral', 'celular', 'edad_jefe', 'educa_jefe', 'est_socio', 'habla_indigena_hog', 'jefa_mujer', 'liconsa', 'menores', 'ocupados_pc', 'p65mas', 'recibe_jubilacion', 'reg_centro', 'reg_centro_occ', 'reg_sur', 'tam_loc', 'tot_integ']
+   contexto adyacente al resultado: []
+   frecuencias: {'auto': 1.0, 'refri': 1.0, 'lavadora': 1.0, 'log_ing_pc_real': 1.0, 'internet': 0.98, 'computadora': 0.66, 'anio_2022': 0.26, 'educa_jefe': 0.26, 'celular': 0.08, 'reg_sur': 0.04}

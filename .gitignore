@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+microdatos/
+publicado/
+resultados/*.joblib
+resultados_anterior/
+datos_anterior/

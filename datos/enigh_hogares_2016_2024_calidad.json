@@ -1,0 +1,27 @@
+{
+ "2016": {
+  "hogares": 70311,
+  "sin_resultado": 0,
+  "faltantes": {}
+ },
+ "2018": {
+  "hogares": 74647,
+  "sin_resultado": 0,
+  "faltantes": {}
+ },
+ "2020": {
+  "hogares": 89006,
+  "sin_resultado": 0,
+  "faltantes": {}
+ },
+ "2022": {
+  "hogares": 90102,
+  "sin_resultado": 0,
+  "faltantes": {}
+ },
+ "2024": {
+  "hogares": 91414,
+  "sin_resultado": 0,
+  "faltantes": {}
+ }
+}

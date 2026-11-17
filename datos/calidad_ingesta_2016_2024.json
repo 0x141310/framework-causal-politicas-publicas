@@ -1,0 +1,119 @@
+{
+  "2016": {
+    "filas": {
+      "concentradohogar": 70311,
+      "hogares": 70311,
+      "poblacion": 257805,
+      "ingresos": 334337,
+      "trabajos": 132095
+    },
+    "duplicados_llave": {
+      "concentradohogar": 0,
+      "hogares": 0,
+      "poblacion": 0
+    },
+    "faltantes_escala_adultos": 35642,
+    "personas_sin_hogar_vinculado": 0,
+    "perdidas_vinculacion": 0
+  },
+  "2018": {
+    "filas": {
+      "concentradohogar": 74647,
+      "hogares": 74647,
+      "poblacion": 269206,
+      "ingresos": 348487,
+      "trabajos": 139933
+    },
+    "duplicados_llave": {
+      "concentradohogar": 0,
+      "hogares": 0,
+      "poblacion": 0
+    },
+    "faltantes_escala_adultos": 38709,
+    "personas_sin_hogar_vinculado": 0,
+    "perdidas_vinculacion": 0
+  },
+  "2020": {
+    "filas": {
+      "concentradohogar": 89006,
+      "hogares": 89006,
+      "poblacion": 315743,
+      "ingresos": 394912,
+      "trabajos": 164876
+    },
+    "duplicados_llave": {
+      "concentradohogar": 0,
+      "hogares": 0,
+      "poblacion": 0
+    },
+    "faltantes_escala_adultos": 42535,
+    "personas_sin_hogar_vinculado": 0,
+    "perdidas_vinculacion": 0
+  },
+  "2022": {
+    "filas": {
+      "concentradohogar": 90102,
+      "hogares": 90102,
+      "poblacion": 309684,
+      "ingresos": 397182,
+      "trabajos": 165006
+    },
+    "duplicados_llave": {
+      "concentradohogar": 0,
+      "hogares": 0,
+      "poblacion": 0
+    },
+    "faltantes_escala_adultos": 53144,
+    "personas_sin_hogar_vinculado": 0,
+    "perdidas_vinculacion": 0
+  },
+  "2024": {
+    "filas": {
+      "concentradohogar": 91414,
+      "hogares": 91414,
+      "poblacion": 308598,
+      "ingresos": 391563,
+      "trabajos": 164325
+    },
+    "duplicados_llave": {
+      "concentradohogar": 0,
+      "hogares": 0,
+      "poblacion": 0
+    },
+    "faltantes_escala_adultos": 59870,
+    "personas_sin_hogar_vinculado": 0,
+    "perdidas_vinculacion": 0
+  },
+  "qroo": {
+    "personas": 35639,
+    "hogares": 10587,
+    "por_anio": {
+      "2016": 6191,
+      "2018": 6068,
+      "2020": 7537,
+      "2022": 7975,
+      "2024": 7868
+    },
+    "completitud": {
+      "edad": 1.0,
+      "sexo": 1.0,
+      "hablaind": 0.9604366003535453,
+      "asis_esc": 0.9604366003535453,
+      "educa_jefe": 1.0,
+      "tot_integ": 1.0,
+      "ing_cor": 1.0,
+      "ia_mod_sev": 1.0,
+      "factor": 1.0
+    },
+    "programas_personas": {
+      "pam": 1390,
+      "pam_p104": 1336,
+      "beca_basica": 464,
+      "beca_ems": 383,
+      "beca_otra_gob": 314,
+      "pension_contrib": 1541,
+      "prospera": 1459
+    },
+    "municipios": 11
+  }
+}
