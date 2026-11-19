@@ -1,0 +1,17 @@
+inicio 2026-11-19T20:05:16Z
+frase (randomness de drand) 357af981de34fe517678050046310384d49a7615d57222f4bda3d0e268fc6cca
+generar_casos.py: OK
+correr_descubrimiento.py: OK
+calificar.py: OK
+Casos generados: 40
+  entregar.zip  20bd4f79091892dd03b28d4aed9003a1a2a8ac9c72aaac642d00b858c38dcd2f
+  parejas.json  be43f38b1e38bfb7e9d718b00b670ff638f248175358d7cbf051eacf2de38b0d
+  clave.json    05291573e6f99c78c130888406d9954a3c4c12be704618a947b545cb35957329
+etapa 1 2026-11-19T20:05:21Z
+Etapa 1: 40 casos en 1.3 min
+Huella SHA-256 de predicciones_etapa1.json: 4b87e85dac327fc062cfa88617d32dc90d1feba7cec97df7608280883d054216
+etapa 2 2026-11-19T20:06:46Z
+Etapa 2: 40 casos en 2.1 min
+Huella SHA-256 de predicciones_etapa2.json: 9d849af75819e6a014fcb7a770cfd5ea982390a42944e22492c7cd94c514673a
+calificación 2026-11-19T20:08:56Z
+fin 2026-11-19T20:08:58Z

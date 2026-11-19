@@ -1,0 +1,3 @@
+ronda 6656254 emitida (s Unix) 1795118640
+randomness = SHA-256(firma): True
+firma BLS válida con la clave pública de la red: True

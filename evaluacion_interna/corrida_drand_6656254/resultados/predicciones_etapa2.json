@@ -1,0 +1,3563 @@
+{
+ "casos": {
+  "caso_01": {
+   "afirma_efecto": true,
+   "arista_restituida": true,
+   "dictamen": "efecto_identificado_bajo_supuestos",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 56.2% de la varianza residual de la intervención y del resultado para anular el efecto (52.6% para volverlo no significativo al 5%).",
+   "estimacion_lineal": {
+    "ee": 0.060062,
+    "efecto": 1.140149,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     1.022157,
+     1.25814
+    ],
+    "p": 0.0
+   },
+   "estimacion_principal": {
+    "ee": 0.057711,
+    "efecto": 1.125878,
+    "estimador": "DML parcialmente lineal",
+    "ic95": [
+     1.012765,
+     1.238991
+    ],
+    "p": 0.0
+   },
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V06"
+    ],
+    [
+     "V01",
+     "-->",
+     "V02"
+    ],
+    [
+     "V03",
+     "-->",
+     "V07"
+    ],
+    [
+     "V04",
+     "-->",
+     "V03"
+    ],
+    [
+     "V04",
+     "-->",
+     "V07"
+    ],
+    [
+     "V05",
+     "---",
+     "V09"
+    ],
+    [
+     "V06",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "---",
+     "V09"
+    ],
+    [
+     "V08",
+     "-->",
+     "V02"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [
+     "V04"
+    ],
+    "estado": "identificado",
+    "n_dags": 6
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V04"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.015251,
+    "r_marginal": 0.111455,
+    "r_parcial": 0.593675
+   },
+   "segundos": 11.8,
+   "x": "V03",
+   "y": "V07"
+  },
+  "caso_02": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V02",
+     "-->",
+     "V07"
+    ],
+    [
+     "V02",
+     "-->",
+     "V08"
+    ],
+    [
+     "V04",
+     "-->",
+     "V08"
+    ],
+    [
+     "V05",
+     "-->",
+     "V02"
+    ],
+    [
+     "V06",
+     "-->",
+     "V01"
+    ],
+    [
+     "V06",
+     "-->",
+     "V07"
+    ],
+    [
+     "V06",
+     "-->",
+     "V08"
+    ],
+    [
+     "V07",
+     "-->",
+     "V03"
+    ],
+    [
+     "V08",
+     "-->",
+     "V03"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V04 no es ancestro de V06",
+    "n_dags": 1
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.973386,
+    "p_marginal": 0.973386,
+    "r_marginal": 0.000667,
+    "r_parcial": 0.000667
+   },
+   "segundos": 2.4,
+   "x": "V04",
+   "y": "V06"
+  },
+  "caso_03": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V02",
+     "-->",
+     "V06"
+    ],
+    [
+     "V02",
+     "-->",
+     "V09"
+    ],
+    [
+     "V04",
+     "-->",
+     "V01"
+    ],
+    [
+     "V04",
+     "-->",
+     "V02"
+    ],
+    [
+     "V04",
+     "-->",
+     "V12"
+    ],
+    [
+     "V06",
+     "-->",
+     "V03"
+    ],
+    [
+     "V06",
+     "-->",
+     "V07"
+    ],
+    [
+     "V08",
+     "---",
+     "V10"
+    ],
+    [
+     "V08",
+     "-->",
+     "V09"
+    ],
+    [
+     "V10",
+     "-->",
+     "V01"
+    ],
+    [
+     "V10",
+     "-->",
+     "V02"
+    ],
+    [
+     "V10",
+     "-->",
+     "V05"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     -0.218377,
+     0.0
+    ],
+    "max": 0.0,
+    "min": -0.218377
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V10"
+    ],
+    "p": 0.034351,
+    "p_marginal": 0.0,
+    "r_marginal": -0.244634,
+    "r_parcial": 0.042268
+   },
+   "segundos": 4.4,
+   "x": "V08",
+   "y": "V05"
+  },
+  "caso_04": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V02",
+     "---",
+     "V07"
+    ],
+    [
+     "V02",
+     "-->",
+     "V09"
+    ],
+    [
+     "V06",
+     "-->",
+     "V01"
+    ],
+    [
+     "V07",
+     "-->",
+     "V01"
+    ],
+    [
+     "V09",
+     "-->",
+     "V03"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.0,
+     0.125358
+    ],
+    "max": 0.125358,
+    "min": 0.0
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V02"
+    ],
+    "p": 0.247417,
+    "p_marginal": 0.000322,
+    "r_marginal": 0.164418,
+    "r_parcial": 0.053358
+   },
+   "segundos": 0.9,
+   "x": "V07",
+   "y": "V09"
+  },
+  "caso_05": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V03",
+     "-->",
+     "V09"
+    ],
+    [
+     "V04",
+     "-->",
+     "V06"
+    ],
+    [
+     "V04",
+     "-->",
+     "V09"
+    ],
+    [
+     "V06",
+     "-->",
+     "V09"
+    ],
+    [
+     "V07",
+     "---",
+     "V08"
+    ],
+    [
+     "V08",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "-->",
+     "V05"
+    ],
+    [
+     "V10",
+     "-->",
+     "V05"
+    ],
+    [
+     "V10",
+     "-->",
+     "V06"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V05 no es ancestro de V02",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V08",
+     "V10"
+    ],
+    "p": 0.331131,
+    "p_marginal": 0.0,
+    "r_marginal": 0.281941,
+    "r_parcial": 0.044893
+   },
+   "segundos": 1.7,
+   "x": "V05",
+   "y": "V02"
+  },
+  "caso_06": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V02",
+     "---",
+     "V03"
+    ],
+    [
+     "V02",
+     "---",
+     "V09"
+    ],
+    [
+     "V03",
+     "-->",
+     "V10"
+    ],
+    [
+     "V04",
+     "-->",
+     "V01"
+    ],
+    [
+     "V04",
+     "-->",
+     "V10"
+    ],
+    [
+     "V04",
+     "-->",
+     "V12"
+    ],
+    [
+     "V05",
+     "-->",
+     "V07"
+    ],
+    [
+     "V06",
+     "---",
+     "V09"
+    ],
+    [
+     "V06",
+     "-->",
+     "V11"
+    ],
+    [
+     "V08",
+     "-->",
+     "V07"
+    ],
+    [
+     "V09",
+     "-->",
+     "V10"
+    ],
+    [
+     "V10",
+     "-->",
+     "V07"
+    ],
+    [
+     "V11",
+     "-->",
+     "V07"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V01 no es ancestro de V12",
+    "n_dags": 4
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V04"
+    ],
+    "p": 0.328722,
+    "p_marginal": 0.0,
+    "r_marginal": 0.39302,
+    "r_parcial": -0.045069
+   },
+   "segundos": 3.2,
+   "x": "V01",
+   "y": "V12"
+  },
+  "caso_07": {
+   "afirma_efecto": true,
+   "arista_restituida": true,
+   "dictamen": "identificado_fragil",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 19.5% de la varianza residual de la intervención y del resultado para anular el efecto (12.3% para volverlo no significativo al 5%). Advertencia: el efecto con el ajuste descubierto (-0.145) difiere del obtenido con todas las variables pretratamiento (-0.604); el grafo descubierto podría omitir confusores.",
+   "estimacion_lineal": {
+    "ee": 0.026301,
+    "efecto": -0.127581,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.17925,
+     -0.075912
+    ],
+    "p": 2e-06
+   },
+   "estimacion_principal": {
+    "ee": 0.029538,
+    "efecto": -0.145355,
+    "estimador": "DML parcialmente lineal",
+    "ic95": [
+     -0.203249,
+     -0.08746
+    ],
+    "p": 1e-06
+   },
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V01",
+     "-->",
+     "V05"
+    ],
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "-->",
+     "V02"
+    ],
+    [
+     "V04",
+     "---",
+     "V07"
+    ],
+    [
+     "V04",
+     "-->",
+     "V03"
+    ],
+    [
+     "V06",
+     "-->",
+     "V05"
+    ],
+    [
+     "V06",
+     "-->",
+     "V08"
+    ],
+    [
+     "V07",
+     "-->",
+     "V03"
+    ],
+    [
+     "V07",
+     "-->",
+     "V06"
+    ],
+    [
+     "V09",
+     "-->",
+     "V05"
+    ],
+    [
+     "V09",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [
+     "V06",
+     "V09"
+    ],
+    "estado": "identificado",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.531635,
+    "r_parcial": -0.531635
+   },
+   "segundos": 6.7,
+   "x": "V01",
+   "y": "V08"
+  },
+  "caso_08": {
+   "afirma_efecto": false,
+   "arista_restituida": true,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V04"
+    ],
+    [
+     "V01",
+     "-->",
+     "V06"
+    ],
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "-->",
+     "V05"
+    ],
+    [
+     "V04",
+     "---",
+     "V09"
+    ],
+    [
+     "V04",
+     "-->",
+     "V06"
+    ],
+    [
+     "V06",
+     "-->",
+     "V07"
+    ],
+    [
+     "V07",
+     "-->",
+     "V05"
+    ],
+    [
+     "V08",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "-->",
+     "V05"
+    ],
+    [
+     "V09",
+     "-->",
+     "V03"
+    ],
+    [
+     "V09",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.142469,
+     0.857568
+    ],
+    "max": 0.857568,
+    "min": 0.142469
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V01",
+     "V09"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": 0.135776,
+    "r_parcial": 0.434491
+   },
+   "segundos": 3.1,
+   "x": "V04",
+   "y": "V06"
+  },
+  "caso_09": {
+   "afirma_efecto": true,
+   "arista_restituida": false,
+   "dictamen": "efecto_identificado_bajo_supuestos",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no descarta confusión latente (x -> y no es visible: no se puede descartar un confusor latente); la conclusión depende de suficiencia causal. Un confusor no medido tendría que explicar al menos 63.2% de la varianza residual de la intervención y del resultado para anular el efecto (61.9% para volverlo no significativo al 5%).",
+   "estimacion_lineal": {
+    "ee": 0.013806,
+    "efecto": -0.728723,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.755795,
+     -0.701651
+    ],
+    "p": 0.0
+   },
+   "estimacion_principal": {
+    "ee": 0.013806,
+    "efecto": -0.728723,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.755795,
+     -0.701651
+    ],
+    "p": 0.0
+   },
+   "fci_diagnostico": "dirigida_no_visible",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V02",
+     "---",
+     "V07"
+    ],
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V02",
+     "-->",
+     "V05"
+    ],
+    [
+     "V02",
+     "-->",
+     "V09"
+    ],
+    [
+     "V08",
+     "-->",
+     "V04"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [],
+    "estado": "identificado",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V07"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.704674,
+    "r_parcial": -0.653511
+   },
+   "segundos": 2.0,
+   "x": "V02",
+   "y": "V09"
+  },
+  "caso_10": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: ningún DAG compatible con el grafo y el conocimiento previo",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "dirigida_visible",
+   "grafo_candidato": [
+    [
+     "V02",
+     "-->",
+     "V10"
+    ],
+    [
+     "V03",
+     "-->",
+     "V09"
+    ],
+    [
+     "V04",
+     "-->",
+     "V05"
+    ],
+    [
+     "V05",
+     "-->",
+     "V10"
+    ],
+    [
+     "V06",
+     "-->",
+     "V09"
+    ],
+    [
+     "V07",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "-->",
+     "V04"
+    ],
+    [
+     "V08",
+     "-->",
+     "V05"
+    ],
+    [
+     "V08",
+     "-->",
+     "V10"
+    ],
+    [
+     "V10",
+     "-->",
+     "V04"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "incoherente",
+    "motivo": "ningún DAG compatible con el grafo y el conocimiento previo"
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V08",
+     "V10"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.807788,
+    "r_parcial": -0.474984
+   },
+   "segundos": 3.3,
+   "x": "V04",
+   "y": "V05"
+  },
+  "caso_11": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V02"
+    ],
+    [
+     "V01",
+     "-->",
+     "V06"
+    ],
+    [
+     "V03",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "-->",
+     "V09"
+    ],
+    [
+     "V04",
+     "-->",
+     "V02"
+    ],
+    [
+     "V05",
+     "-->",
+     "V04"
+    ],
+    [
+     "V05",
+     "-->",
+     "V07"
+    ],
+    [
+     "V07",
+     "-->",
+     "V06"
+    ],
+    [
+     "V07",
+     "-->",
+     "V09"
+    ],
+    [
+     "V10",
+     "-->",
+     "V02"
+    ],
+    [
+     "V10",
+     "-->",
+     "V06"
+    ],
+    [
+     "V10",
+     "-->",
+     "V08"
+    ],
+    [
+     "V11",
+     "-->",
+     "V04"
+    ],
+    [
+     "V11",
+     "-->",
+     "V07"
+    ],
+    [
+     "V11",
+     "-->",
+     "V09"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V09 no es ancestro de V01",
+    "n_dags": 1
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V03",
+     "V07",
+     "V11"
+    ],
+    "p": 0.314484,
+    "p_marginal": 0.858632,
+    "r_marginal": 0.003559,
+    "r_parcial": 0.02011
+   },
+   "segundos": 3.6,
+   "x": "V09",
+   "y": "V01"
+  },
+  "caso_12": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "identificado_no_distinguible_de_cero",
+   "dictamen_texto": "Efecto identificado, pero su intervalo incluye cero. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 3.4% de la varianza residual de la intervención y del resultado para anular el efecto (0.0% para volverlo no significativo al 5%). La estimación lineal de referencia ya no es significativa al 5%; las cotas de sensibilidad se reportan sin dictamen adicional.",
+   "estimacion_lineal": {
+    "ee": 0.020461,
+    "efecto": 0.035266,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.004857,
+     0.075388
+    ],
+    "p": 0.084916
+   },
+   "estimacion_principal": {
+    "ee": 0.020461,
+    "efecto": 0.035266,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.004857,
+     0.075388
+    ],
+    "p": 0.084916
+   },
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V02",
+     "---",
+     "V07"
+    ],
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V02",
+     "-->",
+     "V03"
+    ],
+    [
+     "V03",
+     "-->",
+     "V01"
+    ],
+    [
+     "V03",
+     "-->",
+     "V06"
+    ],
+    [
+     "V04",
+     "-->",
+     "V08"
+    ],
+    [
+     "V04",
+     "-->",
+     "V09"
+    ],
+    [
+     "V06",
+     "-->",
+     "V01"
+    ],
+    [
+     "V07",
+     "-->",
+     "V04"
+    ],
+    [
+     "V07",
+     "-->",
+     "V09"
+    ],
+    [
+     "V09",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [],
+    "estado": "identificado",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V07"
+    ],
+    "p": 0.00917,
+    "p_marginal": 0.033551,
+    "r_marginal": -0.042449,
+    "r_parcial": -0.052034
+   },
+   "segundos": 2.1,
+   "x": "V02",
+   "y": "V06"
+  },
+  "caso_13": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "ambigua",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V07"
+    ],
+    [
+     "V02",
+     "-->",
+     "V05"
+    ],
+    [
+     "V02",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "-->",
+     "V06"
+    ],
+    [
+     "V03",
+     "-->",
+     "V08"
+    ],
+    [
+     "V04",
+     "-->",
+     "V02"
+    ],
+    [
+     "V04",
+     "-->",
+     "V03"
+    ],
+    [
+     "V07",
+     "---",
+     "V09"
+    ],
+    [
+     "V07",
+     "-->",
+     "V02"
+    ],
+    [
+     "V09",
+     "-->",
+     "V06"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     -1.381026,
+     0.0
+    ],
+    "max": 0.0,
+    "min": -1.381026
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.63735,
+    "r_parcial": -0.63735
+   },
+   "segundos": 2.0,
+   "x": "V09",
+   "y": "V07"
+  },
+  "caso_14": {
+   "afirma_efecto": false,
+   "arista_restituida": true,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: ningún DAG compatible con el grafo y el conocimiento previo",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V03",
+     "-->",
+     "V09"
+    ],
+    [
+     "V03",
+     "-->",
+     "V10"
+    ],
+    [
+     "V05",
+     "---",
+     "V06"
+    ],
+    [
+     "V05",
+     "---",
+     "V12"
+    ],
+    [
+     "V06",
+     "---",
+     "V07"
+    ],
+    [
+     "V07",
+     "---",
+     "V12"
+    ],
+    [
+     "V07",
+     "-->",
+     "V01"
+    ],
+    [
+     "V08",
+     "-->",
+     "V09"
+    ],
+    [
+     "V08",
+     "-->",
+     "V10"
+    ],
+    [
+     "V10",
+     "-->",
+     "V04"
+    ],
+    [
+     "V10",
+     "-->",
+     "V11"
+    ],
+    [
+     "V11",
+     "-->",
+     "V01"
+    ],
+    [
+     "V11",
+     "-->",
+     "V04"
+    ],
+    [
+     "V11",
+     "-->",
+     "V09"
+    ],
+    [
+     "V12",
+     "-->",
+     "V02"
+    ],
+    [
+     "V12",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "incoherente",
+    "motivo": "ningún DAG compatible con el grafo y el conocimiento previo"
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V05",
+     "V07"
+    ],
+    "p": 0.0,
+    "p_marginal": 1e-06,
+    "r_marginal": -0.220604,
+    "r_parcial": -0.400882
+   },
+   "segundos": 3.6,
+   "x": "V12",
+   "y": "V08"
+  },
+  "caso_15": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V03",
+     "-->",
+     "V02"
+    ],
+    [
+     "V04",
+     "-->",
+     "V03"
+    ],
+    [
+     "V07",
+     "-->",
+     "V01"
+    ],
+    [
+     "V08",
+     "-->",
+     "V01"
+    ],
+    [
+     "V08",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "-->",
+     "V06"
+    ],
+    [
+     "V09",
+     "-->",
+     "V06"
+    ],
+    [
+     "V09",
+     "-->",
+     "V10"
+    ],
+    [
+     "V10",
+     "-->",
+     "V01"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V07 no es ancestro de V03",
+    "n_dags": 1
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.453664,
+    "p_marginal": 0.453664,
+    "r_marginal": 0.03455,
+    "r_parcial": 0.03455
+   },
+   "segundos": 1.3,
+   "x": "V07",
+   "y": "V03"
+  },
+  "caso_16": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V05"
+    ],
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V02",
+     "-->",
+     "V05"
+    ],
+    [
+     "V05",
+     "-->",
+     "V09"
+    ],
+    [
+     "V08",
+     "-->",
+     "V01"
+    ],
+    [
+     "V09",
+     "-->",
+     "V10"
+    ],
+    [
+     "V11",
+     "-->",
+     "V07"
+    ],
+    [
+     "V11",
+     "-->",
+     "V10"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V01 no es ancestro de V03",
+    "n_dags": 1
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V02",
+     "V08"
+    ],
+    "p": 0.064722,
+    "p_marginal": 0.057536,
+    "r_marginal": -0.037936,
+    "r_parcial": -0.036912
+   },
+   "segundos": 1.2,
+   "x": "V01",
+   "y": "V03"
+  },
+  "caso_17": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V02",
+     "-->",
+     "V11"
+    ],
+    [
+     "V04",
+     "-->",
+     "V09"
+    ],
+    [
+     "V05",
+     "-->",
+     "V09"
+    ],
+    [
+     "V05",
+     "-->",
+     "V10"
+    ],
+    [
+     "V06",
+     "---",
+     "V07"
+    ],
+    [
+     "V06",
+     "-->",
+     "V01"
+    ],
+    [
+     "V07",
+     "-->",
+     "V01"
+    ],
+    [
+     "V07",
+     "-->",
+     "V11"
+    ],
+    [
+     "V11",
+     "-->",
+     "V01"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V10 no es ancestro de V09",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V05"
+    ],
+    "p": 0.893313,
+    "p_marginal": 0.012138,
+    "r_marginal": 0.115177,
+    "r_parcial": 0.006193
+   },
+   "segundos": 1.2,
+   "x": "V10",
+   "y": "V09"
+  },
+  "caso_18": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "dirigida_no_visible",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V04"
+    ],
+    [
+     "V01",
+     "-->",
+     "V07"
+    ],
+    [
+     "V02",
+     "---",
+     "V08"
+    ],
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V02",
+     "-->",
+     "V05"
+    ],
+    [
+     "V05",
+     "-->",
+     "V07"
+    ],
+    [
+     "V06",
+     "---",
+     "V08"
+    ],
+    [
+     "V06",
+     "-->",
+     "V07"
+    ],
+    [
+     "V08",
+     "-->",
+     "V04"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.202058,
+     0.21651
+    ],
+    "max": 0.21651,
+    "min": 0.202058
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V02",
+     "V06"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": 0.450209,
+    "r_parcial": 0.320144
+   },
+   "segundos": 1.5,
+   "x": "V08",
+   "y": "V04"
+  },
+  "caso_19": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "dirigida_no_visible",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V03"
+    ],
+    [
+     "V01",
+     "---",
+     "V10"
+    ],
+    [
+     "V03",
+     "-->",
+     "V09"
+    ],
+    [
+     "V06",
+     "-->",
+     "V09"
+    ],
+    [
+     "V07",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "-->",
+     "V04"
+    ],
+    [
+     "V08",
+     "-->",
+     "V06"
+    ],
+    [
+     "V08",
+     "-->",
+     "V07"
+    ],
+    [
+     "V10",
+     "-->",
+     "V04"
+    ],
+    [
+     "V10",
+     "-->",
+     "V09"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.083391,
+     0.279956
+    ],
+    "max": 0.279956,
+    "min": 0.083391
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V01"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": 0.103629,
+    "r_parcial": 0.41794
+   },
+   "segundos": 1.7,
+   "x": "V10",
+   "y": "V09"
+  },
+  "caso_20": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V04"
+    ],
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V04",
+     "-->",
+     "V07"
+    ],
+    [
+     "V06",
+     "---",
+     "V09"
+    ],
+    [
+     "V06",
+     "-->",
+     "V02"
+    ],
+    [
+     "V06",
+     "-->",
+     "V03"
+    ],
+    [
+     "V06",
+     "-->",
+     "V08"
+    ],
+    [
+     "V07",
+     "-->",
+     "V05"
+    ],
+    [
+     "V10",
+     "-->",
+     "V02"
+    ],
+    [
+     "V11",
+     "-->",
+     "V03"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V04 no es ancestro de V02",
+    "n_dags": 4
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V01"
+    ],
+    "p": 0.094975,
+    "p_marginal": 0.292566,
+    "r_marginal": -0.04851,
+    "r_parcial": -0.076948
+   },
+   "segundos": 1.7,
+   "x": "V04",
+   "y": "V02"
+  },
+  "caso_21": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V02",
+     "---",
+     "V09"
+    ],
+    [
+     "V03",
+     "-->",
+     "V01"
+    ],
+    [
+     "V06",
+     "-->",
+     "V01"
+    ],
+    [
+     "V07",
+     "---",
+     "V08"
+    ],
+    [
+     "V07",
+     "-->",
+     "V04"
+    ],
+    [
+     "V10",
+     "---",
+     "V11"
+    ],
+    [
+     "V11",
+     "-->",
+     "V01"
+    ],
+    [
+     "V11",
+     "-->",
+     "V03"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.0,
+     0.255994
+    ],
+    "max": 0.255994,
+    "min": 0.0
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 8
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V11"
+    ],
+    "p": 0.594549,
+    "p_marginal": 0.0,
+    "r_marginal": 0.321155,
+    "r_parcial": -0.024572
+   },
+   "segundos": 1.1,
+   "x": "V10",
+   "y": "V03"
+  },
+  "caso_22": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V01",
+     "-->",
+     "V10"
+    ],
+    [
+     "V02",
+     "---",
+     "V05"
+    ],
+    [
+     "V02",
+     "-->",
+     "V07"
+    ],
+    [
+     "V02",
+     "-->",
+     "V09"
+    ],
+    [
+     "V05",
+     "---",
+     "V08"
+    ],
+    [
+     "V08",
+     "-->",
+     "V01"
+    ],
+    [
+     "V08",
+     "-->",
+     "V04"
+    ],
+    [
+     "V08",
+     "-->",
+     "V10"
+    ],
+    [
+     "V09",
+     "-->",
+     "V04"
+    ],
+    [
+     "V11",
+     "-->",
+     "V01"
+    ],
+    [
+     "V11",
+     "-->",
+     "V04"
+    ],
+    [
+     "V11",
+     "-->",
+     "V09"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     -0.111069,
+     -0.076666,
+     -0.032978
+    ],
+    "max": -0.032978,
+    "min": -0.111069
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V02",
+     "V08"
+    ],
+    "p": 0.662113,
+    "p_marginal": 0.0,
+    "r_marginal": -0.211681,
+    "r_parcial": -0.008736
+   },
+   "segundos": 3.5,
+   "x": "V05",
+   "y": "V04"
+  },
+  "caso_23": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V02",
+     "---",
+     "V05"
+    ],
+    [
+     "V02",
+     "-->",
+     "V04"
+    ],
+    [
+     "V03",
+     "-->",
+     "V01"
+    ],
+    [
+     "V05",
+     "---",
+     "V08"
+    ],
+    [
+     "V05",
+     "-->",
+     "V01"
+    ],
+    [
+     "V05",
+     "-->",
+     "V07"
+    ],
+    [
+     "V08",
+     "-->",
+     "V01"
+    ],
+    [
+     "V08",
+     "-->",
+     "V07"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     -0.604393,
+     0.0
+    ],
+    "max": 0.0,
+    "min": -0.604393
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V05"
+    ],
+    "p": 0.843937,
+    "p_marginal": 0.0,
+    "r_marginal": -0.27839,
+    "r_parcial": 0.003935
+   },
+   "segundos": 0.9,
+   "x": "V02",
+   "y": "V08"
+  },
+  "caso_24": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V03"
+    ],
+    [
+     "V01",
+     "---",
+     "V04"
+    ],
+    [
+     "V01",
+     "---",
+     "V06"
+    ],
+    [
+     "V01",
+     "---",
+     "V07"
+    ],
+    [
+     "V02",
+     "-->",
+     "V05"
+    ],
+    [
+     "V03",
+     "---",
+     "V07"
+    ],
+    [
+     "V04",
+     "-->",
+     "V02"
+    ],
+    [
+     "V04",
+     "-->",
+     "V08"
+    ],
+    [
+     "V06",
+     "-->",
+     "V09"
+    ],
+    [
+     "V07",
+     "-->",
+     "V05"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     -0.57014,
+     0.0
+    ],
+    "max": 0.0,
+    "min": -0.57014
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 10
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V03",
+     "V04",
+     "V06",
+     "V07"
+    ],
+    "p": 0.70234,
+    "p_marginal": 0.0,
+    "r_marginal": -0.572724,
+    "r_parcial": -0.007643
+   },
+   "segundos": 2.2,
+   "x": "V01",
+   "y": "V02"
+  },
+  "caso_25": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V03",
+     "-->",
+     "V01"
+    ],
+    [
+     "V04",
+     "---",
+     "V05"
+    ],
+    [
+     "V04",
+     "-->",
+     "V09"
+    ],
+    [
+     "V05",
+     "---",
+     "V10"
+    ],
+    [
+     "V05",
+     "-->",
+     "V07"
+    ],
+    [
+     "V08",
+     "-->",
+     "V01"
+    ],
+    [
+     "V10",
+     "-->",
+     "V01"
+    ],
+    [
+     "V10",
+     "-->",
+     "V06"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.0,
+     0.400808
+    ],
+    "max": 0.400808,
+    "min": 0.0
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V05"
+    ],
+    "p": 0.725708,
+    "p_marginal": 0.0,
+    "r_marginal": 0.428075,
+    "r_parcial": -0.007012
+   },
+   "segundos": 2.0,
+   "x": "V10",
+   "y": "V07"
+  },
+  "caso_26": {
+   "afirma_efecto": true,
+   "arista_restituida": false,
+   "dictamen": "efecto_identificado_bajo_supuestos",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no descarta confusión latente (x -> y no es visible: no se puede descartar un confusor latente); la conclusión depende de suficiencia causal. Un confusor no medido tendría que explicar al menos 73.5% de la varianza residual de la intervención y del resultado para anular el efecto (72.7% para volverlo no significativo al 5%).",
+   "estimacion_lineal": {
+    "ee": 0.010882,
+    "efecto": 0.753013,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     0.731675,
+     0.774351
+    ],
+    "p": 0.0
+   },
+   "estimacion_principal": {
+    "ee": 0.010793,
+    "efecto": 0.751514,
+    "estimador": "DML parcialmente lineal",
+    "ic95": [
+     0.73036,
+     0.772668
+    ],
+    "p": 0.0
+   },
+   "fci_diagnostico": "dirigida_no_visible",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V05"
+    ],
+    [
+     "V01",
+     "-->",
+     "V11"
+    ],
+    [
+     "V02",
+     "-->",
+     "V11"
+    ],
+    [
+     "V03",
+     "-->",
+     "V05"
+    ],
+    [
+     "V04",
+     "---",
+     "V12"
+    ],
+    [
+     "V07",
+     "---",
+     "V12"
+    ],
+    [
+     "V07",
+     "-->",
+     "V06"
+    ],
+    [
+     "V10",
+     "-->",
+     "V06"
+    ],
+    [
+     "V10",
+     "-->",
+     "V11"
+    ],
+    [
+     "V12",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [
+     "V01"
+    ],
+    "estado": "identificado",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": 0.697227,
+    "r_parcial": 0.697227
+   },
+   "segundos": 43.1,
+   "x": "V03",
+   "y": "V05"
+  },
+  "caso_27": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V05",
+     "-->",
+     "V03"
+    ],
+    [
+     "V07",
+     "---",
+     "V09"
+    ],
+    [
+     "V07",
+     "-->",
+     "V01"
+    ],
+    [
+     "V09",
+     "-->",
+     "V05"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     -0.232085,
+     0.0
+    ],
+    "max": 0.0,
+    "min": -0.232085
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V07"
+    ],
+    "p": 0.457651,
+    "p_marginal": 0.0,
+    "r_marginal": -0.605662,
+    "r_parcial": -0.034282
+   },
+   "segundos": 0.9,
+   "x": "V09",
+   "y": "V01"
+  },
+  "caso_28": {
+   "afirma_efecto": true,
+   "arista_restituida": true,
+   "dictamen": "efecto_identificado_bajo_supuestos",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 34.6% de la varianza residual de la intervención y del resultado para anular el efecto (28.8% para volverlo no significativo al 5%).",
+   "estimacion_lineal": {
+    "ee": 0.034103,
+    "efecto": -0.371071,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.438066,
+     -0.304076
+    ],
+    "p": 0.0
+   },
+   "estimacion_principal": {
+    "ee": 0.034103,
+    "efecto": -0.371071,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.438066,
+     -0.304076
+    ],
+    "p": 0.0
+   },
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V08"
+    ],
+    [
+     "V01",
+     "-->",
+     "V05"
+    ],
+    [
+     "V01",
+     "-->",
+     "V07"
+    ],
+    [
+     "V01",
+     "-->",
+     "V10"
+    ],
+    [
+     "V02",
+     "-->",
+     "V04"
+    ],
+    [
+     "V02",
+     "-->",
+     "V10"
+    ],
+    [
+     "V03",
+     "---",
+     "V06"
+    ],
+    [
+     "V03",
+     "-->",
+     "V04"
+    ],
+    [
+     "V05",
+     "-->",
+     "V10"
+    ],
+    [
+     "V08",
+     "-->",
+     "V07"
+    ],
+    [
+     "V09",
+     "-->",
+     "V02"
+    ],
+    [
+     "V09",
+     "-->",
+     "V04"
+    ],
+    [
+     "V09",
+     "-->",
+     "V07"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [],
+    "estado": "identificado",
+    "n_dags": 4
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.316563,
+    "r_parcial": -0.316563
+   },
+   "segundos": 2.1,
+   "x": "V09",
+   "y": "V02"
+  },
+  "caso_29": {
+   "afirma_efecto": true,
+   "arista_restituida": true,
+   "dictamen": "efecto_identificado_bajo_supuestos",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 45.5% de la varianza residual de la intervención y del resultado para anular el efecto (40.8% para volverlo no significativo al 5%).",
+   "estimacion_lineal": {
+    "ee": 0.029446,
+    "efecto": -0.394214,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.45206,
+     -0.336368
+    ],
+    "p": 0.0
+   },
+   "estimacion_principal": {
+    "ee": 0.029778,
+    "efecto": -0.414108,
+    "estimador": "DML parcialmente lineal",
+    "ic95": [
+     -0.472472,
+     -0.355743
+    ],
+    "p": 0.0
+   },
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V09"
+    ],
+    [
+     "V01",
+     "-->",
+     "V12"
+    ],
+    [
+     "V02",
+     "-->",
+     "V03"
+    ],
+    [
+     "V02",
+     "-->",
+     "V12"
+    ],
+    [
+     "V04",
+     "-->",
+     "V06"
+    ],
+    [
+     "V05",
+     "-->",
+     "V06"
+    ],
+    [
+     "V07",
+     "-->",
+     "V12"
+    ],
+    [
+     "V08",
+     "---",
+     "V11"
+    ],
+    [
+     "V08",
+     "-->",
+     "V01"
+    ],
+    [
+     "V10",
+     "-->",
+     "V03"
+    ],
+    [
+     "V10",
+     "-->",
+     "V04"
+    ],
+    [
+     "V10",
+     "-->",
+     "V06"
+    ],
+    [
+     "V10",
+     "-->",
+     "V07"
+    ],
+    [
+     "V11",
+     "-->",
+     "V03"
+    ],
+    [
+     "V11",
+     "-->",
+     "V07"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [
+     "V10"
+    ],
+    "estado": "identificado",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V08"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.33058,
+    "r_parcial": -0.301416
+   },
+   "segundos": 30.4,
+   "x": "V11",
+   "y": "V07"
+  },
+  "caso_30": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "ambigua",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V07"
+    ],
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "-->",
+     "V02"
+    ],
+    [
+     "V04",
+     "-->",
+     "V12"
+    ],
+    [
+     "V05",
+     "---",
+     "V10"
+    ],
+    [
+     "V05",
+     "-->",
+     "V02"
+    ],
+    [
+     "V06",
+     "-->",
+     "V02"
+    ],
+    [
+     "V06",
+     "-->",
+     "V11"
+    ],
+    [
+     "V08",
+     "-->",
+     "V04"
+    ],
+    [
+     "V08",
+     "-->",
+     "V11"
+    ],
+    [
+     "V10",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.0,
+     0.682888
+    ],
+    "max": 0.682888,
+    "min": 0.0
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 4
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": 0.730783,
+    "r_parcial": 0.730783
+   },
+   "segundos": 2.6,
+   "x": "V07",
+   "y": "V01"
+  },
+  "caso_31": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "dirigida_no_visible",
+   "grafo_candidato": [
+    [
+     "V02",
+     "---",
+     "V04"
+    ],
+    [
+     "V02",
+     "---",
+     "V08"
+    ],
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V02",
+     "-->",
+     "V03"
+    ],
+    [
+     "V02",
+     "-->",
+     "V06"
+    ],
+    [
+     "V03",
+     "-->",
+     "V07"
+    ],
+    [
+     "V06",
+     "-->",
+     "V07"
+    ],
+    [
+     "V08",
+     "-->",
+     "V03"
+    ],
+    [
+     "V08",
+     "-->",
+     "V06"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.808061,
+     1.230022
+    ],
+    "max": 1.230022,
+    "min": 0.808061
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 3
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V02"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": 0.528756,
+    "r_parcial": 0.498042
+   },
+   "segundos": 1.8,
+   "x": "V08",
+   "y": "V06"
+  },
+  "caso_32": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V01",
+     "-->",
+     "V06"
+    ],
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V06",
+     "-->",
+     "V03"
+    ],
+    [
+     "V07",
+     "-->",
+     "V06"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V04 no es ancestro de V07",
+    "n_dags": 1
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.377833,
+    "p_marginal": 0.377833,
+    "r_marginal": -0.040656,
+    "r_parcial": -0.040656
+   },
+   "segundos": 0.9,
+   "x": "V04",
+   "y": "V07"
+  },
+  "caso_33": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V02"
+    ],
+    [
+     "V01",
+     "-->",
+     "V04"
+    ],
+    [
+     "V02",
+     "---",
+     "V09"
+    ],
+    [
+     "V02",
+     "-->",
+     "V05"
+    ],
+    [
+     "V07",
+     "-->",
+     "V06"
+    ],
+    [
+     "V08",
+     "---",
+     "V09"
+    ],
+    [
+     "V08",
+     "-->",
+     "V03"
+    ],
+    [
+     "V08",
+     "-->",
+     "V07"
+    ],
+    [
+     "V08",
+     "-->",
+     "V10"
+    ],
+    [
+     "V09",
+     "-->",
+     "V03"
+    ],
+    [
+     "V09",
+     "-->",
+     "V06"
+    ],
+    [
+     "V09",
+     "-->",
+     "V07"
+    ],
+    [
+     "V10",
+     "-->",
+     "V03"
+    ],
+    [
+     "V10",
+     "-->",
+     "V06"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     0.0,
+     0.066605
+    ],
+    "max": 0.066605,
+    "min": 0.0
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 4
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V02",
+     "V08"
+    ],
+    "p": 0.340521,
+    "p_marginal": 0.000314,
+    "r_marginal": 0.071884,
+    "r_parcial": -0.019053
+   },
+   "segundos": 2.8,
+   "x": "V09",
+   "y": "V01"
+  },
+  "caso_34": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V03",
+     "-->",
+     "V01"
+    ],
+    [
+     "V03",
+     "-->",
+     "V05"
+    ],
+    [
+     "V03",
+     "-->",
+     "V06"
+    ],
+    [
+     "V04",
+     "-->",
+     "V06"
+    ],
+    [
+     "V04",
+     "-->",
+     "V07"
+    ],
+    [
+     "V04",
+     "-->",
+     "V09"
+    ],
+    [
+     "V07",
+     "---",
+     "V09"
+    ],
+    [
+     "V07",
+     "-->",
+     "V05"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V03 no es ancestro de V09",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.308,
+    "p_marginal": 0.308,
+    "r_marginal": -0.046988,
+    "r_parcial": -0.046988
+   },
+   "segundos": 1.2,
+   "x": "V03",
+   "y": "V09"
+  },
+  "caso_35": {
+   "afirma_efecto": true,
+   "arista_restituida": false,
+   "dictamen": "efecto_identificado_bajo_supuestos",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 35.3% de la varianza residual de la intervención y del resultado para anular el efecto (29.6% para volverlo no significativo al 5%).",
+   "estimacion_lineal": {
+    "ee": 0.040648,
+    "efecto": -0.397592,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.477445,
+     -0.317739
+    ],
+    "p": 0.0
+   },
+   "estimacion_principal": {
+    "ee": 0.040648,
+    "efecto": -0.397592,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.477445,
+     -0.317739
+    ],
+    "p": 0.0
+   },
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "-->",
+     "V02"
+    ],
+    [
+     "V04",
+     "-->",
+     "V01"
+    ],
+    [
+     "V04",
+     "-->",
+     "V10"
+    ],
+    [
+     "V05",
+     "-->",
+     "V03"
+    ],
+    [
+     "V05",
+     "-->",
+     "V10"
+    ],
+    [
+     "V05",
+     "-->",
+     "V11"
+    ],
+    [
+     "V06",
+     "-->",
+     "V03"
+    ],
+    [
+     "V08",
+     "-->",
+     "V02"
+    ],
+    [
+     "V09",
+     "-->",
+     "V02"
+    ],
+    [
+     "V09",
+     "-->",
+     "V10"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [],
+    "estado": "identificado",
+    "n_dags": 1
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.367616,
+    "r_parcial": -0.367616
+   },
+   "segundos": 1.7,
+   "x": "V04",
+   "y": "V08"
+  },
+  "caso_36": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V07"
+    ],
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V02",
+     "---",
+     "V09"
+    ],
+    [
+     "V02",
+     "-->",
+     "V04"
+    ],
+    [
+     "V07",
+     "-->",
+     "V04"
+    ],
+    [
+     "V07",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V08 no es ancestro de V04",
+    "n_dags": 4
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V01",
+     "V07"
+    ],
+    "p": 0.792967,
+    "p_marginal": 0.0,
+    "r_marginal": 0.354659,
+    "r_parcial": -0.012132
+   },
+   "segundos": 0.8,
+   "x": "V08",
+   "y": "V04"
+  },
+  "caso_37": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "no_identificable",
+   "dictamen_texto": "No identificable con el grafo candidato: los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "dirigida_no_visible",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V06"
+    ],
+    [
+     "V02",
+     "---",
+     "V03"
+    ],
+    [
+     "V02",
+     "-->",
+     "V04"
+    ],
+    [
+     "V03",
+     "-->",
+     "V04"
+    ],
+    [
+     "V05",
+     "---",
+     "V08"
+    ],
+    [
+     "V05",
+     "-->",
+     "V04"
+    ],
+    [
+     "V07",
+     "---",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": {
+    "efectos_posibles": [
+     -0.14762,
+     0.282586
+    ],
+    "max": 0.282586,
+    "min": -0.14762
+   },
+   "identificacion": {
+    "estado": "no_identificado_por_clase",
+    "motivo": "los DAG de la clase de equivalencia implican conjuntos de ajuste distintos; se reporta el rango de efectos posibles (IDA)",
+    "n_dags": 6
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V03"
+    ],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": -0.108317,
+    "r_parcial": 0.279594
+   },
+   "segundos": 0.8,
+   "x": "V02",
+   "y": "V04"
+  },
+  "caso_38": {
+   "afirma_efecto": false,
+   "arista_restituida": false,
+   "dictamen": "sin_efecto_estructural",
+   "dictamen_texto": "El grafo candidato no contiene un camino causal de la intervención al resultado.",
+   "estimacion_lineal": null,
+   "estimacion_principal": null,
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V09"
+    ],
+    [
+     "V02",
+     "---",
+     "V04"
+    ],
+    [
+     "V02",
+     "---",
+     "V06"
+    ],
+    [
+     "V02",
+     "-->",
+     "V01"
+    ],
+    [
+     "V02",
+     "-->",
+     "V10"
+    ],
+    [
+     "V03",
+     "---",
+     "V05"
+    ],
+    [
+     "V03",
+     "-->",
+     "V08"
+    ],
+    [
+     "V04",
+     "-->",
+     "V03"
+    ],
+    [
+     "V04",
+     "-->",
+     "V05"
+    ],
+    [
+     "V06",
+     "-->",
+     "V01"
+    ],
+    [
+     "V07",
+     "-->",
+     "V10"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "estado": "sin_camino_causal",
+    "motivo": "en todos los DAG compatibles V10 no es ancestro de V03",
+    "n_dags": 6
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V02",
+     "V07"
+    ],
+    "p": 0.969361,
+    "p_marginal": 0.004547,
+    "r_marginal": -0.130142,
+    "r_parcial": 0.001775
+   },
+   "segundos": 2.0,
+   "x": "V10",
+   "y": "V03"
+  },
+  "caso_39": {
+   "afirma_efecto": true,
+   "arista_restituida": false,
+   "dictamen": "identificado_fragil",
+   "dictamen_texto": "Efecto identificado por ajuste de puerta trasera, distinto de cero y estable ante refutaciones. FCI no descarta confusión latente (o-> admite x -> y o un confusor latente (x <-> y)); la conclusión depende de suficiencia causal. Un confusor no medido tendría que explicar al menos 54.0% de la varianza residual de la intervención y del resultado para anular el efecto (52.3% para volverlo no significativo al 5%). Advertencia: el efecto con el ajuste descubierto (0.371) difiere del obtenido con todas las variables pretratamiento (0.704); el grafo descubierto podría omitir confusores.",
+   "estimacion_lineal": {
+    "ee": 0.009813,
+    "efecto": 0.373517,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     0.354275,
+     0.392758
+    ],
+    "p": 0.0
+   },
+   "estimacion_principal": {
+    "ee": 0.009857,
+    "efecto": 0.371113,
+    "estimador": "DML parcialmente lineal",
+    "ic95": [
+     0.351793,
+     0.390434
+    ],
+    "p": 0.0
+   },
+   "fci_diagnostico": "ambigua",
+   "grafo_candidato": [
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "---",
+     "V04"
+    ],
+    [
+     "V03",
+     "-->",
+     "V06"
+    ],
+    [
+     "V04",
+     "-->",
+     "V08"
+    ],
+    [
+     "V06",
+     "-->",
+     "V05"
+    ],
+    [
+     "V07",
+     "-->",
+     "V06"
+    ],
+    [
+     "V07",
+     "-->",
+     "V08"
+    ],
+    [
+     "V08",
+     "-->",
+     "V02"
+    ],
+    [
+     "V08",
+     "-->",
+     "V05"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [
+     "V01",
+     "V04"
+    ],
+    "estado": "identificado",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [],
+    "p": 0.0,
+    "p_marginal": 0.0,
+    "r_marginal": 0.685787,
+    "r_parcial": 0.685787
+   },
+   "segundos": 48.8,
+   "x": "V07",
+   "y": "V08"
+  },
+  "caso_40": {
+   "afirma_efecto": false,
+   "arista_restituida": true,
+   "dictamen": "identificado_no_distinguible_de_cero",
+   "dictamen_texto": "Efecto identificado, pero su intervalo incluye cero. FCI no conserva la arista intervención–resultado: la evidencia estructural es débil y el efecto descansa en la prueba dirigida. Un confusor no medido tendría que explicar al menos 7.3% de la varianza residual de la intervención y del resultado para anular el efecto (3.6% para volverlo no significativo al 5%). Advertencia: el efecto con el ajuste descubierto (-0.098) difiere del obtenido con todas las variables pretratamiento (-0.055); el grafo descubierto podría omitir confusores.",
+   "estimacion_lineal": {
+    "ee": 0.09425,
+    "efecto": -0.097664,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.28248,
+     0.087152
+    ],
+    "p": 0.300197
+   },
+   "estimacion_principal": {
+    "ee": 0.09425,
+    "efecto": -0.097664,
+    "estimador": "ajuste lineal (MCO, HC3)",
+    "ic95": [
+     -0.28248,
+     0.087152
+    ],
+    "p": 0.300197
+   },
+   "fci_diagnostico": "sin_adyacencia",
+   "grafo_candidato": [
+    [
+     "V01",
+     "---",
+     "V11"
+    ],
+    [
+     "V01",
+     "-->",
+     "V03"
+    ],
+    [
+     "V01",
+     "-->",
+     "V05"
+    ],
+    [
+     "V01",
+     "-->",
+     "V08"
+    ],
+    [
+     "V02",
+     "-->",
+     "V05"
+    ],
+    [
+     "V03",
+     "-->",
+     "V08"
+    ],
+    [
+     "V03",
+     "-->",
+     "V09"
+    ],
+    [
+     "V09",
+     "-->",
+     "V06"
+    ],
+    [
+     "V09",
+     "-->",
+     "V08"
+    ],
+    [
+     "V11",
+     "-->",
+     "V05"
+    ],
+    [
+     "V11",
+     "-->",
+     "V06"
+    ],
+    [
+     "V11",
+     "-->",
+     "V08"
+    ]
+   ],
+   "grafo_igual_al_de_la_etapa1": true,
+   "ida": null,
+   "identificacion": {
+    "ajuste": [],
+    "estado": "identificado",
+    "n_dags": 2
+   },
+   "prueba_dirigida": {
+    "dado": [
+     "V01"
+    ],
+    "p": 5e-06,
+    "p_marginal": 3e-06,
+    "r_marginal": -0.093019,
+    "r_parcial": -0.090899
+   },
+   "segundos": 47.6,
+   "x": "V03",
+   "y": "V09"
+  }
+ },
+ "meta": {
+  "coincide_con_manifiesto": true,
+  "datos_sha256": "20bd4f79091892dd03b28d4aed9003a1a2a8ac9c72aaac642d00b858c38dcd2f",
+  "entorno": {
+   "causal-learn": "0.1.4.8",
+   "lingam": "1.13.0",
+   "networkx": "3.7",
+   "nucleos": 2,
+   "numpy": "2.5.3",
+   "pandas": "3.0.5",
+   "python": "3.13.18",
+   "scikit-learn": "1.9.1"
+  },
+  "etapa1_sha256": "4b87e85dac327fc062cfa88617d32dc90d1feba7cec97df7608280883d054216",
+  "fin_utc": "2026-11-19T20:08:56+00:00",
+  "inicio_utc": "2026-11-19T20:06:48+00:00",
+  "minutos": 2.1,
+  "modulo_causal_sha256": {
+   "modulo_causal/__init__.py": "a5aa0724ab8f3bd7fbab2d09d38c501b6fdc4dd8f62e2896240cb29783cb1a45",
+   "modulo_causal/discovery.py": "8fc593bce43573f138f9598a768c649e10acec5ca28300e4ea0ab2683b895734",
+   "modulo_causal/estimation.py": "5735e12a0b67e5e5ea52ddd5184f65d82f894cebe3212f91681dd43a41a9c688",
+   "modulo_causal/graphs.py": "8aef5f1994b81f19dfc6fe8aed97f95bc077e4faadb9c96e91a030d1fe6e4452",
+   "modulo_causal/identification.py": "8e637493890452cf12a044b358aed598e754acb1c80c536ca5a1de20f9604c57",
+   "modulo_causal/pipeline.py": "6bbce34c3b0c12bd9bff1b0da88ac71b5118cbe465948e7e917d602964145d5a",
+   "modulo_causal/rdd.py": "c375e14eb273f71a81c3e9dbaa1bc9f7de7cf306ba7dd321ddec548e914d691d",
+   "modulo_causal/refutation.py": "48edcc92a89d2cb9f6579545ce302ed2fd33aa0cb4257bf58b1d75f6de23ff3e",
+   "modulo_causal/spec.py": "59e797fc8b4e32efb9dfb5a14231882986181f65947f890c51c8bbeaab6fc5a0"
+  },
+  "parametros": {
+   "alpha": 0.01,
+   "metodos_una_corrida": [
+    "PC",
+    "FCI",
+    "GES",
+    "LiNGAM"
+   ],
+   "particion": "aleatoria 50/50 con semilla 0 (split_sample)",
+   "prueba_independencia": "fisherz",
+   "remuestreos_FCI": 25,
+   "remuestreos_PC": 50,
+   "semilla": 0,
+   "umbral_consenso": 0.6,
+   "umbral_orientacion": 0.5
+  },
+  "parejas_sha256": "be43f38b1e38bfb7e9d718b00b670ff638f248175358d7cbf051eacf2de38b0d",
+  "programa_sha256": "251c542f06fff05be8cbf77899d576d81008b08a71cf07fad266b91691bc5526",
+  "version_framework": "1.0.0 (commit 439bdf4510810755edd8c4737fefd583114f13a6)"
+ }
+}
